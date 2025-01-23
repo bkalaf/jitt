@@ -1,0 +1,18 @@
+-
+    tenses:
+        - 'g'
+        - 'g'
+    key: 'g'
+    text: 'g'
+-
+    key: 'lb'
+    tenses:
+        - 'lb'
+        - 'lbs'
+    text: 'lb'
+-
+    key: 'oz'
+    tenses:
+        - 'oz'
+        - 'ozs'
+    text: 'oz'

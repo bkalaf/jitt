@@ -1,0 +1,21 @@
+-
+    key: 'mercari-import-brands'
+    text: 'Import Mercari Brands'
+-
+    key: 'mercari-import-custom-item-fields'
+    text: 'Import Mercari Custom Item Fields'
+-
+    key: 'mercari-import-hashtags'
+    text: 'Import Mercari HashTags'
+-
+    key: 'mercari-import-shipping'
+    text: 'Import Mercari Shipping'
+-
+    key: 'mercari-import-taxonomy'
+    text: 'Import Mercari Taxonomy'
+-
+    key: 'mercari-promote'
+    text: 'Mercari Daily Promotions'
+-
+    key: 'unknown'
+    text: 'Unknown'

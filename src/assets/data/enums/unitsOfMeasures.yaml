@@ -1,0 +1,35 @@
+-
+    tenses:
+        - '″'
+        - '″'
+    key: '″'
+    text: '″'
+    groupBy: 'length'
+-
+    tenses:
+        - 'cm'
+        - 'cms'
+    key: 'cm'
+    text: 'cm'
+    groupBy: 'length'
+-
+    tenses:
+        - 'g'
+        - 'g'
+    key: 'g'
+    text: 'g'
+    groupBy: 'weight'
+-
+    key: 'lb'
+    tenses:
+        - 'lb'
+        - 'lbs'
+    text: 'lb'
+    groupBy: 'weight'
+-
+    key: 'oz'
+    tenses:
+        - 'oz'
+        - 'ozs'
+    text: 'oz'
+    groupBy: 'weight'

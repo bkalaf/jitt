@@ -1,0 +1,260 @@
+-
+    key: 'AL'
+    text: 'Alabama'
+    groupBy: 'US'
+-
+    key: 'AK'
+    text: 'Alaska'
+    groupBy: 'US'
+-
+    key: 'AB'
+    text: 'Alberta'
+    groupBy: 'CA'
+-
+    key: 'AZ'
+    text: 'Arizona'
+    groupBy: 'US'
+-
+    key: 'AR'
+    text: 'Arkansas'
+    groupBy: 'US'
+-
+    key: 'BC'
+    text: 'British Columbia'
+    groupBy: 'CA'
+-
+    key: 'CA'
+    text: 'California'
+    groupBy: 'US'
+-
+    key: 'CO'
+    text: 'Colorado'
+    groupBy: 'US'
+-
+    key: 'CT'
+    text: 'Connecticut'
+    groupBy: 'US'
+-
+    key: 'DE'
+    text: 'Deleware'
+    groupBy: 'US'
+-
+    key: 'DC'
+    text: 'District of Columbia'
+    groupBy: 'US'
+-
+    key: 'FL'
+    text: 'Florida'
+    groupBy: 'US'
+-
+    key: 'GA'
+    text: 'Georgia'
+    groupBy: 'US'
+-
+    key: 'HI'
+    text: 'Hawaii'
+    groupBy: 'US'
+-
+    key: 'ID'
+    text: 'Idaho'
+    groupBy: 'US'
+-
+    key: 'IL'
+    text: 'Illinois'
+    groupBy: 'US'
+-
+    key: 'IN'
+    text: 'Indiana'
+    groupBy: 'US'
+-
+    key: 'IA'
+    text: 'Iowa'
+    groupBy: 'US'
+-
+    key: 'KS'
+    text: 'Kansas'
+    groupBy: 'US'
+-
+    key: 'KY'
+    text: 'Kentucky'
+    groupBy: 'US'
+-
+    key: 'LA'
+    text: 'Louisiana'
+    groupBy: 'US'
+-
+    key: 'ME'
+    text: 'Maine'
+    groupBy: 'US'
+-
+    key: 'MB'
+    text: 'Manitoba'
+    groupBy: 'CA'
+-
+    key: 'MD'
+    text: 'Maryland'
+    groupBy: 'US'
+-
+    key: 'MA'
+    text: 'Massachusettes'
+    groupBy: 'US'
+-
+    key: 'MI'
+    text: 'Michigan'
+    groupBy: 'US'
+-
+    key: 'MN'
+    text: 'Minnesota'
+    groupBy: 'US'
+-
+    key: 'MS'
+    text: 'Mississippi'
+    groupBy: 'US'
+-
+    key: 'MO'
+    text: 'Missouri'
+    groupBy: 'US'
+-
+    key: 'MT'
+    text: 'Montana'
+    groupBy: 'US'
+-
+    key: 'NE'
+    text: 'Nebraska'
+    groupBy: 'US'
+-
+    key: 'NV'
+    text: 'Nevada'
+    groupBy: 'US'
+-
+    key: 'NB'
+    text: 'New Brunswick'
+    groupBy: 'CA'
+-
+    key: 'NH'
+    text: 'New Hampshire'
+    groupBy: 'US'
+-
+    key: 'NJ'
+    text: 'New Jersey'
+    groupBy: 'US'
+-
+    key: 'NM'
+    text: 'New Mexico'
+    groupBy: 'US'
+-
+    key: 'NY'
+    text: 'New York'
+    groupBy: 'US'
+-
+    key: 'NL'
+    text: 'Newfoundland and Labrador'
+    groupBy: 'CA'
+-
+    key: 'NC'
+    text: 'North Carolina'
+    groupBy: 'US'
+-
+    key: 'ND'
+    text: 'North Dakota'
+    groupBy: 'US'
+-
+    key: 'NT'
+    text: 'Northwest Territory'
+    groupBy: 'CA'
+-
+    key: 'NS'
+    text: 'Nova Scotia'
+    groupBy: 'CA'
+-
+    key: 'NU'
+    text: 'Nunavut'
+    groupBy: 'CA'
+-
+    key: 'OH'
+    text: 'Ohio'
+    groupBy: 'US'
+-
+    key: 'OK'
+    text: 'Oklahoma'
+    groupBy: 'US'
+-
+    key: 'ON'
+    text: 'Ontario'
+    groupBy: 'US'
+-
+    key: 'OR'
+    text: 'Oregon'
+    groupBy: 'US'
+-
+    key: 'PA'
+    text: 'Pennsylvania'
+    groupBy: 'US'
+-
+    key: 'PE'
+    text: 'Prince Edward Island'
+    groupBy: 'CA'
+-
+    key: 'PR'
+    text: 'Puerto Rico'
+    groupBy: 'US'
+-
+    key: 'QC'
+    text: 'Quebec'
+    groupBy: 'CA'
+-
+    key: 'RI'
+    text: 'Rhode Island'
+    groupBy: 'US'
+-
+    key: 'SK'
+    text: 'Sasketchewan'
+    groupBy: 'CA'
+-
+    key: 'SC'
+    text: 'South Carolina'
+    groupBy: 'US'
+-
+    key: 'SD'
+    text: 'South Dakota'
+    groupBy: 'US'
+-
+    key: 'TN'
+    text: 'Tennessee'
+    groupBy: 'US'
+-
+    key: 'TX'
+    text: 'Texas'
+    groupBy: 'US'
+-
+    key: 'UT'
+    text: 'Utah'
+    groupBy: 'US'
+-
+    key: 'VT'
+    text: 'Vermont'
+    groupBy: 'US'
+-
+    key: 'VA'
+    text: 'Virginia'
+    groupBy: 'US'
+-
+    key: 'WA'
+    text: 'Washington'
+    groupBy: 'US'
+-
+    key: 'WV'
+    text: 'West Virginia'
+    groupBy: 'US'
+-
+    key: 'WI'
+    text: 'Wisconsin'
+    groupBy: 'US'
+-
+    key: 'WY'
+    text: 'Wyoming'
+    groupBy: 'US'
+-
+    key: 'YT'
+    text: 'Yukon'
+    groupBy: 'CA'

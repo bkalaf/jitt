@@ -1,0 +1,9 @@
+-
+    key: 'all'
+    text: 'ALL'
+-
+    key: 'between'
+    text: 'BETWEEN'
+-
+    key: 'eq'
+    text: 'EQUALS'

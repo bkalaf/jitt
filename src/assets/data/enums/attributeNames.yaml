@@ -1,0 +1,12 @@
+-
+    text: 'Barcode Type'
+    key: 'barcodeType'
+-
+    text: 'Colors'
+    key: 'color'
+-
+    text: 'Gender'
+    key: 'gender'
+-
+    text: 'Size'
+    key: 'size'

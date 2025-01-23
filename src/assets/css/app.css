@@ -1,0 +1,13 @@
+@import './fonts-rubik.css';
+@import './../../../node_modules/animate.css/animate.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: Rubik !important;
+}
+
+input, select, textarea, div, span, a, ul, li {
+    @apply font-rubik;
+}

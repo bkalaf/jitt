@@ -1,0 +1,82 @@
+import { Db, MongoClient } from 'mongodb';
+import { QueryClient } from '@tanstack/react-query';
+
+declare global {
+    declare module '*.png' {
+        const value: any;
+        export default value;
+    }
+    type IPredicate<T extends any[] = never[]> = (...x: T) => boolean;
+    type IConditional<T extends any[] = never[]> = IPredicate<T> | boolean;
+    type IExecute<T extends any[] = never[]> = (...x: T) => () => void;
+    type Children = React.ReactNode | React.ReactNode[] | undefined;
+
+    type IFlagsObject = Record<string, boolean>;
+    type AnimationState = 'hidden' | 'hiding' | 'showing' | 'shown';
+    type IFlagsDependentAnimation = (animationState: AnimationState) => IFlagsObject;
+    type IFlags = IFlagsDependentAnimation | IFlagsObject;
+    type ControlSizes = 'tiny' | 'small' | 'medium' | 'large' | 'huge';
+    type Colors = 'rose' | 'pink' | 'red' | 'orange' | 'amber' | 'yellow' | 'lime' | 'emerald' | 'green' | 'blue' | 'sky' | 'cyan' | 'teal' | 'indigo' | 'purple' | 'violet' | 'fuchsia' | 'white' | 'black' | 'gray' | 'slate' | 'zinc';
+    type SingleInteract = 'hover' | 'focus' | 'disable' | 'pressed' | 'active';
+    type Interactions =
+        | { [P1 in SingleInteract]: `${P1}` }[SingleInteract]
+        | {
+              [P1 in SingleInteract]: {
+                  [P2 in Exclude<SingleInteract, P1>]: `${P1},${P2}`;
+              }[Exclude<SingleInteract, P1>];
+          }[SingleInteract]
+        | {
+              [P1 in SingleInteract]: {
+                  [P2 in Exclude<SingleInteract, P1>]: {
+                      [P3 in Exclude<SingleInteract, P1 | P2>]: `${P1},${P2},${P3}`;
+                  }[Exclude<SingleInteract, P1 | P2>];
+              }[Exclude<SingleInteract, P1>];
+          }[SingleInteract]
+        | {
+              [P1 in SingleInteract]: {
+                  [P2 in Exclude<SingleInteract, P1>]: {
+                      [P3 in Exclude<SingleInteract, P1 | P2>]: {
+                          [P4 in Exclude<SingleInteract, P1 | P2 | P3>]: `${P1},${P2},${P3},${P4}`;
+                      }[Exclude<SingleInteract, P1 | P2 | P3>];
+                  }[Exclude<SingleInteract, P1 | P2>];
+              }[Exclude<SingleInteract, P1>];
+          }[SingleInteract]
+        | {
+              [P1 in SingleInteract]: {
+                  [P2 in Exclude<SingleInteract, P1>]: {
+                      [P3 in Exclude<SingleInteract, P1 | P2>]: {
+                          [P4 in Exclude<SingleInteract, P1 | P2 | P3>]: {
+                              [P5 in Exclude<SingleInteract, P1 | P2 | P3 | P4>]: `${P1},${P2},${P3},${P4},${P5}`;
+                          }[Exclude<SingleInteract, P1 | P2 | P3 | P4>];
+                      }[Exclude<SingleInteract, P1 | P2 | P3>];
+                  }[Exclude<SingleInteract, P1 | P2>];
+              }[Exclude<SingleInteract, P1>];
+          }[SingleInteract];
+    type IProps = {
+        className?: string;
+        children?: Children;
+        controlSize?: ControlSizes;
+        color?: Colors;
+        interactions?: Interactions;
+        animate?: boolean;
+        flags?: IFlags;
+    };
+    type IRouterContext = {
+        queryClient: QueryClient;
+        getMongo: () => Promise<Db>;
+    };
+
+    interface Window {
+        db: Db;
+    }
+
+   interface ICollectionQueryContext {
+        queryKey: readonly unknown[];
+        signal: AbortSignal;
+        meta?: Record<string, unknown>
+        // meta?: {
+        //     getMongo: () => Promise<Db>;
+        // }
+   }
+}
+export const c = 1;

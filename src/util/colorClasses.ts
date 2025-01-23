@@ -1,0 +1,25 @@
+export const colorClasses = {
+    rose: 'bg-rose-500 text-black',
+    pink: 'bg-pink-500 text-black',
+    red: 'bg-red-500 text-white',
+    orange: 'bg-orange-500 text-white',
+    amber: 'bg-amber-500 text-black',
+    yellow: 'bg-yellow-500 text-black',
+    lime: 'bg-lime-500 text-black',
+    emerald: 'bg-emerald-500 text-white',
+    green: 'bg-green-500 text-black',
+    blue: 'bg-blue-700 text-white  border border-neutral-400/70 rounded-md font-bold',
+    sky: 'bg-sky-500 text-white',
+    cyan: 'bg-cyan-500 text-black',
+    teal: 'bg-teal-600 text-black',
+    indigo: 'bg-indigo-600 text-white',
+    purple: 'bg-purple-500 text-black',
+    violet: 'bg-violet-500 text-white',
+    fuchsia: 'bg-fuchsia-500 text-black',
+    white: 'bg-white-500 text-black',
+    black: 'bg-black-500 text-white',
+    gray: 'bg-gray-500 text-black',
+    slate: 'bg-slate-700 text-white border border-neutral-400/70 rounded-md font-bold',
+    zinc: 'bg-zinc-500 text-white'
+};
+export type ColorClasses = keyof typeof colorClasses;

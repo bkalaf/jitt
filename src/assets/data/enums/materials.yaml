@@ -1,0 +1,108 @@
+-
+    key: 'acrylic'
+    text: 'acrylic'
+    groupBy: 'fabric'
+-
+    key: 'cashmere'
+    text: 'cashmere'
+    groupBy: 'fabric'
+-
+    key: 'corduroy'
+    text: 'corduroy'
+    groupBy: 'fabric'
+-
+    key: 'cotton'
+    text: 'cotton'
+    groupBy: 'fabric'
+-
+    key: 'denim'
+    text: 'denim'
+    groupBy: 'fabric'
+-
+    key: 'faux-fur'
+    text: 'faux-fur'
+    groupBy: 'fabric'
+-
+    key: 'faux-leather'
+    text: 'faux-leather'
+    groupBy: 'fabric'
+-
+    key: 'fur'
+    text: 'fur'
+    groupBy: 'fabric'
+-
+    key: 'gold'
+    text: 'gold'
+    groupBy: 'metal'
+-
+    key: 'lace'
+    text: 'lace'
+    groupBy: 'fabric'
+-
+    key: 'lead-crystal'
+    text: 'lead crystal'
+    groupBy: 'glass'
+-
+    key: 'leather'
+    text: 'leather'
+    groupBy: 'fabric'
+-
+    key: 'linen'
+    text: 'linen'
+    groupBy: 'fabric'
+-
+    key: 'metallic'
+    text: 'metallic'
+    groupBy: 'fabric'
+-
+    key: 'modal'
+    text: 'modal'
+    groupBy: 'fabric'
+-
+    key: 'nylon'
+    text: 'nylon'
+    groupBy: 'fabric'
+-
+    key: 'organicCotton'
+    text: 'organicCotton'
+    groupBy: 'fabric'
+-
+    key: 'polyester'
+    text: 'polyester'
+    groupBy: 'fabric'
+-
+    key: 'rayon'
+    text: 'rayon'
+    groupBy: 'fabric'
+-
+    key: 'satin'
+    text: 'satin'
+    groupBy: 'fabric'
+-
+    key: 'silk'
+    text: 'silk'
+    groupBy: 'fabric'
+-
+    key: 'silver'
+    text: 'silver'
+    groupBy: 'metal'
+-
+    key: 'spandex'
+    text: 'spandex'
+    groupBy: 'fabric'
+-
+    key: 'suede'
+    text: 'suede'
+    groupBy: 'fabric'
+-
+    key: 'velvet'
+    text: 'velvet'
+    groupBy: 'fabric'
+-
+    key: 'viscose'
+    text: 'viscose'
+    groupBy: 'fabric'
+-
+    key: 'wool'
+    text: 'wool'
+    groupBy: 'fabric'

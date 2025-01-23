@@ -1,0 +1,21 @@
+-
+    key: 'unknown'
+    text: '?'
+-
+    key: 'ean'
+    text: 'EAN'
+-
+    key: 'isbn-10'
+    text: 'ISBN-10'
+-
+    key: 'isbn-13'
+    text: 'ISBN-13'
+-
+    key: 'locator'
+    text: 'LOCATOR'
+-
+    key: 'sku'
+    text: 'SKU'
+-
+    key: 'upc'
+    text: 'UPC'
