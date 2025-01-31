@@ -32,3 +32,10 @@ root.render(
         <RouterProvider router={router} />
     </StrictMode>
 );
+
+// Register things for typesafety
+declare module '@tanstack/react-router' {
+    interface Register {
+        router: typeof router;
+    }
+}

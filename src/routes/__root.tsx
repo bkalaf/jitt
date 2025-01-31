@@ -10,6 +10,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { useIPCEvent } from '../hooks/useIPCEvent';
 import { IconButton } from '../components/IconButton';
 import { faArrowRotateLeft, faBackward, faHome, faRepeat } from '@fortawesome/pro-solid-svg-icons';
+import logo from './../assets/logos/resized-logo.png';
 
 export const Route = createRootRouteWithContext<IRouterContext>()({
     component: function Inner() {
@@ -32,6 +33,7 @@ export const Route = createRootRouteWithContext<IRouterContext>()({
                 </Overlay>
                 <div className='flex h-full w-full flex-col'>
                     <nav className='p-2 flex gap-2 flex-row h-min w-full bg-slate-700/90 text-white'>
+                        <img title='Junk in the Trunk, Inc' src={logo} className='h-10 block object-scale-down' />
                         <IconButton
                             controlSize='medium'
                             color='blue'
@@ -49,10 +51,11 @@ export const Route = createRootRouteWithContext<IRouterContext>()({
                             click={() => () => {
                                 goto({ to: '/' });
                             }}
-                            icon={faArrowRotateLeft} 
-                            title='Go back one page.'  
-                            disable={true} 
+                            icon={faArrowRotateLeft}
+                            title='Go back one page.'
                         />
+                        <hr aria-orientation='vertical' />
+                        <hr aria-orientation='vertical' />
                         <Button
                             controlSize='medium'
                             color='blue'

@@ -2,7 +2,8 @@
 import { colorClasses } from './colorClasses';
 import { controlSizeClasses } from './controlSizeClasses';
 import { baseInteraction, interactionClasses } from './interactionClasses';
-import { collectClassLine, partitionBy } from './$cn';
+import { collectClassLine } from './$cn';
+import { partitionBy } from './partitionBy';
 
 export function handleInteractions(interactions?: Interactions) {
     if (interactions == null) return {};

@@ -1051,7 +1051,10 @@ export default {
         }
     },
     plugins: [
-        plugin(function ({ addVariant }) {
+        plugin(function ({ addUtilities, addVariant }) {
+            addUtilities({
+                fontSmallCaps: 'font-variant-caps: small-caps'
+            }),
             addVariant('enabled', '&:not(:disabled)');
         })
     ]

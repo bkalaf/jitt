@@ -1,6 +1,7 @@
 import { colorClasses } from './colorClasses';
 import { controlSizeClasses } from './controlSizeClasses';
 import { baseInteraction, interactionClasses } from './interactionClasses';
+import { partitionBy } from './partitionBy';
 
 export function splitClassLine(str: string) {
     return str?.split(' ') ?? [];
@@ -10,18 +11,6 @@ export function collectClassLine(str: string[]) {
 }
 export function lookupFrom<T extends string>(obj: Record<T, string>) {
     return (key?: T) => (key == null ? [] : splitClassLine(obj[key]));
-}
-export function partitionBy<T, U>(predicate: IPredicate<[T]>, transform?: (x: T) => U) {
-    const $transform = transform ?? ((x: T) => x as any as U);
-    function inner(arr: T[], left: T[] = [], right: T[] = []): [U[], U[]] {
-        if (arr.length === 0) return [left.map($transform), right.map($transform)];
-        const [head, ...tail] = arr;
-        if (predicate(head)) {
-            return inner(tail, [...left, head], right);
-        }
-        return inner(tail, left, [...right, head]);
-    }
-    return inner;
 }
 export function combineConditional<T extends any[] = never[]>(c1: IConditional<T>, c2: IConditional<T>) {
     return (...args: T) => {

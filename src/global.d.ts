@@ -10,6 +10,7 @@ declare global {
     type IConditional<T extends any[] = never[]> = IPredicate<T> | boolean;
     type IExecute<T extends any[] = never[]> = (...x: T) => () => void;
     type Children = React.ReactNode | React.ReactNode[] | undefined;
+    type IEventAction = () => void;
 
     type IFlagsObject = Record<string, boolean>;
     type AnimationState = 'hidden' | 'hiding' | 'showing' | 'shown';
@@ -59,7 +60,7 @@ declare global {
         color?: Colors;
         interactions?: Interactions;
         animate?: boolean;
-        flags?: IFlags;
+        flags?: IFlagsObject;
     };
     type IRouterContext = {
         queryClient: QueryClient;

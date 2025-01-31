@@ -7,7 +7,7 @@ const whenFocused = {
     halo: 'enabled:focus:ring enabled:focus:ring-white/80 enabled:focus:ring-offset-2'
 };
 const whenDisabled = {
-    blur: 'cursor-pointer disabled:bg-neutral-700 disabled:text-gray-300 disabled:cursor-none'
+    blur: 'cursor-pointer disabled:bg-neutral-700 disabled:text-gray-300 disabled:cursor-not-allowed'
 };
 
 export const interactionClasses = {

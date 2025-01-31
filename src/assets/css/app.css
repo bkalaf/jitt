@@ -11,3 +11,7 @@ html, body {
 input, select, textarea, div, span, a, ul, li {
     @apply font-rubik;
 }
+
+font-small-caps {
+    font-variant-caps: small-caps;
+}

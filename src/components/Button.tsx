@@ -1,42 +1,26 @@
-import { cn } from '../util/$cn';
+import { createElement } from 'react';
 import useWhyDidYouUpdate from '../hooks/useWhyDidYouUpdate';
+import { $className } from '../util/$className';
+import { useWrapPrevent } from './useWrapPrevent';
 
-import { useCondition } from './useCondition';
-import { useExecute } from './useExecute';
-import { useCallback } from 'react';
-
-export type IButtonProps = {
-    click: () => void;
-    disable?: boolean;
-    flags?: IFlags;
-    type?: React.ButtonHTMLAttributes<HTMLButtonElement>['type'];
-    title?: string;
-} & IProps;
+export type IButtonProps = Pick<React.ButtonHTMLAttributes<HTMLButtonElement>, 'type' | 'title' | 'disabled'> &
+    IProps & {
+        click: IEventAction;
+        tag?: 'button' | 'input';
+    };
 
 export function Button({ flags, ...props }: IButtonProps) {
     useWhyDidYouUpdate('Button', props);
-    const { interactions, ...props2 } = { type: 'button' as const, ...props };
-    const { click, disable, ...spread } = cn<IButtonProps>(
-        {
-            ...props2,
-            interactions: (props2.disable != null ?
-                interactions?.includes('disable') ?
-                    interactions
-                :   [interactions, 'disable'].join(',')
-            :   interactions) as Interactions
-        },
-        flags,
-        'flex'
-    )();
-    const onClick = useCallback((ev: React.SyntheticEvent) => {
-        ev.preventDefault();
-        ev.stopPropagation();
-        click();
-    }, [click])
 
-    return <button onClick={onClick} disabled={disable} {...spread} />;
+    const merged = { type: 'button' as const, tag: 'button' as const, ...props };
+    const { click, disabled, title, tag, type, children, ...spread } = $className<IButtonProps>(merged, flags, 'flex');
+    const onClick = useWrapPrevent(click);
+
+    // return <button disabled={disabled} title={} onClick={onClick} {...spread} />;
+    return createElement(['submit', 'reset'].includes(type ?? 'button') ? 'input' : tag as 'input' | 'button', {
+        disabled,
+        title: disabled ? '** This control is DISABLED. **' : title,
+        onClick,
+        ...spread
+    }, ['submit', 'reset'].includes(type ?? 'button') ? undefined : children);
 }
-
-
-
-
