@@ -47,7 +47,13 @@ export function PageSizeAndRowCountRows<T extends RowData>(props: PageSizeAndRow
     const { pageSize, setPageSize, totalRows } = props;
     const onChange = useCallback(
         (ev: React.ChangeEvent<HTMLSelectElement>) => {
-            setPageSize(ev.target.value ? (parseInt(ev.target.value, 10) as PageSize) : 25);
+            setPageSize(
+                ev.target.value ?
+                    typeof ev.target.value === 'string' ?
+                        (parseInt(ev.target.value, 10) as PageSize)
+                    :   ev.target.value
+                :   25
+            );
         },
         [setPageSize]
     );

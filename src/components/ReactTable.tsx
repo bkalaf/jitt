@@ -87,9 +87,9 @@ export function ReactTable<T extends RowData & Document>(props: IReactTableProps
                     
                 </div>
             </div>
-            <div className='flex w-full h-full'>
+            <div className='flex flex-col w-full h-full'>
                 <ColumnsModal table={table} open={open} toggle={toggle} />
-                <table>
+                <table className='border-collapse table-auto border border-blue-600 border-3'>
                     <thead>
                         {table.getHeaderGroups().map((headerGroup) => (
                             <tr key={headerGroup.id}>
@@ -123,7 +123,7 @@ export function ReactTable<T extends RowData & Document>(props: IReactTableProps
                     <tbody>
                         {table
                             .getRowModel()
-                            .rows.slice(0, 10)
+                            .rows
                             .map((row) => (
                                 <tr key={row.id}>
                                     {row.getVisibleCells().map((cell) => (
