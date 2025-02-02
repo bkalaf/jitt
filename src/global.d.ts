@@ -1,5 +1,6 @@
 import { Db, MongoClient } from 'mongodb';
 import { QueryClient } from '@tanstack/react-query';
+import { OnChangeFn } from '@tanstack/react-table';
 
 declare global {
     declare module '*.png' {
@@ -79,5 +80,36 @@ declare global {
         //     getMongo: () => Promise<Db>;
         // }
    }
+   interface ICrudActionsTableState {
+        editingRow: string | undefined;
+        creatingRow: boolean;
+   }
+   interface ICrudActionsOptions {
+       enableEditing?: boolean;
+       enableCreating?: boolean;
+       onEditingRowChange?: OnChangeFn<string | undefined>;
+       onCreatingRowChange?: OnChangeFn<boolean>;
+   }
+   interface CrudActionsTableInstance<TData> {
+       setEditingRow: (updater: Updater<string | undefined>) => void;
+       setCreatingRow: (updater: Updater<boolean>) => void;
+       closeEditRow: () => void;
+       closeCreateRow: () => void;
+       getIsEditing: () => boolean;
+       getIsCreating: () => boolean;
+   }
+   interface CRUDActionsRowInstance<TData> {
+       getIsRowEditing: () => boolean;
+   }
 }
 export const c = 1;
+
+declare module '@tanstack/react-table' {
+    interface TableMeta<TData extends RowData> {
+        FormControls: React.FunctionComponent<{ toggle: () => void }>;
+    }
+    interface TableState extends ICrudActionsTableState {}
+    interface TableOptionsResolved<TData extends RowData> extends ICrudActionsOptions {}
+    interface Table<TData extends RowData> extends CrudActionsTableInstance<TData> {}
+    interface Row<TData extends RowData> extends CRUDActionsRowInstance<TData> {}
+} 

@@ -4,12 +4,18 @@ import dayjs from 'dayjs';
 import { ReactTable } from '../components/ReactTable';
 import { ColumnDef } from '@tanstack/react-table';
 import schema from './../schema';
+import xforms from './../schema/xforms';
+import inits from './../schema/init';
+import InsertForms from '../schema/InsertForms';
 
 export const Route = createFileRoute('/data/$collection/')({
     component: RouteComponent,
     beforeLoad: ({ params: { collection }}) => {
         return {
-            columns: schema[collection as keyof typeof schema] as ColumnDef<any>[]
+            columns: schema[collection as keyof typeof schema] as ColumnDef<any>[],
+            xform: xforms[collection as keyof typeof xforms] as (x: any) => any,
+            init: inits[collection as keyof typeof inits] as () => Promise<any>,
+            FormControls: InsertForms[collection as keyof typeof InsertForms]
         };
     },
     loader: async ({ context: { getMongo, queryClient }, params: { collection } }) => {

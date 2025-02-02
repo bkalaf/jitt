@@ -1,8 +1,80 @@
-@import './fonts-rubik.css';
-@import './../../../node_modules/animate.css/animate.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './fonts-rubik.css' layer(base);
+@import './../../../node_modules/animate.css/animate.css' layer(base);
+@import 'tailwindcss';
+
+@-webkit-keyframes controlHighlight {
+  from { background: #4285f4; }
+  to   { width: 0; background: transparent; }
+}
+@-moz-keyframes controlHighlight {
+  from { background: #4285f4; }
+  to   { width: 0; background: transparent; }
+}
+@keyframes controlHighlight {
+    from { background: #4285f4; }
+    to { width: 0; background-color: transparent; }
+}
+@custom-variant no-value {
+    &:where([value=""]), &:not(:where([value])) {
+        @slot;
+    }
+}
+@custom-variant has-value {
+    &[value]:not([value=""]) {
+        @slot;
+    }
+}
+@utility animation-highlight {
+    -webkit-animation: controlHighlight 0.3s ease;
+    -moz-animation: controlHighlight 0.3s ease;
+    animation: controlHighlight 0.3s ease;
+}
+@utility metallic-blue {
+    color: #4285f4;
+}
+@utility control-group {
+    position: relative;
+    padding: 6px 9px;
+}
+@utility highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+@utility control-mark {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+@utility font-rubik {
+    font-family: Rubik;
+}
+@utility font-small-caps {
+    font-variant-caps: small-caps;
+}
+@config '../../../tailwind.config.ts';
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: oklch(0.928 0.006 264.531);
+  }
+}
 
 html, body {
   font-family: Rubik !important;
@@ -12,6 +84,62 @@ input, select, textarea, div, span, a, ul, li {
     @apply font-rubik;
 }
 
-font-small-caps {
+/* input, select, textarea {
+    font-size: 14px;
+    padding: 9px 6px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+label {
+    color: #999;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 100px;
+    transition: 0.2s ease all;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+input:focus ~ label,
+input:valid ~ label,
+select:focus ~ label,
+select:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+    top: -20px;
+    font-size: 12px;
     font-variant-caps: small-caps;
+    color: color-mix(in oklab, oklch(0.685 0.169 237.323) 75%, transparent);
+} */
+
+table {
+    @apply table-fixed w-full border-collapse border-3;
+}
+
+thead th:nth-child(1) {
+    width: 10%;
+}
+th, td {
+    @apply p-1;
+}
+
+th {
+    @apply tracking-normal;
+}
+td {
+    @apply tracking-tight;
+}
+tbody td {
+    @apply text-center;
+}
+thead th, tfoot th, tfoot td {
+    @apply border-3 border-black;
+}
+tbody td {
+    @apply border-1 border-dashed border-black;
 }

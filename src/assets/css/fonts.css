@@ -1,13 +1,13 @@
-@import './fonts-firasans';
+@import './fonts-firasans.css';
 /* @import './fonts-montserrat'; */
-@import './fonts-opensans';
+@import './fonts-opensans.css';
 /* @import './fonts-patrickhand'; */
 /* @import './fonts-righteous'; */
-@import './fonts-raleway';
+@import './fonts-raleway.css';
 /* @import './fonts-concert-one'; */
-@import './fonts-rubik';
-@import './fonts-grandstander';
-@import './fonts-rowdies';
+@import './fonts-rubik.css';
+@import './fonts-grandstander.css';
+@import './fonts-rowdies.css';
 /* @import './fonts-itim';
 @import './fonts-palanquin-dark'; */
 

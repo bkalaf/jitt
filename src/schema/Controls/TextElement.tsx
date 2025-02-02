@@ -1,6 +1,7 @@
-import { ReactFormExtendedApi } from '@tanstack/react-form';
 import { RowData } from '@tanstack/react-table';
-import { $className } from '../../util/$className';
+import { ControlBase } from './ControlBase';
+import { createStep } from '../createStep';
+import dayjs from 'dayjs';
 
 export function TextElement<T extends RowData>({
     name,
@@ -11,9 +12,9 @@ export function TextElement<T extends RowData>({
     required,
     readonly,
     disabled,
-    form,
-    ...props
+    helperText
 }: {
+    helperText?: string;
     name: string;
     label: string;
     maxLength?: number;
@@ -22,78 +23,80 @@ export function TextElement<T extends RowData>({
     required?: boolean;
     readonly?: boolean;
     disabled?: boolean;
-    form: ReactFormExtendedApi<T>;
-    className?: string;
 }) {
-    return (
-        <div className='flex flex-col'>
-            <form.Field name={name as any}>
-                {(field) => {
-                    const spread = $className({ ...props, color: 'sky', interactions: 'hover,focus,disable', controlSize: 'small' }, { 'ring ring-amber-500': field.state.meta.isDirty }, 'flex');
-                    return (
-                        <>
-                            <label className='text-sm font-bold flex'>
-                                {label}:
-                                <input
-                                    type='text'
-                                    name={field.name}
-                                    value={field.state.value as string}
-                                    onBlur={field.handleBlur}
-                                    onChange={(ev: React.ChangeEvent<HTMLInputElement>) => field.handleChange(ev.target.value as any)}
-                                    maxLength={maxLength}
-                                    minLength={minLength}
-                                    pattern={pattern?.toString().slice(1, pattern?.toString().length - 1)}
-                                    required={required}
-                                    readOnly={readonly}
-                                    disabled={disabled}
-                                    {...spread}
-                                />
-                            </label>
-                            <strong className='flex items-center justify-center text-red-500'>{field.state.meta.errors.join(', ')}</strong>
-                        </>
-                    );
-                }}
-            </form.Field>
-        </div>
-    );
+    return <ControlBase name={name} label={label} helperText={helperText} required={required} readonly={readonly} disabled={disabled} maxLength={maxLength} minLength={minLength} pattern={pattern} />;
 }
 
-export function OIDElement<T extends RowData>({
+export function IntegerElement<T extends RowData>({
     name,
     label,
-    form,
-    ...props
+    required,
+    readonly,
+    disabled,
+    helperText,
+    min,
+    max
 }: {
+    helperText?: string;
     name: string;
     label: string;
-    form: ReactFormExtendedApi<T>;
-    className?: string;
+    required?: boolean;
+    readonly?: boolean;
+    disabled?: boolean;
+    min?: number;
+    max?: number;
 }) {
-    return (
-        <div className='flex flex-col'>
-            <form.Field name={name as any}>
-                {(field) => {
-                    const spread = $className({ ...props, color: 'sky', interactions: 'hover,focus,disable', controlSize: 'small' }, { 'ring ring-amber-500': field.state.meta.isDirty }, 'flex');
-                    return (
-                        <>
-                            <label className='text-sm font-bold flex'>
-                                {label}:
-                                <input
-                                    type='text'
-                                    name={field.name}
-                                    value={field.state.value?.toHexString() as string}
-                                    onBlur={field.handleBlur}
-                                    onChange={(ev: React.ChangeEvent<HTMLInputElement>) => field.handleChange(ev.target.value as any)}
-                                    required
-                                    readOnly
-                                    {...spread}
-                                />
-                            </label>
-                            <strong className='flex items-center justify-center text-red-500'>{field.state.meta.errors.join(', ')}</strong>
-                        </>
-                    );
-                }}
-            </form.Field>
-        </div>
-    );
+    return <ControlBase name={name} label={label} helperText={helperText} required={required} readonly={readonly} disabled={disabled} step={1} min={min} max={max} type='number' />;
+}
+
+export function FloatElement<T extends RowData>({
+    name,
+    label,
+    required,
+    readonly,
+    disabled,
+    helperText,
+    min,
+    max,
+    precision
+}: {
+    helperText?: string;
+    name: string;
+    label: string;
+    required?: boolean;
+    readonly?: boolean;
+    disabled?: boolean;
+    min?: number;
+    max?: number;
+    precision?: 0 | 1 | 2 | 3 | 4 | 5;
+}) {
+    const step = createStep(precision ?? 4);
+    return <ControlBase name={name} label={label} helperText={helperText} required={required} readonly={readonly} disabled={disabled} step={step} min={min} max={max} type='number' />;
+}
+
+const dateOnChange = (x: string) => {
+        try {
+            const newValue = dayjs(new Date(Date.parse(x))).format('YYYY-MM-DD');
+            return newValue;
+        } catch (error) {
+            console.error((error as any)?.message);
+            return x;
+        }
+    }
+export function DateElement<T extends RowData>({
+    name,
+    label,
+    required,
+    readonly,
+    disabled,
+    helperText
+}: {
+    helperText?: string;
+    name: string;
+    label: string;
+    required?: boolean;
+    readonly?: boolean;
+    disabled?: boolean;
+}) {
+    return <ControlBase name={name} label={label} helperText={helperText} required={required} readonly={readonly} disabled={disabled} type='date' onChange={dateOnChange} />;
 }
