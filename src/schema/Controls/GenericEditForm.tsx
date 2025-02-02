@@ -10,7 +10,7 @@ import { ignore } from './ignore';
 
 export function GenericEditForm<T extends FieldValues & RowData>(collectionName: string, ID: string, original: T) {
     return function InnerGeneric({ toggle, children }: { toggle: () => void; children: Children }) {
-        const { getMongo, xform, init } = useRouteContext({ from: '/data/$collection/' });
+        const { getMongo, convertIn, init } = useRouteContext({ from: '/data/$collection/' });
         const { collection } = useParams({ from: '/data/$collection/' });
         const invalidate = useInvalidate(collection);
         const { mutate } = useMutation({
@@ -41,11 +41,11 @@ export function GenericEditForm<T extends FieldValues & RowData>(collectionName:
         });
         const handler = useCallback(
             (payload: T) => {
-                const converted = xform(payload);
+                const converted = convertIn(payload);
                 console.log(`converted`, converted);
                 mutate(converted);
             },
-            [mutate, xform]
+            [mutate, convertIn]
         );
         const onSubmit = useMemo(() => formContext.handleSubmit(handler), [formContext, handler]);
         const onReset = useCallback(

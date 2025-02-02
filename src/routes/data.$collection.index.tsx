@@ -13,7 +13,8 @@ export const Route = createFileRoute('/data/$collection/')({
     beforeLoad: ({ params: { collection }}) => {
         return {
             columns: schema[collection as keyof typeof schema] as ColumnDef<any>[],
-            xform: xforms[collection as keyof typeof xforms] as (x: any) => any,
+            convertIn: xforms.convertIn[collection as keyof typeof xforms.convertIn] as (x: any) => any,
+            convertOut: xforms.convertOut[collection as keyof typeof xforms.convertOut] as (x: any) => any,
             init: inits[collection as keyof typeof inits] as () => Promise<any>,
             FormControls: InsertForms[collection as keyof typeof InsertForms]
         };

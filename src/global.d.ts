@@ -105,9 +105,12 @@ declare global {
 export const c = 1;
 
 declare module '@tanstack/react-table' {
-    interface TableMeta<TData extends RowData> {
+    interface TableMeta<TData extends RowData, TValue> {
         FormControls: React.FunctionComponent<{ toggle: () => void }>;
+        collection?: string;
+        labelProperty?: string;
     }
+
     interface TableState extends ICrudActionsTableState {}
     interface TableOptionsResolved<TData extends RowData> extends ICrudActionsOptions {}
     interface Table<TData extends RowData> extends CrudActionsTableInstance<TData> {}

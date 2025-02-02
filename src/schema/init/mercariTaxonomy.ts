@@ -1,5 +1,5 @@
 import { ObjectId } from 'mongodb';
-import { IMercariTaxonomy } from '../xforms/mercariTaxonomy';
+import { IMercariTaxonomy } from '../mercariTaxonomy';
 
 export const init = () => Promise.resolve({
     _id: new ObjectId(),

@@ -10,7 +10,7 @@ import { ObjectId } from 'mongodb';
 
 export function GenericInsertForm(collectionName: string) {
     return function InnerGeneric<T extends FieldValues & RowData>({ toggle, values, children }: { toggle: () => void; values?: T; children: Children }) {
-        const { getMongo, xform, init } = useRouteContext({ from: '/data/$collection/' });
+        const { getMongo, convertIn, init } = useRouteContext({ from: '/data/$collection/' });
         const { collection } = useParams({ from: '/data/$collection/' });
         const invalidate = useInvalidate(collection);
         const { mutate } = useMutation({
@@ -36,11 +36,11 @@ export function GenericInsertForm(collectionName: string) {
         });
         const handler = useCallback(
             (payload: T) => {
-                const converted = xform(payload);
+                const converted = convertIn(payload);
                 console.log(`converted`, converted);
                 mutate(converted);
             },
-            [mutate, xform]
+            [mutate, convertIn]
         );
         const onSubmit = useMemo(() => formContext.handleSubmit(handler), [formContext, handler]);
         const onReset = useCallback(

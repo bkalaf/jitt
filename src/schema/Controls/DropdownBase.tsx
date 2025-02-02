@@ -1,22 +1,20 @@
 import React, { useCallback, useMemo } from 'react';
 import { useElementID } from '../../hooks/useElementID';
 import { useController, useFormContext } from 'react-hook-form';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { useRouteContext } from '@tanstack/react-router';
+import { queryDefaultFunction } from '../../main/queryDefaultFunction';
 
-export function ControlBase({
-    label,
+export function DropdownBase({
     helperText,
-    readonly,
-    required,
-    disabled,
-    maxLength,
-    minLength,
-    pattern,
-    min,
-    max,
+    label,
     name,
-    step,
-    type,
-    onChange
+    required,
+    readonly,
+    disabled,
+    onChange,
+    labelProperty,
+    collection
 }: {
     helperText?: string;
     label: string;
@@ -24,29 +22,34 @@ export function ControlBase({
     required?: boolean;
     readonly?: boolean;
     disabled?: boolean;
-    pattern?: RegExp;
-    minLength?: number;
-    maxLength?: number;
-    min?: number;
-    max?: number;
-    step?: number;
-    type?: React.InputHTMLAttributes<HTMLInputElement>['type'];
     onChange?: (x?: any) => any;
+    labelProperty: string;
+    collection: string;
 }) {
+    const { queryClient, getMongo } = useRouteContext({ from: '__root__' });
+    const { data, isLoading } = useSuspenseQuery({
+        queryKey: [collection, 'dropdown', labelProperty],
+        queryFn: async () => {
+            const allRecords = await queryClient.ensureQueryData({
+                queryKey: [collection, ['name']],
+                meta: {
+                    getMongo
+                },
+                queryFn: queryDefaultFunction
+            });
+            return allRecords.map((x) => ({ label: x[labelProperty] as string, value: x._id.toHexString() })).sort((a, b) => a.label.localeCompare(b.label));
+        }
+    });
     const helperID = useElementID();
     const labelID = useElementID();
     const controlID = useElementID();
+    const datalistID = useElementID();
     const { control } = useFormContext();
     const { field, fieldState } = useController({
         name: name as any,
         control,
         rules: {
-            required,
-            maxLength,
-            minLength,
-            pattern,
-            min,
-            max
+            required
         }
     });
     const $helperText = useMemo(() => helperText ?? fieldState.error?.message ?? '', [fieldState.error?.message, helperText]);
@@ -59,8 +62,21 @@ export function ControlBase({
     );
     return (
         <div className='flex w-full relative'>
+            {!isLoading && (
+                <datalist id={datalistID}>
+                    <option key={''} value={''} className='indent-1.5 text-sm font-normal font-small-caps mb-1'>
+                        Choose Value...
+                    </option>
+                    {data.map(({ label: $label, value: $value }) => (
+                        <option key={$value} value={$value} className='indent-1.5 text-sm font-small-caps mb-1'>
+                            {$label}
+                        </option>
+                    ))}
+                </datalist>
+            )}
             <input
-                type={type ?? 'text'}
+                type='text'
+                list={datalistID}
                 id={controlID}
                 className='block rounded-t-lg px-2.5 pb-1.5 pt-4 w-full text-lg text-gray-900 bg-gray-50 dark:bg-gray-700 border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer no-value:bg-red-500'
                 aria-describedby={helperID}
@@ -71,9 +87,6 @@ export function ControlBase({
                 ref={field.ref}
                 value={field.value}
                 onChange={$onChange}
-                step={step}
-                min={min}
-                max={max}
                 disabled={disabled}
             />
             <label
@@ -88,13 +101,5 @@ export function ControlBase({
                 </p>
             )}
         </div>
-        // <div className='flex control-group relative'>
-        //     {children}
-        //     <span className='highlight absolute w-28 top-1/4 left-0 pointer-events-none opacity-50 peer-focus:animation-highlight' />
-        //     <span className='peer-focus:before:w-1/2 peer-focus:after:w-1/2 before:left-1/2 after:right-1/2 before:content-[""] after:content-[""] before:h-0.5 after:h-0.5 before:bottom-0.5 after:bottom-0.5 relative block w-90 after:absolute transition-all duration-200 ease-in' />
-        //     <label htmlFor={controlID} className='text-lg font-medium absolute pointer-events-none left-2 top-3 transition-all duration-200 ease-in peer-focus:-top-6 peer-focus:text-base peer-focus:metallic-blue'>
-        //         {label}
-        //     </label>
-        // </div>
     );
 }

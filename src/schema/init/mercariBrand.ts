@@ -1,4 +1,5 @@
 import { ObjectId } from 'mongodb';
+import { IMercariBrand } from '../mercariBrand';
 
 export const mercariBrandInit = () =>
     Promise.resolve({
@@ -8,4 +9,4 @@ export const mercariBrandInit = () =>
         selector: '',
         timestamp: new Date(Date.now()),
         owner: 'admin@junk-in-the-trunk.com'
-    });
+    } as IMercariBrand);

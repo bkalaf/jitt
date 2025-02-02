@@ -1,23 +1,8 @@
-import { ObjectId } from 'mongodb';
-import $to from './$to';
+import $to from '@app/util/$to';
+import { IMercariTaxonomy } from '../mercariTaxonomy';
+import $from from '@app/util/$from';
 
-export type IMercariCategory = {
-    selector: string;
-    name: string;
-}
-
-export type IMercariTaxonomy = {
-    _id: ObjectId;
-    owner: string;
-    timestamp: Date;
-    category: IMercariCategory;
-    subCategory: IMercariCategory;
-    subSubCategory: IMercariCategory;
-    regex?: string;
-    readonly name: string;
-}
-
-export function mercariTaxonomyConvert({ _id, owner, regex, timestamp, category, subCategory, subSubCategory }: IMercariTaxonomy) {
+export function convert({ _id, owner, regex, timestamp, category, subCategory, subSubCategory }: IMercariTaxonomy) {
     return {
         _id: $to.OID(_id),
         owner: $to.owner(owner),
@@ -26,5 +11,15 @@ export function mercariTaxonomyConvert({ _id, owner, regex, timestamp, category,
         subCategory,
         subSubCategory,
         regex: $to.optString(regex)
-    }
+    };
+}
+
+export function transform({ _id, owner, name, timestamp, ...rest }: IMercariTaxonomy) {
+    return {
+        ...rest,
+        _id: $from.OID(_id),
+        owner,
+        name,
+        timestamp: $from.date(timestamp)
+    };
 }

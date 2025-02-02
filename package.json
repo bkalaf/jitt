@@ -34,7 +34,7 @@
     "style-loader": "^3.0.0",
     "ts-loader": "^9.2.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
+    "typescript": "5.4"
   },
   "keywords": [],
   "author": {

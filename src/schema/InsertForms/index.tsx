@@ -1,4 +1,11 @@
-import { MercariBrandInsertForm } from '../mercariBrand';
+import { InsertForm as mercariBrand } from '@app/schema/InsertForms/mercariBrand';
+import { InsertForm as hashTag } from '@app/schema/InsertForms/hashTag';
+import { InsertForm as brand } from '@app/schema/InsertForms/brand';
+import { InsertForm as mercariTaxonomy } from '@app/schema/InsertForms/mercariTaxonomy';
+
 export default {
-    mercariBrand: MercariBrandInsertForm
+    brand,
+    hashTag,
+    mercariBrand,
+    mercariTaxonomy
 }

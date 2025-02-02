@@ -1,4 +1,3 @@
-
 export function createStep(power: 0 | 1 | 2 | 3 | 4 | 5 | 6) {
     switch (power) {
         case 0:
@@ -9,6 +8,6 @@ export function createStep(power: 0 | 1 | 2 | 3 | 4 | 5 | 6) {
         case 4:
         case 5:
         case 6:
-            return (1 / (10 ^ power));
+            return 1 / (10 ^ power);
     }
 }

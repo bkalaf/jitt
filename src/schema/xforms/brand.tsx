@@ -1,17 +1,8 @@
-import { ObjectId } from 'mongodb';
-import { IMercariBrand } from '../mercariBrand';
-import $to from './$to';
-import $from from './$from';
-export type IBrand = {
-    _id: ObjectId;
-    name: string;
-    timestamp: Date;
-    owner: string;
-    regex?: string;
-    mercariBrand?: IMercariBrand;
-}
+import $to from '@app/util/$to';
+import $from from '@app/util/$from';
+import { IBrand } from '../brand';
 
-export function brandConvert({ _id, name, timestamp, owner, regex, mercariBrand }: IBrand) {
+export function convert({ _id, name, timestamp, owner, regex, mercariBrand }: IBrand) {
     return {
         _id: $to.OID(_id),
         name: name,
@@ -22,10 +13,11 @@ export function brandConvert({ _id, name, timestamp, owner, regex, mercariBrand 
     }
 }
 
-export function brandTransform({ mercariBrand, _id, ...rest }: IBrand) {
+export function transform({ mercariBrand, _id, timestamp, ...rest }: IBrand) {
     return {
         ...rest,
         _id: $from.OID(_id),
-        mercariBrand: $from.lookup(mercariBrand)
+        mercariBrand: $from.lookup(mercariBrand),
+        timestamp: $from.date(timestamp)
     }
 }

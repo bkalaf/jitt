@@ -1,4 +1,3 @@
-import { ReactFormExtendedApi } from '@tanstack/react-form';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { useRouteContext } from '@tanstack/react-router';
 import { RowData } from '@tanstack/react-table';
@@ -13,7 +12,6 @@ export function LookupElement<T extends RowData>({
     required,
     readonly,
     disabled,
-    form,
     datalistID,
     ...props
 }: {
@@ -24,7 +22,6 @@ export function LookupElement<T extends RowData>({
     required?: boolean;
     readonly?: boolean;
     disabled?: boolean;
-    form: ReactFormExtendedApi<T>;
     className?: string;
     datalistID: string;
 }) {

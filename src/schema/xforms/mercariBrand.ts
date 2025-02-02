@@ -1,8 +1,9 @@
 import { IMercariBrand } from '../mercariBrand';
 import dayjs from 'dayjs';
-import $to from './$to';
+import $to from '@app/util/$to';
+import $from from '@app/util/$from';
 
-export function mercariBrandConvert({ _id, name, owner, id, selector, timestamp }: IMercariBrand) {
+export function convert({ _id, name, owner, id, selector, timestamp }: IMercariBrand) {
     return {
         _id: $to.OID(_id),
         name,
@@ -13,3 +14,13 @@ export function mercariBrandConvert({ _id, name, owner, id, selector, timestamp 
     };
 }
 
+export function transform({ _id, owner, name, timestamp, id, ...rest }: IMercariBrand) {
+    return {
+        ...rest,
+        _id: $from.OID(_id),
+        owner,
+        name,
+        id: $from.int(id),
+        timestamp: $from.date(timestamp)
+    };
+}

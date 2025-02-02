@@ -3,7 +3,7 @@ import { camelCaseToProper } from '../src/common/text/splitStringAt';
 
 const filename = process.argv[2];
 const collectionName = process.argv[3];
-const typeName = camelCaseToProper(collectionName);
+const typeName = camelCaseToProper(collectionName).split(' ').join('');
 
 function replaceAll(toFind: string, replacer: string, data: string) {
     if (data.includes(toFind)) {
