@@ -6,7 +6,7 @@ import { str } from './str';
 import { listOfObject } from './listOfObject';
 import { lookup } from './lookup';
 
-export default {
+export const col =  {
     _id,
     actions,
     str,

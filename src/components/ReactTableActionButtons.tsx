@@ -3,24 +3,9 @@ import { faLeft, faLeftToLine, faRight, faRightToLine, faSquare0, faSquare1, faS
 import { useCallback } from 'react';
 import useWhyDidYouUpdate from '../hooks/useWhyDidYouUpdate';
 import { IconButton } from './IconButton';
+import { IReactTableActionButtons, PageSizeAndRowCountRows, PaginationActionButtonsProps } from './PageSizeAndRowCountRows';
 
-export type PageSize = 10 | 25 | 50 | 100 | 250;
 
-export type IReactTableActionButtons<T extends RowData> = {
-    getSelectedRowModel: () => RowModel<T>;
-    hasNextPage: () => boolean;
-    hasPreviousPage: () => boolean;
-    nextPage: () => void;
-    previousPage: () => void;
-    pageCount: number;
-    pageIndex: number;
-    pageSize: number;
-    rerender: () => void;
-    rowSelection: Object;
-    setPageIndex: (index: number) => void;
-    setPageSize: (pageSize: PageSize) => void;
-    totalRows: number;
-};
 
 const icons = {
     firstPage: faLeftToLine,
@@ -39,45 +24,9 @@ const icons = {
     '9': faSquare9
 };
 
-export type PaginationActionButtonsProps<T extends RowData> = Pick<IReactTableActionButtons<T>, 'hasNextPage' | 'hasPreviousPage' | 'nextPage' | 'previousPage' | 'pageSize' | 'pageIndex' | 'setPageSize' | 'setPageIndex' | 'pageCount' | 'totalRows'>;
-export type PageSizeAndRowCountRowsProps<T extends RowData> = Pick<PaginationActionButtonsProps<T>, 'pageSize' | 'totalRows' | 'setPageSize'>;
 
-export function PageSizeAndRowCountRows<T extends RowData>(props: PageSizeAndRowCountRowsProps<T>) {
-    useWhyDidYouUpdate('PageSizeAndRowCount', props);
-    const { pageSize, setPageSize, totalRows } = props;
-    const onChange = useCallback(
-        (ev: React.ChangeEvent<HTMLSelectElement>) => {
-            setPageSize(
-                ev.target.value ?
-                    typeof ev.target.value === 'string' ?
-                        (parseInt(ev.target.value, 10) as PageSize)
-                    :   ev.target.value
-                :   25
-            );
-        },
-        [setPageSize]
-    );
-    return (
-        <>
-            <div className='flex flex-row w-full justify-end items-center'>
-                <label className='inline-flex text-base font-bold'>
-                    Page Size:
-                    <select className='inline-flex w-35 p-0.5 rounded-lg shadow-black shadow-inner' onChange={onChange} value={pageSize}>
-                        {[10, 25, 50, 100, 250].map((value) => (
-                            <option key={value.toFixed(0)} value={value.toFixed(0)}>
-                                Show {value.toFixed(0)}
-                            </option>
-                        ))}
-                    </select>
-                </label>
-            </div>
-            <div className='flex w-full justify-end items-center'>
-                <strong>Total Rows: </strong>
-                {totalRows.toFixed(0)}
-            </div>
-        </>
-    );
-}
+
+
 export function PaginationActionButtons<T extends RowData>(props: PaginationActionButtonsProps<T>) {
     useWhyDidYouUpdate('PaginationActionButtons', props);
     const { hasNextPage, hasPreviousPage, setPageIndex, setPageSize, nextPage, previousPage, pageIndex, pageSize, pageCount } = props;
@@ -90,7 +39,7 @@ export function PaginationActionButtons<T extends RowData>(props: PaginationActi
         [setPageIndex]
     );
     return (
-        <div className='flex flex-row gap-1 items-center'>
+        <div className='flex flex-row gap-1 items-center place-self-end'>
             <IconButton className='flex border rounded p-0.5' click={goToFirstPage} controlSize='small' color='blue' interactions='hover,focus,disable' disabled={!hasPreviousPage()} icon={icons.firstPage} />
             <IconButton className='flex border rounded p-0.5' click={previousPage} controlSize='small' color='blue' interactions='hover,focus,disable' disabled={!hasPreviousPage()} icon={icons.previousPage} />
             <span className='flex flex-col items-center justify-center text-sm divide-y-4 divide-black'>

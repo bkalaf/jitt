@@ -10,12 +10,15 @@ import { ignore } from './ignore';
 
 export function GenericEditForm<T extends FieldValues & RowData>(collectionName: string, ID: string, original: T) {
     return function InnerGeneric({ toggle, children }: { toggle: () => void; children: Children }) {
-        const { getMongo, convertIn, init } = useRouteContext({ from: '/data/$collection/' });
+        const { getMongo, convertIn, convertOut, init } = useRouteContext({ from: '/data/$collection/' });
         const { collection } = useParams({ from: '/data/$collection/' });
         const invalidate = useInvalidate(collection);
         const { mutate } = useMutation({
-            mutationFn: async (values: T) => {
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
+            mutationFn: async ({ _id: _, ...values }: T) => {
                 console.log(`mutation`);
+                console.log(`ID`, ID)
+                console.log(`values`, values);
                 const mongo = await getMongo();
                 const result = await mongo.collection(collectionName).findOneAndUpdate({ _id: new ObjectId(ID) }, { $set: values }, { upsert: true, ignoreUndefined: true });
                 return result;
@@ -35,17 +38,17 @@ export function GenericEditForm<T extends FieldValues & RowData>(collectionName:
                 const current = await init();
                 return {
                     ...current,
-                    ...original
+                    ...convertIn(original)
                 };
             }
         });
         const handler = useCallback(
             (payload: T) => {
-                const converted = convertIn(payload);
+                const converted = convertOut(payload);
                 console.log(`converted`, converted);
                 mutate(converted);
             },
-            [mutate, convertIn]
+            [mutate, convertOut]
         );
         const onSubmit = useMemo(() => formContext.handleSubmit(handler), [formContext, handler]);
         const onReset = useCallback(

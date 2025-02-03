@@ -3,10 +3,10 @@ import { queryDefaultFunction } from '../main/queryDefaultFunction';
 import dayjs from 'dayjs';
 import { ReactTable } from '../components/ReactTable';
 import { ColumnDef } from '@tanstack/react-table';
-import schema from './../schema';
 import xforms from './../schema/xforms';
 import inits from './../schema/init';
 import InsertForms from '../schema/InsertForms';
+import schema from '../schema/columns';
 
 export const Route = createFileRoute('/data/$collection/')({
     component: RouteComponent,

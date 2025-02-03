@@ -12,6 +12,8 @@ import { Overlay } from '../../components/Overlay';
 export const actions = function <T>(helper: ColumnHelper<T>) {
     return helper.display({
         id: 'rt-row-actions',
+        size: 90,
+        header: 'Row Actions',
         cell: function RowActions({ row, table }) {
             const { FormControls } = table.options.meta!;
             const { closeEditRow, setEditingRow, getIsEditing } = table;

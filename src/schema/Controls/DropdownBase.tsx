@@ -78,7 +78,7 @@ export function DropdownBase({
                 type='text'
                 list={datalistID}
                 id={controlID}
-                className='block rounded-t-lg px-2.5 pb-1.5 pt-4 w-full text-lg text-gray-900 bg-gray-50 dark:bg-gray-700 border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer no-value:bg-red-500'
+                className='flex rounded-md px-2.5 pb-1.5 pt-4 w-full text-xl text-gray-900 bg-gray-50 dark:bg-gray-700 dark:text-white border-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer no-value:outline-1 no-value:outline-red-500'
                 aria-describedby={helperID}
                 aria-labelledby={labelID}
                 readOnly={readonly}

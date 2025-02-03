@@ -1,6 +1,6 @@
 import { createColumnHelper, ColumnDef } from '@tanstack/react-table';
-import col from '@app/schema/col';
 import { IMercariTaxonomy } from '../mercariTaxonomy';
+import { col } from '../col';
 
 const helper = createColumnHelper<IMercariTaxonomy>();
 

@@ -4,6 +4,8 @@ import { init as brand } from './brand';
 import { init as mercariTaxonomy } from './mercariTaxonomy';
 
 export default {
+    brand,
     hashTag,
-    mercariBrand
+    mercariBrand,
+    mercariTaxonomy
 }

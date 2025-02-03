@@ -1,7 +1,7 @@
 import { createColumnHelper, ColumnDef } from '@tanstack/react-table';
 import dayjs from 'dayjs';
-import col from '@app/schema/col';
 import { IHashTag, IHashTagUsage } from '@app/schema/hashTag';
+import { col } from '../col';
 
 const helper = createColumnHelper<IHashTag>();
 

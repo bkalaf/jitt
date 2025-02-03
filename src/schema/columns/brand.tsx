@@ -1,7 +1,6 @@
 import {createColumnHelper, ColumnDef } from '@tanstack/react-table';
-import dayjs from 'dayjs';
-import col from '@app/schema/col';
 import { IBrand } from '@app/schema/brand';
+import { col } from '../col';
 
 const helper = createColumnHelper<IBrand>();
 

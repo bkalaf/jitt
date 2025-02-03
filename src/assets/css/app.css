@@ -53,6 +53,15 @@
 @utility font-rubik {
     font-family: Rubik;
 }
+@utility font-open {
+    font-family: Open Sans;
+}
+@utility font-fira {
+    font-family: Fira Sans;
+}
+@utility font-raleway {
+    font-family: Raleway;
+}
 @utility font-small-caps {
     font-variant-caps: small-caps;
 }
@@ -76,12 +85,8 @@
   }
 }
 
-html, body {
-  font-family: Rubik !important;
-}
-
-input, select, textarea, div, span, a, ul, li {
-    @apply font-rubik;
+html, body, input, select, textarea, div, span, a, ul, li  {
+  @apply font-rubik appearance-none;
 }
 
 /* input, select, textarea {
@@ -118,21 +123,21 @@ textarea:valid ~ label {
 } */
 
 table {
-    @apply table-fixed w-full border-collapse border-3;
+    @apply w-full border-collapse border-3;
 }
 
 thead th:nth-child(1) {
     width: 10%;
 }
 th, td {
-    @apply p-1;
+    @apply p-1 min-w-min;
 }
 
 th {
-    @apply tracking-normal;
+    @apply tracking-wide leading-loose whitespace-nowrap bg-blue-700 text-white font-bold border-white border-2 text-center uppercase text-base px-2.5;
 }
 td {
-    @apply tracking-tight;
+    @apply tracking-tight px-2.5;
 }
 tbody td {
     @apply text-center;
@@ -142,4 +147,7 @@ thead th, tfoot th, tfoot td {
 }
 tbody td {
     @apply border-1 border-dashed border-black;
+}
+td {
+    @apply whitespace-nowrap;
 }

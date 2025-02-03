@@ -1,6 +1,6 @@
-import $to from '@app/util/$to';
+import { $from } from '../../util/from';
+import { $to } from '../../util/to';
 import { IMercariTaxonomy } from '../mercariTaxonomy';
-import $from from '@app/util/$from';
 
 export function convert({ _id, owner, regex, timestamp, category, subCategory, subSubCategory }: IMercariTaxonomy) {
     return {

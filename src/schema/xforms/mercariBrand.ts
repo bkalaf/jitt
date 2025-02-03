@@ -1,7 +1,7 @@
+import { $from } from '../../util/from';
+import { $to } from '../../util/to';
 import { IMercariBrand } from '../mercariBrand';
 import dayjs from 'dayjs';
-import $to from '@app/util/$to';
-import $from from '@app/util/$from';
 
 export function convert({ _id, name, owner, id, selector, timestamp }: IMercariBrand) {
     return {

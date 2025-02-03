@@ -1,7 +1,7 @@
 import { FieldValues } from 'react-hook-form';
 import { RowData } from '@tanstack/react-table';
-import { OIDElement } from '@app/schema/Controls/OIDElement';
-import { TextElement } from '@app/schema/Controls/TextElement';
+import { OIDElement } from '../Controls/OIDElement';
+import { TextElement } from '../Controls/TextElement';
 
 export function InsertForm<T extends FieldValues & RowData>() {
     // TODO Usage Element

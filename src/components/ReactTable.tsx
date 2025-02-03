@@ -12,7 +12,7 @@ import {
     getSortedRowModel,
     useReactTable
 } from '@tanstack/react-table';
-import { useCallback, useMemo, useReducer, useState } from 'react';
+import { useCallback, useReducer } from 'react';
 import { Button } from './Button';
 import { Document } from 'mongodb';
 import useWhyDidYouUpdate from '../hooks/useWhyDidYouUpdate';
@@ -28,6 +28,7 @@ import { ignore } from '../schema/Controls/ignore';
 import { IconButton } from './IconButton';
 import { CreateModal } from './CreateModal';
 import { CRUDFeature } from './CRUDFeature';
+import { usePersistedSettings } from '../hooks/usePersistedSettings';
 
 const fallbackData = <T extends RowData>() => [] as T[];
 export type IReactTableProps<T extends RowData> = {
@@ -41,8 +42,10 @@ export function ReactTable<T extends RowData & Document>(props: IReactTableProps
     const { columns } = props;
     const rerender = useReducer(() => ({}), [])[1];
     const data = Route.useLoaderData() as T[];
-    const { FormControls, init } = Route.useRouteContext();    
+    const { FormControls } = Route.useRouteContext(); 
+    // const { collection } = Route.useParams();   
     const [showColumnsModal, toggleColumnsModal] = useToggler();
+    const { state, ...methods } = usePersistedSettings();
     const table = useReactTable<T>({
         _features: [CRUDFeature],
         data,
@@ -74,38 +77,40 @@ export function ReactTable<T extends RowData & Document>(props: IReactTableProps
         getRowId: (originalRow) => (originalRow as any)?._id?.toHexString(),
         meta: {
             FormControls
-        }
+        },
+        state,
+        ...methods
     });
     const onCreate = useCallback(() => {
         table.setCreatingRow(true)
     }, [table])
     return (
         <div className='p-2'>
-            <div className='flex flex-between items-center tracking-tight leading-snug text-sm px-1.5 py-1 shadow-md border border-black/60 shadow-black'>
+            <div className='flex flex-between items-center tracking-tight leading-snug text-sm px-1.5 py-1 shadow-md border border-black/60 shadow-black bg-slate-700'>
                 <div className='grid grid-cols-8 w-full justify-evenly'>
                     {table.getIsCreating() && <CreateModal open={table.getIsCreating()} toggle={table.closeEditRow} FormControls={FormControls} />}
                     {showColumnsModal && <ColumnsModal open={showColumnsModal} toggle={toggleColumnsModal} table={table} />}
-                    <Button className='flex items-center justify-center' color='sky' controlSize='small' click={toggleColumnsModal}>
+                    <Button className='flex items-center justify-center text-lg uppercase font-bold' color='sky' controlSize='small' click={toggleColumnsModal}>
                         Columns
                     </Button>
-                    <Button className='flex items-center justify-center' color='sky' controlSize='small' click={onCreate}>
+                    <Button className='flex items-center justify-center text-lg uppercase font-bold' color='sky' controlSize='small' click={onCreate}>
                         New
                     </Button>
                 </div>
-                <div className='flex flex-row'>
-                    <IconButton icon={faBinoculars} color='sky' controlSize='small' interactions='hover,focus,disable' click={ignore} />
+                <div className='flex flex-row gap-2'>
+                    <IconButton icon={faBinoculars} color='sky' controlSize='medium' interactions='hover,focus,disable' click={ignore} className='rounded-lg border-2 border-blue-800 shadow shadow-gray-400' />
                     <DebouncedInput
                         name='global-filter'
                         value={table.getState().globalFilter}
                         onChange={table.setGlobalFilter}
                         onContextMenu={(ev: React.MouseEvent) => table.setGlobalFilter(null)}
                         title='The global filter value.'
-                        className='text-base font-medium'
+                        className='text-base font-medium shadow-inner shadow-black rounded-lg border border-black mr-3'
                     />
                 </div>
             </div>
-            <div className='flex flex-col w-full h-full'>
-                <table className='border-collapse table-auto border-blue-600 border-3 '>
+            <div className='flex flex-col w-full h-full overflow-x-scroll overflow-y-scroll'>
+                <table className='border-collapse table-auto border-blue-600 border-3'>
                     <thead>
                         {table.getHeaderGroups().map((headerGroup) => (
                             <tr key={headerGroup.id}>

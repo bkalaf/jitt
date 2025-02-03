@@ -1,6 +1,6 @@
 import { IHashTag } from '@app/schema/hashTag';
-import $to from '@app/util/$to';
-import $from from '@app/util/$from';
+import { $from } from '../../util/from';
+import { $to } from '../../util/to';
 
 export function convert({
     _id,
