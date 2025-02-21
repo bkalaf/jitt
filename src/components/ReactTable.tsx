@@ -24,7 +24,7 @@ import { useToggler } from '../hooks/useToggler';
 import { Route } from '../routes/data.$collection.index';
 import { DebouncedInput } from './DebouncedInput';
 import { faBinoculars } from '@fortawesome/pro-solid-svg-icons';
-import { ignore } from '../schema/Controls/ignore';
+import { ignore } from './Controls/ignore';
 import { IconButton } from './IconButton';
 import { CreateModal } from './CreateModal';
 import { CRUDFeature } from './CRUDFeature';

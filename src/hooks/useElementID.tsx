@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { generateRandomStringCrypto } from '../schema/Controls/generateRandomStringCrypto';
+import { generateRandomStringCrypto } from '../components/Controls/generateRandomStringCrypto';
 
 
 export function useElementID() {

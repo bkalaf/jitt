@@ -1,19 +1,38 @@
-import { convert as mercariBrandConvert, transform as mercariBrandTransform } from './mercariBrand';
-import { convert as brandConvert, transform as brandTransform } from './brand';
-import { convert as mercariTaxonomyConvert, transform as mercariTaxonomyTransform } from './mercariTaxonomy';
-import { convert as hashTagConvert, transform as hashTagTransform } from './hashTag';
+import { barcodeConvert, barcodeTransform } from './barcode';
+import { barcodeGeneratorConvert, barcodeGeneratorTransform } from './barcodeGenerator';
+import { brandConvert, brandTransform } from './brand';
+import { groupConvert, groupTransform } from './group';
+import { hashTagConvert, hashTagTransform } from './hashTag';
+import { mediaCollectionConvert, mediaCollectionTransform } from './mediaCollection';
+import { mercariBrandConvert, mercariBrandTransform } from './mercariBrand';
+import { mercariTaxonomyConvert, mercariTaxonomyTransform } from './mercariTaxonomy';
+import { productImageConvert, productImageTransform } from './productImage';
+import { productLineConvert, productLineTransform } from './productLine';
 
 const convertIn = {
+    barcode: barcodeTransform,
+    barcodeGenerator: barcodeGeneratorTransform,
     brand: brandTransform,
+    group: groupTransform,
     hashTag: hashTagTransform,
+    mediaCollection: mediaCollectionTransform,
     mercariBrand: mercariBrandTransform,
-    mercariTaxonomy: mercariTaxonomyTransform
+    mercariTaxonomy: mercariTaxonomyTransform,
+    productImage: productImageTransform,
+    productLine: productLineTransform
 }
+
 const convertOut = {
+    barcode: barcodeConvert,
+    barcodeGenerator: barcodeGeneratorConvert,
     brand: brandConvert,
+    group: groupConvert,
     hashTag: hashTagConvert,
+    mediaCollection: mediaCollectionConvert,
     mercariBrand: mercariBrandConvert,
-    mercariTaxonomy: mercariTaxonomyConvert
+    mercariTaxonomy: mercariTaxonomyConvert,
+    productImage: productImageConvert,
+    productLine: productLineConvert
 }
 
 export default {

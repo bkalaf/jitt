@@ -22,4 +22,5 @@ wget -O /home/bobby/repos/jitt/src/schema/$1.tsx "https://github.com/bkalaf/scaf
 ts-node ./bin/fileReplacer.ts /home/bobby/repos/jitt/src/schema/columns/$1.tsx $1
 ts-node ./bin/fileReplacer.ts /home/bobby/repos/jitt/src/schema/xforms/$1.tsx $1
 ts-node ./bin/fileReplacer.ts /home/bobby/repos/jitt/src/schema/$1.tsx $1
+ts-node ./bin/indexCreator.ts $1
 

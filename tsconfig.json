@@ -13,6 +13,7 @@
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "paths": {
       "*": ["node_modules/*"],
       "@app/*": ["src/*"]

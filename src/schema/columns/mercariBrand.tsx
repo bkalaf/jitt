@@ -1,7 +1,7 @@
 import { createColumnHelper, ColumnDef } from '@tanstack/react-table';
 import dayjs from 'dayjs';
 import { IMercariBrand } from '@app/schema/mercariBrand';
-import { col } from '../col';
+import { col } from '../../util/col';
 
 const helper = createColumnHelper<IMercariBrand>();
 

@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Overlay } from './Overlay';
 import { useParams } from '@tanstack/react-router';
-import { GenericInsertForm } from '../schema/Controls/GenericInsertForm';
+import { GenericInsertForm } from './Controls/GenericInsertForm';
 
 export function CreateModal({
     open,

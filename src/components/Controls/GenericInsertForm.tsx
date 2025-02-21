@@ -1,54 +1,47 @@
 import { useMutation } from '@tanstack/react-query';
 import { useRouteContext, useParams } from '@tanstack/react-router';
 import { RowData } from '@tanstack/react-table';
-import { ObjectId } from 'mongodb';
 import { useCallback, useMemo } from 'react';
 import { FieldValues, useForm, FormProvider } from 'react-hook-form';
-import { Button } from '../../components/Button';
+import { Button } from '../Button';
 import { useInvalidate } from '../../hooks/useInvalidate';
 import { ignore } from './ignore';
+import { ObjectId } from 'mongodb';
 
-export function GenericEditForm<T extends FieldValues & RowData>(collectionName: string, ID: string, original: T) {
-    return function InnerGeneric({ toggle, children }: { toggle: () => void; children: Children }) {
-        const { getMongo, convertIn, convertOut, init } = useRouteContext({ from: '/data/$collection/' });
+export function GenericInsertForm(collectionName: string) {
+    return function InnerGeneric<T extends FieldValues & RowData>({ toggle, values, children }: { toggle: () => void; values?: T; children: Children }) {
+        const { getMongo, convertIn, init } = useRouteContext({ from: '/data/$collection/' });
         const { collection } = useParams({ from: '/data/$collection/' });
         const invalidate = useInvalidate(collection);
         const { mutate } = useMutation({
-            // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            mutationFn: async ({ _id: _, ...values }: T) => {
+            mutationFn: async (values: T) => {
                 console.log(`mutation`);
-                console.log(`ID`, ID)
-                console.log(`values`, values);
                 const mongo = await getMongo();
-                const result = await mongo.collection(collectionName).findOneAndUpdate({ _id: new ObjectId(ID) }, { $set: values }, { upsert: true, ignoreUndefined: true });
-                return result;
+                const { insertedId } = await mongo.collection(collectionName).insertOne(values);
+                return insertedId;
             },
             onSuccess: async () => {
                 await invalidate();
                 toggle();
             },
             onError: async (err) => {
+                console.log(JSON.stringify(err, null, '\t'))
                 console.error(err.name);
                 console.error(err.message);
                 console.error(err.stack);
             }
         });
         const formContext = useForm<T>({
-            defaultValues: async () => {
-                const current = await init();
-                return {
-                    ...current,
-                    ...convertIn(original)
-                };
-            }
+            defaultValues: init,
+            values: values != null ? values : undefined
         });
         const handler = useCallback(
-            (payload: T) => {
-                const converted = convertOut(payload);
+            async (payload: T) => {
+                const converted = await convertIn(payload);
                 console.log(`converted`, converted);
                 mutate(converted);
             },
-            [mutate, convertOut]
+            [mutate, convertIn]
         );
         const onSubmit = useMemo(() => formContext.handleSubmit(handler), [formContext, handler]);
         const onReset = useCallback(
@@ -63,7 +56,7 @@ export function GenericEditForm<T extends FieldValues & RowData>(collectionName:
             <FormProvider {...formContext}>
                 <form className='grid grid-cols-3 w-full gap-2.5 p-3' onSubmit={ignore} onReset={ignore}>
                     {children}
-                    <div className='col-start-1 col-span-3 flex justify-between items-center w-full gap-x-2.5 mt-6 border-2 border-white'>
+                    <div className='col-start-1 col-span-3 flex justify-between items-center w-full gap-x-2.5'>
                         <Button tag='button' color='sky' controlSize='medium' click={toggle} type='button' className='flex w-full'>
                             Cancel
                         </Button>
@@ -79,3 +72,4 @@ export function GenericEditForm<T extends FieldValues & RowData>(collectionName:
         );
     };
 }
+

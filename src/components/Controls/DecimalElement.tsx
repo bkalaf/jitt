@@ -1,7 +1,7 @@
 import { ReactFormExtendedApi } from '@tanstack/react-form';
 import { RowData } from '@tanstack/react-table';
 import { $className } from '../../util/$className';
-import { createStep } from '../createStep';
+import { createStep } from '../../util/createStep';
 
 export function DecimalElement<T extends RowData>({
     name, max, min, label, required, readonly, disabled, form, precision, ...props

@@ -101,6 +101,15 @@ declare global {
    interface CRUDActionsRowInstance<TData> {
        getIsRowEditing: () => boolean;
    }
+   type IEnumInfo = {
+        label: string;
+        value: string;
+        selector?: string;
+        groups?: string[];
+   }
+   interface Array {
+        toEnumInfo(this: string[]): IEnumInfo[];
+   }
 }
 export const c = 1;
 

@@ -5,7 +5,7 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 import { useRouteContext } from '@tanstack/react-router';
 import { queryDefaultFunction } from '../../main/queryDefaultFunction';
 
-export function DropdownBase({
+export function DropdownControl({
     helperText,
     label,
     name,

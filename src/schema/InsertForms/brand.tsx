@@ -1,18 +1,19 @@
 import { FieldValues } from 'react-hook-form';
 import { RowData } from '@tanstack/react-table';
-import { DropdownBase } from '../Controls/DropdownBase';
-import { OIDElement } from '../Controls/OIDElement';
-import { TextElement, DateElement } from '../Controls/TextElement';
+import { DropdownControl } from '../../components/Controls/DropdownBase';
+import { OIDElement } from '../../components/Controls/OIDElement';
+import { DateControl } from '../../components/Controls/DateControl';
+import { TextControl } from '../../components/Controls/TextControl';
 
 export function InsertForm<T extends FieldValues & RowData>() {
     // TODO Usage Element
     return (
         <>
             <OIDElement name='_id' label='OID' />
-            <TextElement name='name' label='Name' />
-            <TextElement name='regex' label='RegEx' />
-            <DateElement name='timestamp' label='Timestamp' />
-            <DropdownBase name='mercariBrand' label='Mercari Brand' collection='mercariBrand' labelProperty='name' />
+            <TextControl name='name' label='Name' />
+            <TextControl name='regex' label='RegEx' />
+            <DateControl name='timestamp' label='Timestamp' />
+            <DropdownControl name='mercariBrand' label='Mercari Brand' collection='mercariBrand' labelProperty='name' />
         </>
     );
 }

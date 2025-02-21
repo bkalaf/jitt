@@ -1,6 +1,6 @@
 import {createColumnHelper, ColumnDef } from '@tanstack/react-table';
 import { IBrand } from '@app/schema/brand';
-import { col } from '../col';
+import { col } from '../../util/col';
 
 const helper = createColumnHelper<IBrand>();
 

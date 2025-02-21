@@ -7,8 +7,19 @@ import { queryClient } from './main/queryClient';
 import { getMongo } from './main/getMongo';
 import dayjs from 'dayjs';
 import localizedFormat from 'dayjs/plugin/localizedFormat';
+import { camelCaseToProper, toProper } from './common/text/splitStringAt';
 
 dayjs.extend(localizedFormat);
+
+export function toEnumInfo(value: string) {
+    return {
+        value,
+        label: toProper(value)
+    };
+}
+Array.prototype.toEnumInfo = function (this: string[]) {
+    return this.map(toEnumInfo).sort((a, b) => a.label.localeCompare(b.label));
+}
 
 // Import the generated route tree
 const hashHistory = createHashHistory();

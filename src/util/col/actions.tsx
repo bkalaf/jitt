@@ -6,7 +6,7 @@ import { ObjectId } from 'mongodb';
 import { useCallback, useMemo } from 'react';
 import { IconButton } from '../../components/IconButton';
 import { useInvalidate } from '../../hooks/useInvalidate';
-import { GenericEditForm } from '../Controls/GenericEditForm';
+import { GenericEditForm } from '../../components/Controls/GenericEditForm';
 import { Overlay } from '../../components/Overlay';
 
 export const actions = function <T>(helper: ColumnHelper<T>) {

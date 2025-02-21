@@ -7,6 +7,6 @@ export const str = function <T extends RowData>(accessorKey: DeepKeys<T> & strin
         accessorKey,
         header: opts.header ?? header,
         cell: (item) => item.getValue()
-    } as ColumnDef<T, string>
+    } as ColumnDef<T, string>;
 };
 

@@ -25,9 +25,20 @@ export function capitalize(str: string) {
     if (str == null || str === '') return '';
     return [str[0].toUpperCase(), ...str.slice(1)].join('');
 }
+export function decapitalize(str: string) {
+    if (str == null || str === '') return '';
+    return [str[0].toLowerCase(), ...str.slice(1)].join('');
+}
 export function camelCaseToProper(str: string) {
     if (str == null || str.length === 0) return '';
     return splitStringAt(isUpper, true)(str.split('')).map(capitalize).join(' ')
+}
+export function kebabToCamelCase(str: string) {
+    if (str == null || str.length === 0) return '';
+    return decapitalize(str.split('-').map(capitalize).join(''));
+}
+export function toProper(str: string) {
+    return camelCaseToProper(kebabToCamelCase(str));
 }
 
 console.log(camelCaseToProper('brand'))

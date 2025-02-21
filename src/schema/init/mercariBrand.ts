@@ -1,7 +1,7 @@
 import { ObjectId } from 'mongodb';
 import { IMercariBrand } from '../mercariBrand';
 
-export const mercariBrandInit = () =>
+export const init = () =>
     Promise.resolve({
         _id: new ObjectId(),
         name: '',
