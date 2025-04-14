@@ -7,7 +7,8 @@ export const tvRatings = {
 	"TV-PG": "TV-PG",
 	"TV-14": "TV-14",
 	"TV-MA": "TV-MA",
-	"Not Rated": "Not Rated"
+	'': '',
+	"Not Rated": "NR"
 } as const;
 export const TvRatings = z.nativeEnum(tvRatings);
 export type TvRatings = z.infer<typeof TvRatings>;

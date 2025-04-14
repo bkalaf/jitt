@@ -1,6 +1,7 @@
 import { z } from "zod";
 export const dataTransferRateUnitOfMeasure = {
-	"mBit/s": "mbit/s"
+	"mBit/s": "mbit/s",
+	"mb/s": "mb/s"
 } as const;
 export const dataTransferRateUnitOfMeasureToGroup = {
 	"mbit/s": ["data-transfer-rate"]

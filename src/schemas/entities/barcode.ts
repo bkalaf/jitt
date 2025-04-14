@@ -26,5 +26,5 @@ export default {
     toDatabase
 }
 
-export type Memory = z.infer<typeof toMemory>;
-export type Database = z.infer<typeof toDatabase>;
+export type BarcodeMemory = z.infer<typeof toMemory>;
+export type BarcodeDatabase = z.infer<typeof toDatabase>;

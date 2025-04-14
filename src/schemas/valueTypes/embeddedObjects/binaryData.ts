@@ -1,13 +1,13 @@
-import $objectId from '../objectId';
-import $string from '../string';
-import $date from '../date';
-import $int from '../int';
-import $fk from '../foreignKey';
-import $is from '../checkType';
-import { $dbOpt, $memOpt } from '../asOptional';
-import { $dbReq, $memReq } from '../asRequired';
+import $objectId from '../../objectId';
+import $string from '../../string';
+import $date from '../../date';
+import $int from '../../int';
+import $fk from '../../foreignKey';
+import $is from '../../checkType';
+import { $dbOpt, $memOpt } from '../../asOptional';
+import { $dbReq, $memReq } from '../../asRequired';
 import { z } from 'zod';
-import { MimeTypes } from '../enums/mimeTypes';
+import { MimeTypes } from '../../enums/mimeTypes';
 
 const toMemory = z.object({
     data: z.instanceof(ArrayBuffer).optional(),

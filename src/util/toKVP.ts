@@ -8,7 +8,7 @@ export function toKVP(key: string) {
     return (value?: string) =>
         value == null || value === ''
             ? []
-            : [[toProperCase(key), value].join(': ')];
+            : [[key, value].join(': ')];
 }
 
 export function toList(key: string, delimiter = '\n') {
@@ -17,7 +17,7 @@ export function toList(key: string, delimiter = '\n') {
             ? []
             : [
                   [
-                      toProperCase(key).concat(':'),
+                      key.concat(':'),
                       ...value.map((x) => ' * '.concat(x))
                   ].join(delimiter)
               ];
@@ -31,7 +31,7 @@ export function toFlatList<T>(
         value == null || value.length === 0
             ? []
             : [
-                  toProperCase(key)
+                 key
                       .concat(': ')
                       .concat(
                           value
@@ -48,14 +48,19 @@ export const toEnumList =
         key: string,
         obj: z.ZodNativeEnum<U>
     ) => {
+        const subTotal = pathToValue.reduce((pv, cv) => {
+            if (pv == null) return undefined;
+            if (!(cv in pv)) return undefined;
+            return pv[cv as keyof typeof pv] as any;
+        }, data) as any;
         return toFlatList<T>(key, (enumValue) =>
             enumLookup<U>(obj)(enumValue as any)
         )(
-            pathToValue.reduce((pv, cv) => {
-                if (pv == null) return undefined;
-                if (!(cv in pv)) return undefined;
-                return pv[cv as keyof typeof pv] as any;
-            }, data) as any as T[]
+            Array.isArray(subTotal)
+                ? (subTotal as any as T[])
+                : subTotal == null || subTotal.length === 0
+                ? []
+                : [subTotal]
         );
     };
 

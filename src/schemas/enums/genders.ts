@@ -1,9 +1,9 @@
 import { z } from "zod";
 export const genders = {
-	"Mens": "mens",
-	"Womens": "womens",
-	"Boys": "boys",
-	"Girls": "girls",
+	"Men's": "mens",
+	"Women's": "womens",
+	"Boy's": "boys",
+	"Girl's": "girls",
 	"Unisex": "unisex",
 	"": ""
 } as const;

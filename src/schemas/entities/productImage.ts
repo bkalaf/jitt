@@ -8,7 +8,7 @@ import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
 import { ImageTypes } from '../enums/imageTypes';
-import binaryData from './binaryData';
+import binaryData from '../valueTypes/embeddedObjects/binaryData';
 import brand from './brand';
 import productLine from './productLine';
 import unionCase from './unionCase';

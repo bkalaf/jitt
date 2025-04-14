@@ -2,7 +2,8 @@ import { z } from "zod";
 export const bookCategories = {
 	"Fiction": "fiction",
 	"Non-Fiction": "non-fiction",
-	"Reference": "reference"
+	"Reference": "reference",
+	"": ""
 } as const;
 export const bookCategoriesToRegex = {
 	"fiction": "(?<!non)fiction",

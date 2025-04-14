@@ -8,27 +8,35 @@ import $is from '../checkType';
 import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
-import { BleachingEnum, DryCleanEnum, DryingEnum, PermanentPressEnum, IroningEnum, WashEnum, WashTemperatureEnum, TumbleDryEnum, GentleOrDelicateEnum } from '../../util/cc';
+import {
+    BleachingEnum,
+    DryCleanEnum,
+    DryingEnum,
+    PermanentPressEnum,
+    IroningEnum,
+    WashEnum,
+    WashTemperatureEnum,
+    TumbleDryEnum,
+    GentleOrDelicateEnum
+} from '../../util/cc';
 import { enumLookup } from '../enums/inverseEnum';
 
 const toCategory = <T extends Record<any, any>>(obj: z.ZodNativeEnum<T>) =>
-    obj.array().transform((data) => ({
-        ...data,
-        output:
-            data != null && data.length > 0
-                ? [
-                      data
+    obj
+        .array()
+        .transform((data) => ({
+            ...data,
+            output:
+                data != null && data.length > 0
+                    ? data
                           .map((v) =>
-                              v === ''
-                                  ? undefined
-                                  : enumLookup(obj)(v)
+                              v === '' ? undefined : enumLookup(obj)(v)
                           )
                           .filter((x) => x != null)
                           .map((x) => '* '.concat(x))
-                          .join('\n')
-                  ]
-                : []
-    })).default([]);
+                    : []
+        }))
+        .default([]);
 const toMemory = z
     .object({
         bleaching: toCategory(BleachingEnum),
@@ -56,14 +64,12 @@ const toMemory = z
         ]
     }));
 
-const toDatabase = z.object({
-
-})
+const toDatabase = z.object({});
 
 export default {
     toMemory,
     toDatabase
-}
+};
 
 export type Memory = z.infer<typeof toMemory>;
 export type Database = z.infer<typeof toDatabase>;

@@ -7,7 +7,8 @@ export const networks = {
 	"HBO": "hbo",
 	"Showtime": "showtime",
 	"FOX": "fox",
-	"Netflix": "netflix"
+	"Netflix": "netflix",
+	'': ''
 } as const;
 export const Networks = z.nativeEnum(networks);
 export type Networks = z.infer<typeof Networks>;
