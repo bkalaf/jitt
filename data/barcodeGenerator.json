@@ -1,0 +1,19 @@
+[
+	{
+		"_id": "673f82fa32502cd986679515",
+		"sku": {
+			"leading": 4,
+			"group": [
+				10002
+			],
+			"current": 0
+		},
+		"locator": {
+			"leading": 4,
+			"group": [
+				99998
+			],
+			"current": 0
+		}
+	}
+]

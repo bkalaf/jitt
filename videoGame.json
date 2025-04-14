@@ -1,0 +1,225 @@
+[
+	{
+		"_id": "676cb64008dd1dac8f6bf6cc",
+		"title": "StarCraft",
+		"copyright": "1998-03-31T08:00:00.000Z",
+		"studio": [
+			"676cae15754d3b4dda1b81bb"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "starcraft"
+	},
+	{
+		"_id": "676cb67708dd1dac8f6bf6ce",
+		"title": "Overwatch",
+		"copyright": "2016-05-24T07:00:00.000Z",
+		"studio": [
+			"676cae15754d3b4dda1b81bb"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"createdBy": [],
+		"mediaCollection": [
+			"67708416a318d2b0849c70e3"
+		],
+		"regex": "overwatch(?!2|ii|two)"
+	},
+	{
+		"_id": "676cb6a008dd1dac8f6bf6d0",
+		"title": "Overwatch 2",
+		"copyright": "2022-10-04T07:00:00.000Z",
+		"studio": [
+			"676cae15754d3b4dda1b81bb"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"createdBy": [],
+		"mediaCollection": [
+			"67708416a318d2b0849c70e3"
+		],
+		"regex": "overwatch(2|ii|two)"
+	},
+	{
+		"_id": "676cb71008dd1dac8f6bf6d2",
+		"title": "Warcraft",
+		"subtitle": "Orcs vs. Humans",
+		"copyright": "1994-11-15T08:00:00.000Z",
+		"studio": [
+			"676cae15754d3b4dda1b81bb"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "(?<!world).*warcraft"
+	},
+	{
+		"_id": "676cd5abaaf405f7378c6049",
+		"title": "World of Warcraft",
+		"copyright": "2004-11-24T04:03:55.219Z",
+		"studio": [
+			"676cae15754d3b4dda1b81bb"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "world.*warcraft|wow"
+	},
+	{
+		"_id": "676cd5f2aaf405f7378c604b",
+		"title": "PacMan",
+		"copyright": "1980-05-23T03:05:06.170Z",
+		"studio": [
+			"676cd633aaf405f7378c604d"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "(?<!ms)pacman"
+	},
+	{
+		"_id": "676cd655aaf405f7378c604f",
+		"title": "Ms PacMan",
+		"copyright": "1982-02-04T04:06:45.044Z",
+		"studio": [
+			"676cd633aaf405f7378c604d"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "mspacman"
+	},
+	{
+		"_id": "676cd692aaf405f7378c6051",
+		"title": "Wave Race 64",
+		"copyright": "1996-11-05T04:07:46.292Z",
+		"studio": [
+			"65e50eb3f511182d2c399f01"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "wave.*race.*64"
+	},
+	{
+		"_id": "676cd6c1aaf405f7378c6053",
+		"title": "Xenoblade Chronicles",
+		"copyright": "2010-06-11T03:08:33.232Z",
+		"studio": [
+			"65e50eb3f511182d2c399f01"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"createdBy": [],
+		"mediaCollection": [
+			"676cd768aaf405f7378c605b"
+		],
+		"regex": "xenoblade.*chron.*(?!2|ii|two|3|iii|three)"
+	},
+	{
+		"_id": "676cd70faaf405f7378c6057",
+		"title": "Xenoblade Chronicles 2",
+		"copyright": "2017-12-02T04:09:51.366Z",
+		"studio": [
+			"65e50eb3f511182d2c399f01"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"createdBy": [],
+		"mediaCollection": [
+			"676cd768aaf405f7378c605b"
+		],
+		"regex": "xenoblade.*chron.*(2|ii|two)"
+	},
+	{
+		"_id": "676cd743aaf405f7378c6059",
+		"title": "Xenoblade Chronicles 3",
+		"copyright": "2020-05-30T03:10:43.609Z",
+		"studio": [
+			"65e50eb3f511182d2c399f01"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"createdBy": [],
+		"mediaCollection": [
+			"676cd768aaf405f7378c605b"
+		],
+		"regex": "xenoblade.*chron.*(3|iii|three)"
+	},
+	{
+		"_id": "67708447a318d2b0849c70e5",
+		"title": "Call of Duty: Modern Warfare 2",
+		"copyright": "2022-10-28T07:00:00.000Z",
+		"studio": [
+			"677084b3a318d2b0849c70e7"
+		],
+		"mediaCollection": [
+			"6770821eadee09a282d3d931"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"createdBy": [],
+		"regex": "(call.*duty|cod)modernwar.*(2|ii|two)"
+	},
+	{
+		"_id": "6770850ea318d2b0849c70eb",
+		"title": "Call of Duty: Modern Warfare 3",
+		"copyright": "2023-11-10T08:00:00.000Z",
+		"studio": [
+			"677084fda318d2b0849c70e9"
+		],
+		"mediaCollection": [
+			"6770821eadee09a282d3d931"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "(call.*duty|cod)modernwar.*(3|iii|three)"
+	},
+	{
+		"_id": "6770857ba318d2b0849c70f1",
+		"title": "Quake 4",
+		"copyright": "2005-10-18T07:00:00.000Z",
+		"studio": [
+			"67708569a318d2b0849c70ef"
+		],
+		"mediaCollection": [
+			"6770822cadee09a282d3d933"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "quake(4|iv|four)"
+	},
+	{
+		"_id": "677085b7a318d2b0849c70f7",
+		"title": "Streets of Rage 2",
+		"copyright": "1992-03-27T08:00:00.000Z",
+		"studio": [
+			"677085b0a318d2b0849c70f5"
+		],
+		"mediaCollection": [
+			"67708234adee09a282d3d935"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "street.*rage.*(2|ii|two)"
+	},
+	{
+		"_id": "677085cba318d2b0849c70f9",
+		"title": "Streets of Rage 3",
+		"copyright": "1994-11-02T08:00:00.000Z",
+		"studio": [
+			"677085b0a318d2b0849c70f5"
+		],
+		"mediaCollection": [
+			"6770822cadee09a282d3d933"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "street.*rage.*(3|iii|three)"
+	},
+	{
+		"_id": "677085e0a318d2b0849c70fb",
+		"title": "Streets of Rage 4",
+		"copyright": "2020-04-30T07:00:00.000Z",
+		"studio": [
+			"677085b0a318d2b0849c70f5"
+		],
+		"mediaCollection": [
+			"67708234adee09a282d3d935"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "street.*rage"
+	},
+	{
+		"_id": "67708640a318d2b0849c7101",
+		"title": "Final Fantasy 7",
+		"copyright": "1997-09-07T07:00:00.000Z",
+		"studio": [
+			"6770862da318d2b0849c70ff"
+		],
+		"mediaCollection": [
+			"6770823eadee09a282d3d937"
+		],
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "finalfantasy.*(7|vii|seven)"
+	}
+]

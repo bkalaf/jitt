@@ -1,0 +1,9 @@
+[
+    {
+        "_id": "65ab566e9bac8610386dacec",
+        "owner": "admin@junk-in-the-trunk.com",
+        "mercariBrand": "652309a06024551767d7dbf5",
+        "name": "Sony",
+        "regex": "sony.*(?!pictures)"
+    }
+]

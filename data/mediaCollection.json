@@ -1,0 +1,44 @@
+[
+	{
+		"_id": "676cd768aaf405f7378c605b",
+		"name": "Xenoblade Chronicles",
+		"mediaType": "video-game",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "xenoblade.*chron"
+	},
+	{
+		"_id": "6770821eadee09a282d3d931",
+		"name": "Call of Duty: Modern Warfare",
+		"mediaType": "video-game",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "(call.*duty|cod)modernwar"
+	},
+	{
+		"_id": "6770822cadee09a282d3d933",
+		"name": "Quake",
+		"mediaType": "video-game",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "quake"
+	},
+	{
+		"_id": "67708234adee09a282d3d935",
+		"name": "Streets of Rage",
+		"mediaType": "video-game",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "street.*rage"
+	},
+	{
+		"_id": "6770823eadee09a282d3d937",
+		"name": "Final Fantasy",
+		"mediaType": "video-game",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "finalfantasy"
+	},
+	{
+		"_id": "67708416a318d2b0849c70e3",
+		"name": "Overwatch",
+		"mediaType": "video-game",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "overwatch"
+	}
+]

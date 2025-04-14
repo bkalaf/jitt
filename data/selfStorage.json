@@ -1,0 +1,38 @@
+[
+	{
+		"_id": "660ce14d0988db570f73d319",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "A-1 Self Storage",
+		"website": "https://www.a1storage.com/"
+	},
+	{
+		"_id": "660ce1620988db570f73d31b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Extra Space Storage",
+		"website": "https://www.extraspace.com/"
+	},
+	{
+		"_id": "660dad3fe8daef7470bdf2bd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Public Storage",
+		"website": "https://www.publicstorage.com/"
+	},
+	{
+		"_id": "660db5cf4a741125a2a679e1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "StorQuest Self Storage",
+		"website": "https://www.storquest.com/"
+	},
+	{
+		"_id": "660db6a34a741125a2a679e9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "CubeSmart",
+		"website": "https://www.cubesmart.com/"
+	},
+	{
+		"_id": "660db6fa4a741125a2a679ed",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "StaxUp Storage",
+		"website": "https://www.staxupstorage.com/"
+	}
+]

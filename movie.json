@@ -1,0 +1,140 @@
+[
+	{
+		"_id": "6770899e5ebaf6f52fc7706f",
+		"copyright": "1984-06-22T07:00:00.000Z",
+		"genre": "action",
+		"rating": "PG",
+		"title": "The Karate Kid",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "karatekid"
+	},
+	{
+		"_id": "677089f35ebaf6f52fc77071",
+		"copyright": "2023-10-27T07:00:00.000Z",
+		"genre": "horror",
+		"rating": "PG-13",
+		"title": "Five Nights at Freddy's",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "fivenight.*freddy"
+	},
+	{
+		"_id": "67708a1f5ebaf6f52fc77073",
+		"copyright": "1990-03-30T08:00:00.000Z",
+		"genre": "comedy",
+		"rating": "PG",
+		"title": "Teenage Mutant Ninja Turtles",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "teenage.*mutant.*ninja.*turtles"
+	},
+	{
+		"_id": "67708a415ebaf6f52fc77075",
+		"copyright": "1996-11-15T08:00:00.000Z",
+		"genre": "family",
+		"rating": "G",
+		"title": "Space Jam",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "spacejam"
+	},
+	{
+		"_id": "67708a6c5ebaf6f52fc77077",
+		"copyright": "2010-07-01T07:00:00.000Z",
+		"genre": "action",
+		"rating": "PG",
+		"title": "The Last Airbender",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "lastairbender"
+	},
+	{
+		"_id": "67708a955ebaf6f52fc77079",
+		"copyright": "2009-12-18T08:00:00.000Z",
+		"genre": "sci-fi",
+		"rating": "PG-13",
+		"title": "Avatar",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "avatar"
+	},
+	{
+		"_id": "67708abc5ebaf6f52fc7707b",
+		"copyright": "2014-08-01T07:00:00.000Z",
+		"genre": "sci-fi",
+		"rating": "PG-13",
+		"title": "Guardians of the Galaxy",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "guardian.*galaxy"
+	},
+	{
+		"_id": "67708ae05ebaf6f52fc7707d",
+		"copyright": "2022-09-21T07:00:00.000Z",
+		"genre": "action",
+		"rating": "PG-13",
+		"title": "Black Adam",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "blackadam"
+	},
+	{
+		"_id": "67708b465ebaf6f52fc7707f",
+		"copyright": "2007-06-29T07:00:00.000Z",
+		"genre": "family",
+		"rating": "G",
+		"title": "Ratatouille",
+		"owner": "admin@junk-in-the-trunk.com",
+		"directors": [],
+		"starring": {},
+		"regex": "ratatouille"
+	},
+	{
+		"_id": "677e41268d2b553d986dc86e",
+		"title": "The Barbie Movie",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e413c8d2b553d986dc870",
+		"title": "Deadpool",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e41668d2b553d986dc872",
+		"title": "Fast and the Furious",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e41718d2b553d986dc874",
+		"title": "Jaws",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e41798d2b553d986dc876",
+		"title": "U571",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e41808d2b553d986dc878",
+		"title": "The Breakfast Club",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e418b8d2b553d986dc87a",
+		"title": "Beauty & the Beast",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e41948d2b553d986dc87c",
+		"title": "Lilo & Stitch",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e419e8d2b553d986dc87e",
+		"title": "Scarface",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e41a58d2b553d986dc880",
+		"title": "The Wizard of Oz",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e41ae8d2b553d986dc882",
+		"title": "The Polar Express",
+		"owner": "admin@junk-in-the-trunk.com"
+	}
+]

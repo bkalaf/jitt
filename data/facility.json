@@ -1,0 +1,254 @@
+[
+	{
+		"_id": "660db49e4a741125a2a679c3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "a1commonwealth@a1storage.com",
+		"facilityNumber": "a1commonwealth",
+		"phoneNumber": "+17149482514",
+		"selfStorage": "660ce14d0988db570f73d319",
+		"address": {
+			"city": "Fullerton",
+			"country": "US",
+			"mailing1": "1415 W Commonwealth Ave",
+			"postalCode": "92833",
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db4e54a741125a2a679c5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "fac8279@extraspace.com",
+		"facilityNumber": "8279",
+		"phoneNumber": "+19512089639",
+		"selfStorage": "660ce1620988db570f73d31b",
+		"address": {
+			"city": "San Jacinto",
+			"country": "US",
+			"mailing1": "851 W Esplanade Ave",
+			"mailing2": null,
+			"postalCode": "92582",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db53d4a741125a2a679c7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "a1center@a1storage.com",
+		"facilityNumber": "a1center",
+		"phoneNumber": "+16195673103",
+		"selfStorage": "660ce14d0988db570f73d319",
+		"address": {
+			"city": "La Mesa",
+			"country": "US",
+			"mailing1": "8328 Center Dr",
+			"mailing2": null,
+			"postalCode": "91942",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db56d4a741125a2a679c9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "fac1194@extraspace.com",
+		"facilityNumber": "1194",
+		"phoneNumber": "+19092691682",
+		"selfStorage": "660ce1620988db570f73d31b",
+		"address": {
+			"city": "San Bernardino",
+			"country": "US",
+			"mailing1": "2005 Sterling Ave",
+			"mailing2": null,
+			"postalCode": "92404",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db5994a741125a2a679cb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "fac8339@extraspace.com",
+		"facilityNumber": "8339",
+		"phoneNumber": "+17609984362",
+		"selfStorage": "660ce1620988db570f73d31b",
+		"address": {
+			"city": "Bermuda Dunes",
+			"country": "US",
+			"mailing1": "78265 Country Club Dr",
+			"mailing2": null,
+			"postalCode": "92203",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db5fa4a741125a2a679e3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "escondido01@storquest.com",
+		"facilityNumber": "Escondido/Mission",
+		"phoneNumber": "+14422867319",
+		"selfStorage": "660db5cf4a741125a2a679e1",
+		"address": {
+			"city": "Escondido",
+			"country": "US",
+			"mailing1": "222 W Mission Ave",
+			"mailing2": null,
+			"postalCode": "92025",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db63a4a741125a2a679e5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "a1frazee@a1storage.com",
+		"facilityNumber": "frazee",
+		"phoneNumber": "+16195734178",
+		"selfStorage": "660ce14d0988db570f73d319",
+		"address": {
+			"city": "San Diego",
+			"country": "US",
+			"mailing1": "1501 Frazee Rd",
+			"mailing2": null,
+			"postalCode": "92108",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db6624a741125a2a679e7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "fac8362@extraspace.com",
+		"facilityNumber": "8362",
+		"phoneNumber": "+19494477241",
+		"selfStorage": "660ce1620988db570f73d31b",
+		"address": {
+			"city": "Irvine",
+			"country": "US",
+			"mailing1": "1 Burroughs",
+			"mailing2": null,
+			"postalCode": "92618",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db6b54a741125a2a679eb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"address": {
+			"city": "Santa Ana",
+			"country": "US",
+			"mailing1": "2828 W 5th St",
+			"postalCode": "92703",
+			"province": "CA"
+		},
+		"emailAddress": "store0285@cubesmart.com",
+		"facilityNumber": "285",
+		"phoneNumber": "+17145423866",
+		"selfStorage": "660db6a34a741125a2a679e9"
+	},
+	{
+		"_id": "660db7274a741125a2a679ef",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "sanmarcos@staxupstorage.com",
+		"facilityNumber": "San Marcos",
+		"phoneNumber": "+17607441191",
+		"selfStorage": "660db6fa4a741125a2a679ed",
+		"address": {
+			"city": "San Marcos",
+			"country": "US",
+			"mailing1": "458 E Mission Rd",
+			"mailing2": null,
+			"postalCode": "92069",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db7594a741125a2a679f1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"address": {
+			"city": "San Diego",
+			"country": "US",
+			"mailing1": "3911 Pacific Hwy",
+			"postalCode": "92110",
+			"province": "CA"
+		},
+		"emailAddress": "a1oldtown@a1storage.com",
+		"facilityNumber": "oldtown",
+		"phoneNumber": "+16193659002",
+		"selfStorage": "660ce14d0988db570f73d319"
+	},
+	{
+		"_id": "660db7844a741125a2a679f3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"address": {
+			"city": "San Bernardino",
+			"country": "US",
+			"mailing1": "2180 W Highland Ave",
+			"postalCode": "92407",
+			"province": "CA"
+		},
+		"emailAddress": "fafc8061@extraspace.com",
+		"facilityNumber": "8061",
+		"phoneNumber": "+19092739688",
+		"selfStorage": "660ce1620988db570f73d31b"
+	},
+	{
+		"_id": "660db7c84a741125a2a679f5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "store0445@cubesmart.com",
+		"facilityNumber": "445",
+		"phoneNumber": "+16194832929",
+		"selfStorage": "660db6a34a741125a2a679e9",
+		"address": {
+			"city": "San Diego",
+			"country": "US",
+			"mailing1": "9645 Aero Dr",
+			"mailing2": null,
+			"postalCode": "92123",
+			"provinice": null,
+			"suite": null,
+			"province": "CA"
+		}
+	},
+	{
+		"_id": "660db80b4a741125a2a679f7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"address": {
+			"city": "San Ysidro",
+			"country": "US",
+			"mailing1": "2310 Via Tercero",
+			"postalCode": "92173",
+			"province": "CA"
+		},
+		"emailAddress": "sanysidro@staxupstorage.com",
+		"facilityNumber": "San Ysidro",
+		"phoneNumber": "+16196904406",
+		"selfStorage": "660db6fa4a741125a2a679ed"
+	},
+	{
+		"_id": "660db8444a741125a2a679f9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"emailAddress": "fac1533@extraspace.com",
+		"facilityNumber": "1533",
+		"phoneNumber": "+16199615496",
+		"selfStorage": "660ce1620988db570f73d31b",
+		"address": {
+			"city": "San Diego",
+			"country": "US",
+			"mailing1": "3808 Cedar St",
+			"postalCode": "92105",
+			"province": "CA"
+		}
+	}
+]

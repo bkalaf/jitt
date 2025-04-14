@@ -1,0 +1,1860 @@
+[
+	{
+		"_id": "6709666d0723c3d7bce7c9e6",
+		"taskType": "mercari-promote",
+		"result": {
+			"error": "Unknown Error"
+		},
+		"timestamp": "2024-10-11T17:54:53.879Z",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "669bf514c227c4b7c74f393a",
+		"timestamp": "2024-07-20T17:34:12.675Z",
+		"taskType": "mercari-promote",
+		"result": {
+			"completed": 13
+		},
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "669d86e0546f5c761cd5218c",
+		"timestamp": "2024-07-21T22:08:32.709Z",
+		"taskType": "mercari-promote",
+		"result": {
+			"completed": 13
+		},
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "669e26fa9a080fcb04e42b68",
+		"timestamp": "2024-07-22T09:31:38.758Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "669f5b4feb97b34be5454eda",
+		"timestamp": "2024-07-23T07:27:11.434Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "66a3021e85ba957aaf7045bc",
+		"timestamp": "2024-07-26T01:55:42.564Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 1
+		}
+	},
+	{
+		"_id": "66a35726f5fa06ab8c97228b",
+		"timestamp": "2024-07-26T07:58:30.604Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 14
+		}
+	},
+	{
+		"_id": "66abfeee04ec169a9e75c8e4",
+		"timestamp": "2024-08-01T21:32:30.390Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 17
+		}
+	},
+	{
+		"_id": "66ad1449c9cbef7aca7797b4",
+		"timestamp": "2024-08-02T17:15:53.466Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 29
+		}
+	},
+	{
+		"_id": "66add940325dc5b36fb75cc4",
+		"timestamp": "2024-08-03T07:16:16.375Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 14
+		}
+	},
+	{
+		"_id": "66b2f87844502d79c4471b77",
+		"timestamp": "2024-08-07T04:30:48.183Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 18
+		}
+	},
+	{
+		"_id": "66b388d16e27a48d3d71017f",
+		"timestamp": "2024-08-07T14:46:41.197Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 32
+		}
+	},
+	{
+		"_id": "66b498ba229fd747b0d415bc",
+		"timestamp": "2024-08-08T10:06:50.266Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "66b5e256b3235d1f32930269",
+		"timestamp": "2024-08-09T09:33:10.213Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 16
+		}
+	},
+	{
+		"_id": "66b78df453c92b1239aa5b9d",
+		"timestamp": "2024-08-10T15:57:40.158Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 24
+		}
+	},
+	{
+		"_id": "66b8756b82173107725318d5",
+		"timestamp": "2024-08-11T08:25:15.250Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=127.0.6533.100)"
+		}
+	},
+	{
+		"_id": "66b87814871759cde550ad72",
+		"timestamp": "2024-08-11T08:36:36.379Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 15
+		}
+	},
+	{
+		"_id": "66b9bc28c7c5cca78af88f85",
+		"timestamp": "2024-08-12T07:39:20.857Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "66bfbf7b8127572c2f25190d",
+		"timestamp": "2024-08-16T21:07:07.992Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 16
+		}
+	},
+	{
+		"_id": "66c07a6bb9f29d8d124f8a88",
+		"timestamp": "2024-08-17T10:24:43.767Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 14
+		}
+	},
+	{
+		"_id": "66c1ad8c5d4aba863dec8170",
+		"timestamp": "2024-08-18T08:15:08.118Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 64
+		}
+	},
+	{
+		"_id": "66c31bc3a95417b486bec2cb",
+		"timestamp": "2024-08-19T10:17:39.884Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 18
+		}
+	},
+	{
+		"_id": "66c45db7ad63ca1fb339e350",
+		"timestamp": "2024-08-20T09:11:19.376Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 12
+		}
+	},
+	{
+		"_id": "66c5aa5a59afa52a3ad7e832",
+		"timestamp": "2024-08-21T08:50:34.543Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 17
+		}
+	},
+	{
+		"_id": "66c9587458427b259618c32f",
+		"timestamp": "2024-08-24T03:50:12.640Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 20
+		}
+	},
+	{
+		"_id": "66c9a85eb3dbb0f1e5327c31",
+		"timestamp": "2024-08-24T09:31:10.477Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "66caf80e8e48be9473d9489e",
+		"timestamp": "2024-08-25T09:23:26.704Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 27
+		}
+	},
+	{
+		"_id": "66cc2f981981f91822cb25c5",
+		"timestamp": "2024-08-26T07:32:40.959Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 15
+		}
+	},
+	{
+		"_id": "66cd9b320050cd01ecee163f",
+		"timestamp": "2024-08-27T09:24:02.225Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 16
+		}
+	},
+	{
+		"_id": "66ced4148d1a4e50a131fc6a",
+		"timestamp": "2024-08-28T07:39:00.772Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 17
+		}
+	},
+	{
+		"_id": "66d186052dc6966bb5d500cd",
+		"timestamp": "2024-08-30T08:42:45.667Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 19
+		}
+	},
+	{
+		"_id": "66d437ff2cedc0e230a3f238",
+		"timestamp": "2024-09-01T09:46:39.791Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "66d604fdce4dab33689772fc",
+		"timestamp": "2024-09-02T18:33:33.773Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 16
+		}
+	},
+	{
+		"_id": "66d6e1f000298d49e2b88a4e",
+		"timestamp": "2024-09-03T10:16:16.824Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 18
+		}
+	},
+	{
+		"_id": "66d83a1f3a374ebd184a4e8a",
+		"timestamp": "2024-09-04T10:44:47.170Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 23
+		}
+	},
+	{
+		"_id": "66dd48af4a1b360e21e2e465",
+		"timestamp": "2024-09-08T06:48:15.324Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 23
+		}
+	},
+	{
+		"_id": "66dd4f35a58f21d52cb82ed1",
+		"timestamp": "2024-09-08T07:16:05.903Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 19
+		}
+	},
+	{
+		"_id": "66dec9d26c881865c7e971e4",
+		"timestamp": "2024-09-09T10:11:30.882Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 23
+		}
+	},
+	{
+		"_id": "66dfffbbe9c10ba1f0769dda",
+		"timestamp": "2024-09-10T08:13:47.465Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 12
+		}
+	},
+	{
+		"_id": "66f06e02017666045a1fd4d8",
+		"timestamp": "2024-09-22T19:20:34.726Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 20
+		}
+	},
+	{
+		"_id": "66f1527739b347648f8daf17",
+		"timestamp": "2024-09-23T11:35:19.996Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 29
+		}
+	},
+	{
+		"_id": "66f26bf271a18322ed23b43b",
+		"timestamp": "2024-09-24T07:36:18.849Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "66f3ca8e77b3fdbf7a187cd9",
+		"timestamp": "2024-09-25T08:32:14.065Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 26
+		}
+	},
+	{
+		"_id": "66f875691b2c0346443dc708",
+		"timestamp": "2024-09-28T21:30:17.234Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 47
+		}
+	},
+	{
+		"_id": "66f90742ed327c287353377e",
+		"timestamp": "2024-09-29T07:52:34.357Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 18
+		}
+	},
+	{
+		"_id": "66fb19e064f152c30431d46b",
+		"timestamp": "2024-09-30T21:36:32.848Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 19
+		}
+	},
+	{
+		"_id": "66fb2d8f69072d19a6a51da7",
+		"timestamp": "2024-09-30T23:00:31.287Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 1
+		}
+	},
+	{
+		"_id": "66fbbb1a063511d92d520777",
+		"timestamp": "2024-10-01T09:04:26.995Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 21
+		}
+	},
+	{
+		"_id": "66fd1b31f3408db38ee0e874",
+		"timestamp": "2024-10-02T10:06:41.950Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "670196d2e89ad60c778d3073",
+		"timestamp": "2024-10-05T19:43:14.303Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 31
+		}
+	},
+	{
+		"_id": "67023b00f7d8427f8cd7cc18",
+		"timestamp": "2024-10-06T07:23:44.617Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "67038b6edeac5cc5308aec5e",
+		"timestamp": "2024-10-07T07:19:10.411Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 20
+		}
+	},
+	{
+		"_id": "67081e48a4467daf333d2f14",
+		"timestamp": "2024-10-10T18:34:48.350Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 12
+		}
+	},
+	{
+		"_id": "6708e9a9036bf418b8ab3c15",
+		"timestamp": "2024-10-11T09:02:33.042Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "670a42ae192015927bf52e5e",
+		"timestamp": "2024-10-12T09:34:38.493Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 19
+		}
+	},
+	{
+		"_id": "67273a4d66d0991375f956f5",
+		"timestamp": "2024-11-03T08:55:53.857Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 76
+		},
+		"taskType": "mercari-promote"
+	},
+	{
+		"_id": "670b73c2816b8616d751dbc7",
+		"timestamp": "2024-10-13T07:16:18.147Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "670c7f6315bf751a46563af7",
+		"timestamp": "2024-10-14T02:18:11.157Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 1
+		}
+	},
+	{
+		"_id": "670d596cd10ea17797dd00a6",
+		"timestamp": "2024-10-14T17:48:28.505Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 19
+		}
+	},
+	{
+		"_id": "670eb17a2cf1e4b6105cafa4",
+		"timestamp": "2024-10-15T18:16:26.929Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "670f8f3215c7a97d5cc20cff",
+		"timestamp": "2024-10-16T10:02:26.743Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "6710f7cfcf9e3ce84733dc28",
+		"timestamp": "2024-10-17T11:41:03.734Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "671220cac4e6c12ab3ece7ef",
+		"timestamp": "2024-10-18T08:48:10.211Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 14
+		}
+	},
+	{
+		"_id": "67136327137b3932a7feaa2b",
+		"timestamp": "2024-10-19T07:43:35.632Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 14
+		}
+	},
+	{
+		"_id": "6714b4d9e3a339136daaed07",
+		"timestamp": "2024-10-20T07:44:25.812Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 30
+		}
+	},
+	{
+		"_id": "671601b81250166d68c82a6a",
+		"timestamp": "2024-10-21T07:24:40.512Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "6716c148f5cb152b9c709f3d",
+		"timestamp": "2024-10-21T21:02:00.869Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 1
+		}
+	},
+	{
+		"_id": "6717537db531029ca0ad0ebe",
+		"timestamp": "2024-10-22T07:25:49.204Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "6719a365f3ed7ea75ab7173a",
+		"timestamp": "2024-10-24T01:31:17.096Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "671b2efea5da7f51a5a88eb0",
+		"timestamp": "2024-10-25T05:39:10.853Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "671b50eb75f4d42917617457",
+		"timestamp": "2024-10-25T08:03:55.303Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "671d4f825e91a4dc327ae736",
+		"timestamp": "2024-10-26T20:22:26.458Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 12
+		}
+	},
+	{
+		"_id": "671df02739363d0089d1a88f",
+		"timestamp": "2024-10-27T07:47:51.524Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 18
+		}
+	},
+	{
+		"_id": "671fd4b37091e06bbc49058e",
+		"timestamp": "2024-10-28T18:15:15.014Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "6720a17b0facf54cdeddf405",
+		"timestamp": "2024-10-29T08:48:59.550Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 13
+		}
+	},
+	{
+		"_id": "6721f19d0583b4fad4c01b82",
+		"timestamp": "2024-10-30T08:43:09.112Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "67234d3a6c258bd4558f6e0e",
+		"timestamp": "2024-10-31T09:26:18.969Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "6724df1d0a45d26656c6d6e7",
+		"timestamp": "2024-11-01T14:01:01.264Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "waitUntil condition failed with the following reason: Timeout awaiting 'response' for 120000ms when running \"is_loading\" with method \"GET\""
+		}
+	},
+	{
+		"_id": "67261f6f51c3cb8694aac1c7",
+		"timestamp": "2024-11-02T12:47:43.505Z",
+		"taskType": "mercari-promote",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=130.0.6723.92)"
+		}
+	},
+	{
+		"_id": "672ad435281c2e8b3ff4b304",
+		"timestamp": "2024-11-06T02:29:20.093Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 43
+		},
+		"taskType": "mercari-promote"
+	},
+	{
+		"_id": "672d7d093f05a76fff1e5fe8",
+		"timestamp": "2024-11-08T02:54:10.212Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 46
+		},
+		"taskType": "mercari-promote"
+	},
+	{
+		"_id": "672e6a93d1c683856b0c7fdb",
+		"timestamp": "2024-11-08T19:48:06.810Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 78
+		},
+		"taskType": "mercari-promote"
+	},
+	{
+		"_id": "67318718f88d6a9e8574188a",
+		"timestamp": "2024-11-11T04:26:14.210Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 39
+		},
+		"taskType": "mercari-promote"
+	},
+	{
+		"_id": "673600111bacca23fa52ecf4",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-14T13:51:23.910Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 1
+		}
+	},
+	{
+		"_id": "67360fb7e55859ac2e5cff17",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-14T14:58:09.991Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 1
+		}
+	},
+	{
+		"_id": "673615c7ded29e6823d0fbde",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-14T15:24:38.044Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "673712b9b1f8da68552195d5",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-15T09:23:06.689Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "673a8ad79b6a601fd97b9720",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-18T00:32:47.315Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 29
+		}
+	},
+	{
+		"_id": "673c3c48cf94d9549f18de3e",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-19T07:21:48.512Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "673ce545631b0c6165842e85",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-19T19:23:21.858Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "673e995d86bcf87ced44b3ba",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-21T02:23:42.368Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "673f8d37c3379fc0e76d4f46",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-21T19:45:08.171Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "674100a881ea7b4bea977e7b",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-22T22:11:10.332Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "67419c17fe842a9faebf612c",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-23T09:12:07.255Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "6743aa600c6a1f69aa002373",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-24T22:37:24.751Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "6744341e1c9188052c37eb6c",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-25T08:24:58.591Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 1
+		}
+	},
+	{
+		"_id": "674494476cfc894b400e8105",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-11-25T15:15:32.366Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "6757cc596a1746e032283264",
+		"timestamp": "2024-12-10T05:06:33.448Z",
+		"taskType": "mercari-promote",
+		"result": {
+			"completed": 60
+		},
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "67588c67621080fdbeeea219",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-10T10:45:59.169Z",
+		"result": {
+			"completed": 1
+		}
+	},
+	{
+		"_id": "67588d8bcb804246a1d69b89",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-10T10:50:51.316Z",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "67597b7ccdb3380245d9fc48",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-11T03:46:04.653Z",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "675a620fe7dc88dd3101ea1c",
+		"timestamp": "2024-12-11T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: stale element reference: stale element not found\n  (Session info: chrome=131.0.6778.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nStacktrace:\n#0 0x61b28b70031a <unknown>\n#1 0x61b28b2166e0 <unknown>\n#2 0x61b28b227fbb <unknown>\n#3 0x61b28b226d45 <unknown>\n#4 0x61b28b21cd39 <unknown>\n#5 0x61b28b21ce65 <unknown>\n#6 0x61b28b21b0a0 <unknown>\n#7 0x61b28b21ec3e <unknown>\n#8 0x61b28b2a8f6c <unknown>\n#9 0x61b28b289462 <unknown>\n#10 0x61b28b2a7ed7 <unknown>\n#11 0x61b28b289203 <unknown>\n#12 0x61b28b257cc0 <unknown>\n#13 0x61b28b258c9e <unknown>\n#14 0x61b28b6cdd0b <unknown>\n#15 0x61b28b6d1c92 <unknown>\n#16 0x61b28b6bab3c <unknown>\n#17 0x61b28b6d2807 <unknown>\n#18 0x61b28b6a00df <unknown>\n#19 0x61b28b6ef578 <unknown>\n#20 0x61b28b6ef740 <unknown>\n#21 0x61b28b6ff196 <unknown>\n#22 0x7a7b35c9ca94 <unknown>\n#23 0x7a7b35d29c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675a64eb427407d755153436",
+		"timestamp": "2024-12-11T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Object of type datetime is not JSON serializable"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675a67c5655bafe734863844",
+		"timestamp": "2024-12-11T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "'NoneType' object is not iterable"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675a7e40e291dbff146d6fc5",
+		"timestamp": "2024-12-11T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "'NoneType' object is not iterable"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675b9e92e6743181eb65ed7b",
+		"timestamp": "2024-12-12T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Object of type datetime is not JSON serializable"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675bccfe0f1a0071b5ecd52b",
+		"timestamp": "2024-12-12T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: disconnected: Unable to receive message from renderer\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=131.0.6778.108)\nStacktrace:\n#0 0x65505799d31a <unknown>\n#1 0x6550574b36e0 <unknown>\n#2 0x65505749b9d0 <unknown>\n#3 0x65505749b6a2 <unknown>\n#4 0x6550574996c6 <unknown>\n#5 0x655057499eaf <unknown>\n#6 0x6550574b8ccd <unknown>\n#7 0x6550574bb968 <unknown>\n#8 0x6550574bb9f3 <unknown>\n#9 0x6550574f9504 <unknown>\n#10 0x655057526462 <unknown>\n#11 0x6550574f6a18 <unknown>\n#12 0x65505752662e <unknown>\n#13 0x655057544ed7 <unknown>\n#14 0x655057526203 <unknown>\n#15 0x6550574f4cc0 <unknown>\n#16 0x6550574f5c9e <unknown>\n#17 0x65505796ad0b <unknown>\n#18 0x65505796ec92 <unknown>\n#19 0x655057957b3c <unknown>\n#20 0x65505796f807 <unknown>\n#21 0x65505793d0df <unknown>\n#22 0x65505798c578 <unknown>\n#23 0x65505798c740 <unknown>\n#24 0x65505799c196 <unknown>\n#25 0x777910a9ca94 <unknown>\n#26 0x777910b29c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675bf305f69c0e1b4d712fb3",
+		"timestamp": "2024-12-13T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=131.0.6778.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nStacktrace:\n#0 0x597a79c5c31a <unknown>\n#1 0x597a797726e0 <unknown>\n#2 0x597a797784a3 <unknown>\n#3 0x597a7977a968 <unknown>\n#4 0x597a7977a9f3 <unknown>\n#5 0x597a797b8ab7 <unknown>\n#6 0x597a797b8044 <unknown>\n#7 0x597a797e5462 <unknown>\n#8 0x597a797b5a18 <unknown>\n#9 0x597a797e562e <unknown>\n#10 0x597a79803ed7 <unknown>\n#11 0x597a797e5203 <unknown>\n#12 0x597a797b3cc0 <unknown>\n#13 0x597a797b4c9e <unknown>\n#14 0x597a79c29d0b <unknown>\n#15 0x597a79c2dc92 <unknown>\n#16 0x597a79c16b3c <unknown>\n#17 0x597a79c2e807 <unknown>\n#18 0x597a79bfc0df <unknown>\n#19 0x597a79c4b578 <unknown>\n#20 0x597a79c4b740 <unknown>\n#21 0x597a79c5b196 <unknown>\n#22 0x76acc549ca94 <unknown>\n#23 0x76acc5529c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675c824e7f20fd5f859b1cf1",
+		"timestamp": "2024-12-13T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "list index out of range"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675c8355f2f8ecd2ce42723a",
+		"timestamp": "2024-12-13T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=131.0.6778.108)\nStacktrace:\n#0 0x5d7bf943831a <unknown>\n#1 0x5d7bf8f4e6e0 <unknown>\n#2 0x5d7bf8f35435 <unknown>\n#3 0x5d7bf8f35313 <unknown>\n#4 0x5d7bf8f50a02 <unknown>\n#5 0x5d7bf8fdf8b6 <unknown>\n#6 0x5d7bf8fc1203 <unknown>\n#7 0x5d7bf8f8fcc0 <unknown>\n#8 0x5d7bf8f90c9e <unknown>\n#9 0x5d7bf9405d0b <unknown>\n#10 0x5d7bf9409c92 <unknown>\n#11 0x5d7bf93f2b3c <unknown>\n#12 0x5d7bf940a807 <unknown>\n#13 0x5d7bf93d80df <unknown>\n#14 0x5d7bf9427578 <unknown>\n#15 0x5d7bf9427740 <unknown>\n#16 0x5d7bf9437196 <unknown>\n#17 0x7274f969ca94 <unknown>\n#18 0x7274f9729c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675c840004f42ed0bb1e0280",
+		"timestamp": "2024-12-13T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input[data-testid=\"Brand\"]\"}\n  (Session info: chrome=131.0.6778.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x64c71c67631a <unknown>\n#1 0x64c71c18c6e0 <unknown>\n#2 0x64c71c1db3e6 <unknown>\n#3 0x64c71c1db681 <unknown>\n#4 0x64c71c220b04 <unknown>\n#5 0x64c71c1ff48d <unknown>\n#6 0x64c71c21ded7 <unknown>\n#7 0x64c71c1ff203 <unknown>\n#8 0x64c71c1cdcc0 <unknown>\n#9 0x64c71c1cec9e <unknown>\n#10 0x64c71c643d0b <unknown>\n#11 0x64c71c647c92 <unknown>\n#12 0x64c71c630b3c <unknown>\n#13 0x64c71c648807 <unknown>\n#14 0x64c71c6160df <unknown>\n#15 0x64c71c665578 <unknown>\n#16 0x64c71c665740 <unknown>\n#17 0x64c71c675196 <unknown>\n#18 0x738723e9ca94 <unknown>\n#19 0x738723f29c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675c84a6e3ea0c99b3b24d18",
+		"timestamp": "2024-12-13T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input[data-testid=\"Brand\"]\"}\n  (Session info: chrome=131.0.6778.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x6157ceea231a <unknown>\n#1 0x6157ce9b86e0 <unknown>\n#2 0x6157cea073e6 <unknown>\n#3 0x6157cea07681 <unknown>\n#4 0x6157cea4cb04 <unknown>\n#5 0x6157cea2b48d <unknown>\n#6 0x6157cea49ed7 <unknown>\n#7 0x6157cea2b203 <unknown>\n#8 0x6157ce9f9cc0 <unknown>\n#9 0x6157ce9fac9e <unknown>\n#10 0x6157cee6fd0b <unknown>\n#11 0x6157cee73c92 <unknown>\n#12 0x6157cee5cb3c <unknown>\n#13 0x6157cee74807 <unknown>\n#14 0x6157cee420df <unknown>\n#15 0x6157cee91578 <unknown>\n#16 0x6157cee91740 <unknown>\n#17 0x6157ceea1196 <unknown>\n#18 0x76c19de9ca94 <unknown>\n#19 0x76c19df29c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675c857cf27f7e36607c8a90",
+		"timestamp": "2024-12-13T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "list index out of range"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675c89718ec92338d4b4c0b9",
+		"timestamp": "2024-12-13T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "list index out of range"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675c8a607727db0f8a94277f",
+		"timestamp": "2024-12-13T12:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "'NoneType' object is not iterable"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "675e613191773e77e469d8b7",
+		"timestamp": "2024-12-14T20:55:13.006Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-taxonomy"
+	},
+	{
+		"_id": "675e6198b5fd2a5d3a76453d",
+		"timestamp": "2024-12-14T20:56:56.765Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-taxonomy"
+	},
+	{
+		"_id": "675e74d35429277961586608",
+		"timestamp": "2024-12-15T06:18:59.748Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 9798
+		},
+		"taskType": "mercari-import-brands",
+		"endTime": "2024-12-15T06:41:02.623Z"
+	},
+	{
+		"_id": "675e7be0c8249ab23965625f",
+		"timestamp": "2024-12-15T06:49:04.992Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 22034
+		},
+		"taskType": "mercari-import-brands",
+		"endTime": "2024-12-15T09:28:42.046Z"
+	},
+	{
+		"_id": "6760ef5001cdd830d5474632",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-16T19:26:08.008Z",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "676103a0cbd6cd433fd6902d",
+		"timestamp": "2024-12-17T04:52:48.840Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "676103e5cbd6cd433fd6902e",
+		"timestamp": "2024-12-17T04:53:57.665Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=131.0.6778.139)\nStacktrace:\n#0 0x5ce53fd8e31a <unknown>\n#1 0x5ce53f8a46e0 <unknown>\n#2 0x5ce53f88b435 <unknown>\n#3 0x5ce53f88b313 <unknown>\n#4 0x5ce53f8a6a02 <unknown>\n#5 0x5ce53f9358b6 <unknown>\n#6 0x5ce53f917203 <unknown>\n#7 0x5ce53f8e5cc0 <unknown>\n#8 0x5ce53f8e6c9e <unknown>\n#9 0x5ce53fd5bd0b <unknown>\n#10 0x5ce53fd5fc92 <unknown>\n#11 0x5ce53fd48b3c <unknown>\n#12 0x5ce53fd60807 <unknown>\n#13 0x5ce53fd2e0df <unknown>\n#14 0x5ce53fd7d578 <unknown>\n#15 0x5ce53fd7d740 <unknown>\n#16 0x5ce53fd8d196 <unknown>\n#17 0x78acf029ca94 <unknown>\n#18 0x78acf0329c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "6761053aa7676d692e86c4a4",
+		"timestamp": "2024-12-17T04:59:38.697Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "67610715b249e6233bbb14de",
+		"timestamp": "2024-12-17T05:07:33.531Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "67613e0998cb584fd99c13c1",
+		"timestamp": "2024-12-17T09:02:01.042Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "676161da23e977ec48bdd6f9",
+		"timestamp": "2024-12-17T11:34:50.872Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "676161ef23e977ec48bdd6fa",
+		"timestamp": "2024-12-17T11:35:11.151Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "'WebElement' object has no attribute 'send_Keys'"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "6761624630b3985a0609c688",
+		"timestamp": "2024-12-17T11:36:38.208Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "6761625a30b3985a0609c689",
+		"timestamp": "2024-12-17T11:36:58.382Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-testId=\"HashtagsField\"]\"}\n  (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55fb98dfb31a <unknown>\n#1 0x55fb989116e0 <unknown>\n#2 0x55fb989603e6 <unknown>\n#3 0x55fb98960681 <unknown>\n#4 0x55fb989a5b04 <unknown>\n#5 0x55fb9898448d <unknown>\n#6 0x55fb989a2ed7 <unknown>\n#7 0x55fb98984203 <unknown>\n#8 0x55fb98952cc0 <unknown>\n#9 0x55fb98953c9e <unknown>\n#10 0x55fb98dc8d0b <unknown>\n#11 0x55fb98dccc92 <unknown>\n#12 0x55fb98db5b3c <unknown>\n#13 0x55fb98dcd807 <unknown>\n#14 0x55fb98d9b0df <unknown>\n#15 0x55fb98dea578 <unknown>\n#16 0x55fb98dea740 <unknown>\n#17 0x55fb98dfa196 <unknown>\n#18 0x7d780769ca94 <unknown>\n#19 0x7d7807729c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "676163a06ea9e4fd8de4fa96",
+		"timestamp": "2024-12-17T11:42:24.293Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "676163c26ea9e4fd8de4fa97",
+		"timestamp": "2024-12-17T11:42:58.067Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: disconnected: unable to send message to renderer\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=131.0.6778.139)\nStacktrace:\n#0 0x59fb4cfd431a <unknown>\n#1 0x59fb4caea6e0 <unknown>\n#2 0x59fb4cad1a67 <unknown>\n#3 0x59fb4cad19e5 <unknown>\n#4 0x59fb4cad01c1 <unknown>\n#5 0x59fb4cad0eaf <unknown>\n#6 0x59fb4caee325 <unknown>\n#7 0x59fb4caeec60 <unknown>\n#8 0x59fb4caf2968 <unknown>\n#9 0x59fb4caf29f3 <unknown>\n#10 0x59fb4cb3b10a <unknown>\n#11 0x59fb4cb2dfee <unknown>\n#12 0x59fb4cb5d462 <unknown>\n#13 0x59fb4cb2da18 <unknown>\n#14 0x59fb4cb5d62e <unknown>\n#15 0x59fb4cb7bed7 <unknown>\n#16 0x59fb4cb5d203 <unknown>\n#17 0x59fb4cb2bcc0 <unknown>\n#18 0x59fb4cb2cc9e <unknown>\n#19 0x59fb4cfa1d0b <unknown>\n#20 0x59fb4cfa5c92 <unknown>\n#21 0x59fb4cf8eb3c <unknown>\n#22 0x59fb4cfa6807 <unknown>\n#23 0x59fb4cf740df <unknown>\n#24 0x59fb4cfc3578 <unknown>\n#25 0x59fb4cfc3740 <unknown>\n#26 0x59fb4cfd3196 <unknown>\n#27 0x705b2d89ca94 <unknown>\n#28 0x705b2d929c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "676164616cfdbeb859f69620",
+		"timestamp": "2024-12-17T11:45:37.416Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "676166c8932fcf9e7f7add02",
+		"timestamp": "2024-12-17T11:55:52.254Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "6761cfc3424f814ae69f692b",
+		"timestamp": "2024-12-17T19:23:47.822Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "67642dd941237da13492f74e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-19T06:29:45.187Z",
+		"result": {
+			"completed": 8
+		},
+		"endTime": "2024-12-19T07:15:13.000Z"
+	},
+	{
+		"_id": "67642f377f408fdc317a0852",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-19T06:35:35.917Z",
+		"result": {
+			"completed": 72
+		},
+		"endTime": "2024-12-19T07:15:13.000Z"
+	},
+	{
+		"_id": "676a544957984fdb0566892b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-23T22:27:21.736Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "676cf2f033b117cb37627459",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-25T22:08:48.703Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67710029940b20ce2667b596",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-28T23:54:17.697Z",
+		"result": {
+			"completed": 70
+		}
+	},
+	{
+		"_id": "67738b1a9e80466996e8eefb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-30T22:11:38.549Z",
+		"result": {
+			"completed": 71
+		}
+	},
+	{
+		"_id": "6774337ef39939e84d874b03",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2024-12-31T10:10:06.094Z",
+		"result": {
+			"completed": 69
+		}
+	},
+	{
+		"_id": "67759d3c7fd2714fb1bd17ed",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-01T11:53:32.014Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67771702b9dd2aefeacdb7a1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-02T14:45:22.131Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "6778b4b4bbc3896a80090d5d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-03T20:10:28.990Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "6778bf6ac777c7894a4c9d3d",
+		"timestamp": "2025-01-04T04:56:10.860Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "67799233c777c7894a4c9d3e",
+		"timestamp": "2025-01-04T19:55:31.511Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome=131.0.6778.204)\nStacktrace:\n#0 0x556ff44d68fa <unknown>\n#1 0x556ff3fe7b7d <unknown>\n#2 0x556ff3fd145e <unknown>\n#3 0x556ff3fd065e <unknown>\n#4 0x556ff3fcfdd6 <unknown>\n#5 0x556ff3fcfcce <unknown>\n#6 0x556ff3fcdd06 <unknown>\n#7 0x556ff3fce4ef <unknown>\n#8 0x556ff3fddd87 <unknown>\n#9 0x556ff3ff4bb4 <unknown>\n#10 0x556ff3ffaa4b <unknown>\n#11 0x556ff3fcebf7 <unknown>\n#12 0x556ff3ff4701 <unknown>\n#13 0x556ff4079430 <unknown>\n#14 0x556ff405a893 <unknown>\n#15 0x556ff402930d <unknown>\n#16 0x556ff402a32e <unknown>\n#17 0x556ff44a300b <unknown>\n#18 0x556ff44a6f97 <unknown>\n#19 0x556ff448f71c <unknown>\n#20 0x556ff44a7b17 <unknown>\n#21 0x556ff44746cf <unknown>\n#22 0x556ff44c56b8 <unknown>\n#23 0x556ff44c5880 <unknown>\n#24 0x556ff44d5776 <unknown>\n#25 0x76a69e29ca94 <unknown>\n#26 0x76a69e329c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "6779948b13f6c15a92146774",
+		"timestamp": "2025-01-04T20:05:31.761Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "677a05e013f6c15a92146775",
+		"timestamp": "2025-01-05T04:09:04.157Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "Message: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome=131.0.6778.204)\nStacktrace:\n#0 0x5cb511c208fa <unknown>\n#1 0x5cb511731b7d <unknown>\n#2 0x5cb51171b45e <unknown>\n#3 0x5cb51171a65e <unknown>\n#4 0x5cb511719dd6 <unknown>\n#5 0x5cb511719cce <unknown>\n#6 0x5cb511717d06 <unknown>\n#7 0x5cb5117184ef <unknown>\n#8 0x5cb511727d87 <unknown>\n#9 0x5cb51173ebb4 <unknown>\n#10 0x5cb511744a4b <unknown>\n#11 0x5cb511718bf7 <unknown>\n#12 0x5cb51173e701 <unknown>\n#13 0x5cb5117c38df <unknown>\n#14 0x5cb5117a4893 <unknown>\n#15 0x5cb51177330d <unknown>\n#16 0x5cb51177432e <unknown>\n#17 0x5cb511bed00b <unknown>\n#18 0x5cb511bf0f97 <unknown>\n#19 0x5cb511bd971c <unknown>\n#20 0x5cb511bf1b17 <unknown>\n#21 0x5cb511bbe6cf <unknown>\n#22 0x5cb511c0f6b8 <unknown>\n#23 0x5cb511c0f880 <unknown>\n#24 0x5cb511c1f776 <unknown>\n#25 0x7fea95c9ca94 <unknown>\n#26 0x7fea95d29c3c <unknown>\n"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "677a3d1f8329fd3edd36eeb0",
+		"timestamp": "2025-01-05T08:04:47.281Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "677a3d4e839a7ad1b25ad78f",
+		"timestamp": "2025-01-05T08:05:34.010Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "677a3d62839a7ad1b25ad790",
+		"timestamp": "2025-01-05T08:05:54.128Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"error": "'_io.TextIOWrapper' object has no attribute 'readLines'"
+		},
+		"taskType": "mercari-import-brands"
+	},
+	{
+		"_id": "677a3e562ebafed9608c7a87",
+		"timestamp": "2025-01-05T08:09:58.516Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "677b19b4e6fbe17b38224408",
+		"timestamp": "2025-01-05T23:45:56.558Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"result": {
+			"completed": 0
+		},
+		"taskType": "mercari-import-hashtags"
+	},
+	{
+		"_id": "677e61bb7762cfcf82d99fb2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-08T03:30:03.813Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67825765d362b612b8f3da55",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-11T03:35:01.713Z",
+		"result": {
+			"completed": 36
+		}
+	},
+	{
+		"_id": "678342ee330b9e77682eb6a4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-11T20:19:58.607Z",
+		"result": {
+			"completed": 71
+		}
+	},
+	{
+		"_id": "6784f967e2dc04a269aebe49",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-13T03:30:47.080Z",
+		"result": {
+			"completed": 71
+		}
+	},
+	{
+		"_id": "6788cbf9d47c888616bea3bf",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-16T01:06:01.993Z",
+		"result": {
+			"completed": 69
+		}
+	},
+	{
+		"_id": "678f45b4cb10eb5115c8b37e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-20T22:59:00.929Z",
+		"result": {
+			"completed": 34
+		}
+	},
+	{
+		"_id": "6790cf0d3e7c4202c42f9f2e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-22T02:57:17.978Z",
+		"result": {
+			"completed": 3
+		}
+	},
+	{
+		"_id": "6790d1016e4563225496ab15",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-22T03:05:37.769Z",
+		"result": {
+			"completed": 54
+		}
+	},
+	{
+		"_id": "6799840f512957ba23ae4484",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-28T17:27:43.549Z",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "6799d7dbe2b09647509bc56d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-28T23:25:15.159Z",
+		"result": {
+			"completed": 54
+		}
+	},
+	{
+		"_id": "679aa551c1619f9dba39809e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-29T14:01:53.554Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "679bd1b6caaa8f000b6b756f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-30T11:23:34.725Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "679c8b47df78115a1b6cb180",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-31T00:35:19.924Z",
+		"result": {
+			"completed": 71
+		}
+	},
+	{
+		"_id": "679d967e44788f3a13c67bdd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-01-31T19:35:26.606Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "679edf84241eb0698ab23923",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-01T18:59:16.819Z",
+		"result": {
+			"completed": 69
+		}
+	},
+	{
+		"_id": "67a0316251b7125de1e3ce02",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-02T19:00:50.342Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67a2d538ccf1283af89d59f4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-04T19:04:24.636Z",
+		"result": {
+			"completed": 69
+		}
+	},
+	{
+		"_id": "67a965d13317994de73083dc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-09T18:34:57.756Z",
+		"result": {
+			"completed": 52
+		}
+	},
+	{
+		"_id": "67aac2b123471030d37987e3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-10T19:23:29.024Z",
+		"result": {
+			"completed": 14
+		}
+	},
+	{
+		"_id": "67ad3e5bbad6485e144f2b3f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-12T16:35:39.206Z",
+		"result": {
+			"completed": 44
+		}
+	},
+	{
+		"_id": "67b5f826aa362f34d1d97520",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-19T07:26:30.043Z",
+		"result": {
+			"completed": 16
+		}
+	},
+	{
+		"_id": "67b62e9ce99a4570988987d7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-19T11:18:52.874Z",
+		"result": {
+			"completed": 70
+		}
+	},
+	{
+		"_id": "67b73a35bb57f794ca873892",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-20T06:20:37.787Z",
+		"result": {
+			"completed": 71
+		}
+	},
+	{
+		"_id": "67b7fe1be5cb1f1531536fcf",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-20T20:16:27.054Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67b8e535ddf345cc981cc65e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-21T12:42:29.206Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67b9e4ccc573e547f28aff75",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-22T06:53:00.963Z",
+		"result": {
+			"completed": 43
+		}
+	},
+	{
+		"_id": "67bbdd608be01f49dc870cdc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-23T18:45:52.707Z",
+		"result": {
+			"completed": 70
+		}
+	},
+	{
+		"_id": "67bfdef94f3bde9c54b1a576",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-26T19:41:45.448Z",
+		"result": {
+			"completed": 3
+		}
+	},
+	{
+		"_id": "67c26f9773674eb92fc840b3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-02-28T18:23:19.344Z",
+		"result": {
+			"completed": 67
+		}
+	},
+	{
+		"_id": "67c34b980381145821212705",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-01T10:02:00.146Z",
+		"result": {
+			"completed": 86
+		}
+	},
+	{
+		"_id": "67c5840188a7ebcf0035b1d1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-03T02:27:13.792Z",
+		"result": {
+			"completed": 15
+		}
+	},
+	{
+		"_id": "67c699742212ce1d007b5610",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-03T22:11:00.294Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67c7c22baf5b44561613bcac",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-04T19:16:59.684Z",
+		"result": {
+			"completed": 70
+		}
+	},
+	{
+		"_id": "67d0672565303654b9bb8761",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-11T09:39:01.924Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67d0725a8aaabde67d10d7b7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-11T10:26:50.909Z",
+		"result": {
+			"completed": 22
+		}
+	},
+	{
+		"_id": "67d097d262931aed8b5a87d0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-11T13:06:42.984Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67d19d18e71a4205e5154423",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-12T07:41:28.133Z",
+		"result": {
+			"completed": 70
+		}
+	},
+	{
+		"_id": "67d25bed7d5c8d52a62ce094",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-12T21:15:41.174Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67d547a0fde854e7a35a3fd2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-15T02:25:52.357Z",
+		"result": {
+			"completed": 67
+		}
+	},
+	{
+		"_id": "67d64ab902a47d46bc2a378b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-15T20:51:21.300Z",
+		"result": {
+			"completed": 12
+		}
+	},
+	{
+		"_id": "67d64fe0474d5a3daecbc2d4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-15T21:13:20.442Z",
+		"result": {
+			"completed": 21
+		}
+	},
+	{
+		"_id": "67d65991ca681100789ad7b7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-15T21:54:41.190Z",
+		"result": {
+			"completed": 21
+		}
+	},
+	{
+		"_id": "67d74de78b46aa78ae1435c6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-16T15:17:11.617Z",
+		"result": {
+			"completed": 50
+		}
+	},
+	{
+		"_id": "67d80515f5e2f1691138dbf2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-17T04:18:45.352Z",
+		"result": {
+			"completed": 30
+		}
+	},
+	{
+		"_id": "67d8c23f0fd8a0c294cc21a7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-17T17:45:51.827Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67dd8be42a0f0cc931a7ffee",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-21T08:55:16.365Z",
+		"result": {
+			"completed": 71
+		}
+	},
+	{
+		"_id": "67df94830800a92fcbd84bef",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-22T21:56:35.385Z",
+		"result": {
+			"completed": 11
+		}
+	},
+	{
+		"_id": "67dfc2bcc7bfb4b71ca30fee",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-23T01:13:48.050Z",
+		"result": {
+			"completed": 10
+		}
+	},
+	{
+		"_id": "67e8a70b87c9e16f27384985",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-29T19:06:03.577Z",
+		"result": {
+			"completed": 4
+		}
+	},
+	{
+		"_id": "67e8a8063dd0d028f78995b6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-29T19:10:14.783Z",
+		"result": {
+			"completed": 12
+		}
+	},
+	{
+		"_id": "67e8b7bbf38f8a50a4c5fe68",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-29T20:17:15.168Z",
+		"result": {
+			"completed": 72
+		}
+	},
+	{
+		"_id": "67ea3f44e233f1b004d51f1c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-03-31T00:07:48.121Z",
+		"result": {
+			"completed": 71
+		}
+	},
+	{
+		"_id": "67eb93af806770eecde3a59c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"taskType": "mercari-promote",
+		"timestamp": "2025-04-01T00:20:15.229Z",
+		"result": {
+			"completed": 72
+		}
+	}
+]

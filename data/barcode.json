@@ -1,0 +1,1151 @@
+[
+	{
+		"_id": "67b76a4f6395cfd10dd08821",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0499990000006",
+				"isValid": true,
+				"barcodeType": "locator"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08822",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000052",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08823",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000069",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08824",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0882864083425",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08825",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000076",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08826",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000083",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08827",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000090",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08828",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000113",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08829",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000120",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0882a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000137",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0882b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0156057509154",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0882c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000144",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0882d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0076930996904",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0882e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000151",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0882f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000168",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08830",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000175",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08831",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000182",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08832",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000199",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08833",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0608610990591",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08834",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0722674020619",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08835",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0076930995723",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08836",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0047875109476",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08837",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0752919470541",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08838",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000205",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08839",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0043948510125",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0883a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000212",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0883b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0073000040970",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0883c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000229",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0883d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0045496730260",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0883e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000021",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0883f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000038",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08840",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0818558020568",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08841",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000045",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08842",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0727542433423",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08843",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0763649091647",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08844",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410000000106",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08845",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0000878572368",
+				"isValid": true,
+				"barcodeType": "isbn-10"
+			},
+			{
+				"isValid": true,
+				"barcodeType": "isbn-13",
+				"value": "9780878572366"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08847",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0714176000169",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08848",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0842776110060",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08849",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0897450002476",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0884a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000013",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0884b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000020",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0884c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000037",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0884d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000044",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0884e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000051",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0884f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000150",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08850",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000167",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08851",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000174",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08852",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000181",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08853",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000198",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08854",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000204",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08855",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0707242656070",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08856",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "6952847300123",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08857",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000211",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08858",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000228",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08859",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000235",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0885a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000242",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0885b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000259",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0885c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000266",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0885d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000273",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0885e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000280",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0885f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000297",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08860",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000303",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08861",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000310",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08862",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0808736472630",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08863",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000327",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08864",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000334",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08865",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0073000003906",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08866",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000358",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08867",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000372",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08868",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000389",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08869",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000341",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0886a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000365",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0886b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000396",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0886c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000402",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0886d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0691197064731",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0886e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000419",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0886f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0818068029174",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08870",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0030937009210",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08871",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000426",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08872",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000433",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08873",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000440",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08874",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000457",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08875",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000464",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08876",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000471",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08877",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000488",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08878",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000495",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08879",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000501",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0887a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000518",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0887b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000525",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0887c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0604095278025",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0887d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000532",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0887e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000549",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd0887f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000556",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08880",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000563",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08881",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000570",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08882",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000587",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08883",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000594",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08884",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000600",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08885",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000617",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08886",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000624",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08887",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000631",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08888",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000648",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	},
+	{
+		"_id": "67b76a4f6395cfd10dd08889",
+		"owner": "admin@junk-in-the-trunk.com",
+		"barcodes": [
+			{
+				"value": "0410001000655",
+				"isValid": true,
+				"barcodeType": "ean"
+			}
+		]
+	}
+]

@@ -1,0 +1,218 @@
+[
+	{
+		"_id": "674021a496b863cad0ff1b45",
+		"brand": "65ab5741b45a0d0a2d8ef4f3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "google"
+	},
+	{
+		"_id": "674023184e08e45d5fdacc87",
+		"brand": "65ab5741b45a0d0a2d8ef4f3",
+		"description": "Nest",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "nest"
+	},
+	{
+		"_id": "676a87c6cb9f92d5ee015186",
+		"brand": "65ab5741b45a0d0a2d8ef4f3",
+		"description": "Pixel",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "pixel(?!pro)"
+	},
+	{
+		"_id": "676a87d0cb9f92d5ee015188",
+		"description": "Chromecast",
+		"brand": "65ab5741b45a0d0a2d8ef4f3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "chromecast"
+	},
+	{
+		"_id": "676a87e0cb9f92d5ee01518a",
+		"brand": "65ab5741b45a0d0a2d8ef4f3",
+		"description": "Chromebook",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "chromebook"
+	},
+	{
+		"_id": "676a87e7cb9f92d5ee01518c",
+		"brand": "676a86f6cb9f92d5ee01517c",
+		"description": "Firebird",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "firebird"
+	},
+	{
+		"_id": "676a87efcb9f92d5ee01518e",
+		"brand": "676a8724cb9f92d5ee015182",
+		"description": "Camaro",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "camaro"
+	},
+	{
+		"_id": "676a87fecb9f92d5ee015190",
+		"brand": "67639afc9b7afda1db3e9d71",
+		"description": "Galaxy",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "galaxy.*(?!edge|note|zfold)"
+	},
+	{
+		"_id": "676a8810cb9f92d5ee015192",
+		"brand": "67639afc9b7afda1db3e9d71",
+		"description": "Galaxy Note",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "galaxy.*note"
+	},
+	{
+		"_id": "676a8836cb9f92d5ee015194",
+		"brand": "67639afc9b7afda1db3e9d71",
+		"description": "Galaxy Edge",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "galaxy.*edge"
+	},
+	{
+		"_id": "676a885fcb9f92d5ee01519a",
+		"brand": "676a8851cb9f92d5ee015198",
+		"description": "iPhone",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "iphone"
+	},
+	{
+		"_id": "676a8869cb9f92d5ee01519c",
+		"brand": "676a8851cb9f92d5ee015198",
+		"description": "iPod",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ipod"
+	},
+	{
+		"_id": "676a8871cb9f92d5ee01519e",
+		"brand": "676a8851cb9f92d5ee015198",
+		"description": "iPad",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ipad"
+	},
+	{
+		"_id": "676a887acb9f92d5ee0151a0",
+		"brand": "676a8851cb9f92d5ee015198",
+		"description": "Macbook",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "macbook.*(?!pro)"
+	},
+	{
+		"_id": "676a8884cb9f92d5ee0151a2",
+		"brand": "676a8851cb9f92d5ee015198",
+		"description": "Macbook Pro",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "macbook.*pro"
+	},
+	{
+		"_id": "676a88b3cb9f92d5ee0151a8",
+		"brand": "676a88a6cb9f92d5ee0151a6",
+		"description": "Yoga",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "lenovo.*yoga"
+	},
+	{
+		"_id": "676a88f1cb9f92d5ee0151aa",
+		"brand": "67639afc9b7afda1db3e9d71",
+		"description": "Galaxy S10",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "galaxy.*s10"
+	},
+	{
+		"_id": "6773d4a8ce0d23596a4c41ae",
+		"brand": "65e5165e46bb3506502ebd10",
+		"description": "Air Jordans",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "nikeairjord"
+	},
+	{
+		"_id": "6773d4d6ce0d23596a4c41b0",
+		"brand": "65e5165e46bb3506502ebd10",
+		"description": "Air",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "nikeair(?!jord)"
+	},
+	{
+		"_id": "6773d4f1ce0d23596a4c41b2",
+		"brand": "65e50e92f511182d2c399efd",
+		"description": "Surface",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "micro.*surface"
+	},
+	{
+		"_id": "6773d4face0d23596a4c41b4",
+		"description": "Magic: The Gathering",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "mtg|magic.*gathering"
+	},
+	{
+		"_id": "6773d52fce0d23596a4c41ba",
+		"brand": "6773d521ce0d23596a4c41b8",
+		"description": "Baja Blazers",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "bajablazer"
+	},
+	{
+		"_id": "6773d540ce0d23596a4c41bc",
+		"brand": "65e5140346bb3506502ebce0",
+		"description": "Keepsake",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "hallmark.*keepsake"
+	},
+	{
+		"_id": "6773d550ce0d23596a4c41be",
+		"brand": "65ab5741b45a0d0a2d8ef4f3",
+		"description": "Pixel Pro",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "pixelpro"
+	},
+	{
+		"_id": "6773d55ace0d23596a4c41c0",
+		"brand": "65ab5741b45a0d0a2d8ef4f3",
+		"description": "Home Mini",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "homemini"
+	},
+	{
+		"_id": "6773d59484b1b74fd88491de",
+		"brand": "67639afc9b7afda1db3e9d71",
+		"description": "Galaxy ZFold6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "zfold6"
+	},
+	{
+		"_id": "6773d5b484b1b74fd88491e0",
+		"brand": "65ab566e9bac8610386dacec",
+		"description": "Playstation",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "playstation"
+	},
+	{
+		"_id": "6773d5be84b1b74fd88491e2",
+		"brand": "6773b1503b6bea59d858a09f",
+		"description": "Ruler of the Black Flame",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "rule.*black.*flame"
+	},
+	{
+		"_id": "67786b9b8e98903f365baa23",
+		"brand": "677866ab57719209ab77a469",
+		"description": "Bound",
+		"regex": "bound.*bondeye",
+		"joiningWords": "by",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e7e1ef0f27ecb20b84d6f",
+		"brand": "65e5141f46bb3506502ebce2",
+		"description": "Yahtzee",
+		"regex": "yahtzee",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e7e36f0f27ecb20b84d71",
+		"brand": "65e5165546bb3506502ebd0e",
+		"description": "Barbie",
+		"regex": "barbie",
+		"owner": "admin@junk-in-the-trunk.com"
+	}
+]

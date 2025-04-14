@@ -1,0 +1,53 @@
+import { z } from "zod";
+export const oscarAwardCategories = {
+	"Best Picture": "picture",
+	"Best Leading Actor": "actor",
+	"Best Leading Actress": "actress",
+	"Best Director": "director",
+	"Best Supporting Actor": "supporting-actor",
+	"Best Supporting Actress": "supporting-actress",
+	"Best Original Screenplay": "original-screenplay",
+	"Best Original Song": "song",
+	"Best Cinematography": "cinematography",
+	"Best Production Design": "design",
+	"Best Adapted Screenplay": "adapted-screenplay",
+	"Best Sound": "sound",
+	"Best Animated Feature Film": "animated",
+	"Best Editing": "editing",
+	"Best Original Score": "score",
+	"Best Visual Effects": "effects",
+	"Best Documentary Short Film": "short-documentary",
+	"Best Documentary Feature Film": "documentary",
+	"Best International Film": "international",
+	"Best Costume Design": "costume",
+	"Best Makeup and Hairstyling": "makeup",
+	"Best Animated Short Film": "animated-short",
+	"Best Casting": "casting"
+} as const;
+export const oscarAwardCategoriesToGroup = {
+	"picture": ["oscar"],
+	"actor": ["oscar"],
+	"actress": ["oscar"],
+	"director": ["oscar"],
+	"supporting-actor": ["oscar"],
+	"supporting-actress": ["oscar"],
+	"original-screenplay": ["oscar"],
+	"song": ["oscar"],
+	"cinematography": ["oscar"],
+	"design": ["oscar"],
+	"adapted-screenplay": ["oscar"],
+	"sound": ["oscar"],
+	"animated": ["oscar"],
+	"editing": ["oscar"],
+	"score": ["oscar"],
+	"effects": ["oscar"],
+	"short-documentary": ["oscar"],
+	"documentary": ["oscar"],
+	"international": ["oscar"],
+	"costume": ["oscar"],
+	"makeup": ["oscar"],
+	"animated-short": ["oscar"],
+	"casting": ["oscar"]
+} as const;
+export const OscarAwardCategories = z.nativeEnum(oscarAwardCategories);
+export type OscarAwardCategories = z.infer<typeof OscarAwardCategories>;

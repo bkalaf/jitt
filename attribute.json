@@ -1,0 +1,1091 @@
+[
+	{
+		"_id": "676d161c238849729ce50895",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "modelNo",
+		"on": "product",
+		"datatype": "string",
+		"index": 1,
+		"importance": 1
+	},
+	{
+		"_id": "6770597c6f69fe70fdbb1fa2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "modelName",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": "string"
+	},
+	{
+		"_id": "67705e7185184378cace1ca0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "origin",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "countries"
+		}
+	},
+	{
+		"_id": "67705f3a85184378cace1ca2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "features",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": "string"
+		}
+	},
+	{
+		"_id": "67706e4c946cc7150e9dd238",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "defects",
+		"on": "sku",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": "string"
+		}
+	},
+	{
+		"_id": "67706eaa946cc7150e9dd23a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "includes",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dictionary",
+			"objectType": "int",
+			"keyType": "string"
+		}
+	},
+	{
+		"_id": "67707aaa6b5095c3c2978a7b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "weight",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "weight"
+		}
+	},
+	{
+		"_id": "67707ad16b5095c3c2978a7d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "length",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		}
+	},
+	{
+		"_id": "67707ae76b5095c3c2978a7f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "width",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		}
+	},
+	{
+		"_id": "67707af46b5095c3c2978a81",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "height",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		}
+	},
+	{
+		"_id": "67708074be32fc56a96f194b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "colors",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "embedded",
+				"objectType": "color"
+			}
+		}
+	},
+	{
+		"_id": "6770815274328958710fa357",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "upcs",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "reference",
+				"objectType": "barcode"
+			}
+		}
+	},
+	{
+		"_id": "67722f13f03756515a451b2d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "neckType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "neckTypes"
+		}
+	},
+	{
+		"_id": "67723580f592d4e0f147670a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "color",
+		"on": "color",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "productColors"
+		}
+	},
+	{
+		"_id": "67723591f592d4e0f147670c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "colorShade",
+		"on": "color",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "colorShades"
+		}
+	},
+	{
+		"_id": "6772359ff592d4e0f147670e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "colorPattern",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "enum",
+				"enumType": "colorPatterns"
+			}
+		}
+	},
+	{
+		"_id": "67723608f592d4e0f1476710",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "sleeveLength",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "sleeveLengths"
+		}
+	},
+	{
+		"_id": "67723617f592d4e0f1476712",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "sleeveType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "sleeveTypes"
+		}
+	},
+	{
+		"_id": "67723627f592d4e0f1476714",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "proSportsTeam",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "proSportsTeams"
+		}
+	},
+	{
+		"_id": "67723638f592d4e0f1476716",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "sportsLeague",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "sportsLeagues"
+		}
+	},
+	{
+		"_id": "67723647f592d4e0f1476718",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "sportsType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "sportTypes"
+		}
+	},
+	{
+		"_id": "67723654f592d4e0f147671a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "strapType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "strapTypes"
+		}
+	},
+	{
+		"_id": "67723674f592d4e0f147671c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "closureType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "enum",
+				"enumType": "closureTypes"
+			}
+		}
+	},
+	{
+		"_id": "6772368cf592d4e0f147671e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "pocketType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "pocketTypes"
+		}
+	},
+	{
+		"_id": "677236a0f592d4e0f1476720",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "book",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "book"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "677236b5f592d4e0f1476722",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "movie",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "movie"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "677236c2f592d4e0f1476724",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "tvSeries",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "tvSeries"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "677236ccf592d4e0f1476726",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "videoGame",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "videoGame"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "677236d8f592d4e0f1476728",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "album",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "album"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "677236fff592d4e0f147672a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "brand",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "brand"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "6772370df592d4e0f147672c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "productLine",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "productLine"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "6772373df592d4e0f147672e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "legStyle",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "legStyles"
+		}
+	},
+	{
+		"_id": "6772374af592d4e0f1476730",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "size",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "sizes"
+		}
+	},
+	{
+		"_id": "6772375af592d4e0f1476732",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "shoeHeelType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "shoeHeelTypes"
+		}
+	},
+	{
+		"_id": "6772378df592d4e0f1476734",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "musicFormatType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "musicFormatTypes"
+		}
+	},
+	{
+		"_id": "6772379df592d4e0f1476736",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "videoFormatType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "videoFormatTypes"
+		}
+	},
+	{
+		"_id": "677237b9f592d4e0f1476738",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "jeansType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "jeansTypes"
+		}
+	},
+	{
+		"_id": "677237caf592d4e0f147673a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "fitType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "fitTypes"
+		}
+	},
+	{
+		"_id": "677237d7f592d4e0f147673c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "lifestyleType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "lifestyleTypes"
+		}
+	},
+	{
+		"_id": "677237e5f592d4e0f147673e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "bookType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "bookTypes"
+		}
+	},
+	{
+		"_id": "6772380cf592d4e0f1476740",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "generation",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": "int"
+	},
+	{
+		"_id": "6772384ff592d4e0f1476742",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "gender",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "genders"
+		}
+	},
+	{
+		"_id": "6772385df592d4e0f1476744",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "decade",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "decades"
+		}
+	},
+	{
+		"_id": "67723887f592d4e0f1476746",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "holiday",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "holidays"
+		}
+	},
+	{
+		"_id": "677238a5f592d4e0f1476748",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "flags",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "enum",
+				"enumType": "flags"
+			}
+		}
+	},
+	{
+		"_id": "677238bbf592d4e0f147674a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "consoleType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "consoleTypes"
+		}
+	},
+	{
+		"_id": "677238eef592d4e0f147674c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "provinces",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "enum",
+				"enumType": "provinces"
+			}
+		}
+	},
+	{
+		"_id": "6772390ef592d4e0f147674e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "materialStyle",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "materialStyles"
+		}
+	},
+	{
+		"_id": "67723929f592d4e0f1476750",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "bookGenre",
+		"on": "book",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "bookGenres"
+		},
+		"aliasFor": "genre"
+	},
+	{
+		"_id": "67723958f592d4e0f1476752",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "movieRating",
+		"on": "movie",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "movieRatings"
+		},
+		"aliasFor": "rating"
+	},
+	{
+		"_id": "677241c2b9f5616d69da59e4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "itemCondition",
+		"on": "sku",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "itemConditions"
+		}
+	},
+	{
+		"_id": "677241d7b9f5616d69da59e6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "musicGenre",
+		"aliasFor": "genre",
+		"on": "album",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "musicGenres"
+		}
+	},
+	{
+		"_id": "67724256b9f5616d69da59ea",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "mediaCollection",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "mediaCollection"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "67724293b9f5616d69da59ec",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "finish",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "finishes"
+		}
+	},
+	{
+		"_id": "677242a2b9f5616d69da59ee",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "movieGenre",
+		"aliasFor": "genre",
+		"on": "movie",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "movieGenres"
+		}
+	},
+	{
+		"_id": "677242b6b9f5616d69da59f0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "batteryType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dictionary",
+			"objectType": "int",
+			"keyType": {
+				"type": "enum",
+				"enumType": "batteryTypes"
+			}
+		}
+	},
+	{
+		"_id": "677244ffd80534f2676d0905",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "gemstones",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "enum",
+				"enumType": "gemstone"
+			}
+		}
+	},
+	{
+		"_id": "67724516d80534f2676d0907",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "metalType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "metalTypes"
+		}
+	},
+	{
+		"_id": "67724525d80534f2676d0909",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "language",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "languages"
+		}
+	},
+	{
+		"_id": "67724d71af65092ad292d87b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "people",
+		"on": "person",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "person"
+		},
+		"labelProperty": "name"
+	},
+	{
+		"_id": "67746b2a6ad166a6df21d7c7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "sizeGroup",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "sizeGroups"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67746b896ad166a6df21d7c9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "circa",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": "date",
+		"optional": false
+	},
+	{
+		"_id": "67746e2ea8c175718dae2ca5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "riseType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "riseTypes"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67746fa4f75872dfbbbd256e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "braType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "braTypes"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67746fdef75872dfbbbd2570",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "inseamSize",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67747004f75872dfbbbd2572",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "waistSize",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67747011f75872dfbbbd2574",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "sleeveSize",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67747021f75872dfbbbd2576",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "lengthSize",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		},
+		"optional": false
+	},
+	{
+		"_id": "6774702cf75872dfbbbd2578",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "capacity",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "capacity"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67747038f75872dfbbbd257a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "volume",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "volume"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67747043f75872dfbbbd257c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "garmentLength",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "garmentLengths"
+		},
+		"optional": false
+	},
+	{
+		"_id": "6774706cf75872dfbbbd257e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "shoeWidth",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "shoeWidths"
+		},
+		"optional": false
+	},
+	{
+		"_id": "6774707cf75872dfbbbd2580",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "shoeHeelHeight",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67747121963ba95a1e9885d4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "operatingSystemName",
+		"aliasFor": "name",
+		"on": "operatingSystem",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "operatingSystemNames"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67747144963ba95a1e9885d6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "operatingSystemVersion",
+		"aliasFor": "version",
+		"on": "operatingSystem",
+		"index": 0,
+		"importance": 0,
+		"datatype": "int",
+		"optional": false
+	},
+	{
+		"_id": "6774717a963ba95a1e9885da",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "fabricType",
+		"aliasFor": "madeOf",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dictionary",
+			"objectType": "double",
+			"keyType": {
+				"type": "enum",
+				"enumType": "fabricTypes"
+			}
+		},
+		"optional": false
+	},
+	{
+		"_id": "677471c9963ba95a1e9885dc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "skirtType",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "dressTypes"
+		},
+		"optional": false
+	},
+	{
+		"_id": "677484c17312bc65afbcd421",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "college",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "colleges"
+		},
+		"optional": false
+	},
+	{
+		"_id": "677484d27312bc65afbcd423",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "assistant",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "enum",
+				"enumType": "assistant"
+			}
+		},
+		"optional": false
+	},
+	{
+		"_id": "677484e07312bc65afbcd425",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "ethnicity",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "list",
+			"objectType": {
+				"type": "enum",
+				"enumType": "ethnicities"
+			}
+		},
+		"optional": false
+	},
+	{
+		"_id": "67830ceadfa6fa94a5b93b40",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "title",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": "string",
+		"optional": false
+	},
+	{
+		"_id": "67830d0bdfa6fa94a5b93b42",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "subtitle",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": "string",
+		"optional": false
+	},
+	{
+		"_id": "67830d1ddfa6fa94a5b93b44",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "studio",
+		"on": "videoGame",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "reference",
+			"objectType": "brand"
+		},
+		"labelProperty": "name",
+		"optional": false
+	},
+	{
+		"_id": "67830d39dfa6fa94a5b93b46",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "videoGameRating",
+		"aliasFor": "rating",
+		"on": "videoGame",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "enum",
+			"enumType": "ESRBRatings"
+		},
+		"optional": false
+	},
+	{
+		"_id": "67830d5fdfa6fa94a5b93b48",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "copyright",
+		"aliasFor": "copyright",
+		"on": "videoGame",
+		"index": 0,
+		"importance": 0,
+		"datatype": "string",
+		"optional": false
+	},
+	{
+		"_id": "678314d0ede60f43946f864d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "cordLength",
+		"on": "product",
+		"index": 0,
+		"importance": 0,
+		"datatype": {
+			"type": "dimension",
+			"measureType": "length"
+		},
+		"optional": false
+	}
+]

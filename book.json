@@ -1,0 +1,66 @@
+[
+	{
+		"_id": "6773ac69ba0073f22c258dbf",
+		"title": "Harry Potter and the Half-Blood Prince",
+		"genre": "fantasy",
+		"bookCategory": "fiction",
+		"owner": "admin@junk-in-the-trunk.com",
+		"copyright": "2005-07-16T07:00:00.000Z",
+		"pages": 607,
+		"authors": [
+			"6773abf1ba0073f22c258db5"
+		],
+		"illustrators": [],
+		"mediaCollection": [],
+		"publishers": [],
+		"regex": "harrypotter.*half.*prince"
+	},
+	{
+		"_id": "6773acdac4934d2cebab2c76",
+		"title": "Macbeth",
+		"genre": "classic",
+		"bookCategory": "fiction",
+		"owner": "admin@junk-in-the-trunk.com",
+		"authors": [
+			"6773ac03ba0073f22c258db7"
+		],
+		"regex": "ma?cbeth"
+	},
+	{
+		"_id": "6773acecc4934d2cebab2c78",
+		"title": "Romeo & Juliet",
+		"genre": "classic",
+		"bookCategory": "fiction",
+		"owner": "admin@junk-in-the-trunk.com",
+		"authors": [
+			"6773ac03ba0073f22c258db7"
+		],
+		"regex": "romeo.*juliet"
+	},
+	{
+		"_id": "6773ad0ac4934d2cebab2c7a",
+		"title": "The Wizard of Oz",
+		"genre": "childrens",
+		"bookCategory": "fiction",
+		"owner": "admin@junk-in-the-trunk.com",
+		"authors": [
+			"6773ac14ba0073f22c258db9"
+		],
+		"pages": 288,
+		"copyright": "1900-01-01T08:00:00.000Z",
+		"illustrators": [],
+		"mediaCollection": [],
+		"publishers": [],
+		"regex": "wizard.*oz"
+	},
+	{
+		"_id": "677e44878d2b553d986dc884",
+		"title": "The Cat in the Hat",
+		"owner": "admin@junk-in-the-trunk.com"
+	},
+	{
+		"_id": "677e44a08d2b553d986dc886",
+		"title": "Great Expectations",
+		"owner": "admin@junk-in-the-trunk.com"
+	}
+]

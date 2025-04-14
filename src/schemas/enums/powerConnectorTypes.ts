@@ -1,0 +1,51 @@
+import { z } from "zod";
+export const powerConnectorTypes = {
+	"IEC C13/C14": "iec-c13-14",
+	"IEC C13": "iec-c13",
+	"IEC C14 (male)": "iec-c14-m",
+	"IEC C14": "iec-c14",
+	"IEC C15": "iec-c15",
+	"IEC C16": "iec-c16",
+	"IEC C19": "iec-c19",
+	"C18": "C18",
+	"C22": "C22",
+	"IEC C20": "iec-c20",
+	"IEC C05": "iec-c05",
+	"IEC C06": "iec-c6",
+	"IEC C07": "iec-c07",
+	"IEC C08": "iec-c08",
+	"NEMA 1-15P": "nema-1-15p",
+	"NEMA 1-15R": "nema-1-15r",
+	"NEMA 5-15P": "nema-5-15p",
+	"NEMA 5-15R": "nema-5-15r",
+	"NEMA 5-20P": "nema-5-20p",
+	"NEMA 5-20R": "nema-5-20r",
+	"NON POLAR IEC C07": "np-iec-c7",
+	"NON-POLAR IEC C08": "np-iec-c8"
+} as const;
+export const powerConnectorTypesToImage = {
+	"iec-c13-14": "src/assets/images/enums/powerConnectorTypes/iec-c13-14.png",
+	"iec-c13": "src/assets/images/enums/powerConnectorTypes/iec-c13.png",
+	"iec-c14-m": "src/assets/images/enums/powerConnectorTypes/iec-c14-m.png",
+	"iec-c14": "src/assets/images/enums/powerConnectorTypes/iec-c14.png",
+	"iec-c15": "src/assets/images/enums/powerConnectorTypes/iec-c15.png",
+	"iec-c16": "src/assets/images/enums/powerConnectorTypes/iec-c16.png",
+	"iec-c19": "src/assets/images/enums/powerConnectorTypes/iec-c19.png",
+	"C18": "",
+	"C22": "",
+	"iec-c20": "src/assets/images/enums/powerConnectorTypes/iec-c20.png",
+	"iec-c05": "src/assets/images/enums/powerConnectorTypes/iec-c5.png",
+	"iec-c6": "src/assets/images/enums/powerConnectorTypes/iec-c6.png",
+	"iec-c07": "src/assets/images/enums/powerConnectorTypes/iec-c7.png",
+	"iec-c08": "src/assets/images/enums/powerConnectorTypes/iec-c8.png",
+	"nema-1-15p": "src/assets/images/enums/powerConnectorTypes/nema-1-15p.png",
+	"nema-1-15r": "src/assets/images/enums/powerConnectorTypes/nema-1-15r.png",
+	"nema-5-15p": "src/assets/images/enums/powerConnectorTypes/nema-5-15p.png",
+	"nema-5-15r": "src/assets/images/enums/powerConnectorTypes/nema-5-15r.png",
+	"nema-5-20p": "src/assets/images/enums/powerConnectorTypes/nema-5-20p.png",
+	"nema-5-20r": "src/assets/images/enums/powerConnectorTypes/nema-5-20r.png",
+	"np-iec-c7": "src/assets/images/enums/powerConnectorTypes/np-iec-c7.png",
+	"np-iec-c8": "src/assets/images/enums/powerConnectorTypes/np-iec-c8.png"
+} as const;
+export const PowerConnectorTypes = z.nativeEnum(powerConnectorTypes);
+export type PowerConnectorTypes = z.infer<typeof PowerConnectorTypes>;

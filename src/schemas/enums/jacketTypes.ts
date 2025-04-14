@@ -1,0 +1,53 @@
+import { z } from "zod";
+export const jacketTypes = {
+	"blazer": "blazer",
+	"cape": "cape",
+	"fleece": "fleece",
+	"bomber": "bomber",
+	"hoodie": "hoodie",
+	"jean": "jean",
+	"military": "military",
+	"leather": "leather",
+	"parka": "parka",
+	"peacoat": "peacoat",
+	"puffer": "puffer",
+	"raincoat": "raincoat",
+	"trenchcoat": "trenchcoat",
+	"baseball": "baseball",
+	"vest": "vest",
+	"windbreaker": "windbreaker",
+	"winter": "winter",
+	"hunting": "hunting",
+	"double-breasted": "double-breasted",
+	"nehru": "nehru",
+	"single-breasted": "single-breasted",
+	"tailored": "tailored",
+	"western": "western"
+} as const;
+export const jacketTypesToImage = {
+	"blazer": "src/assets/images/enums/jacketTypes/blazer.png",
+	"cape": "",
+	"fleece": "src/assets/images/enums/jacketTypes/lumber.png",
+	"bomber": "src/assets/images/enums/jacketTypes/bomber.png",
+	"hoodie": "",
+	"jean": "src/assets/images/enums/jacketTypes/denim.png",
+	"military": "src/assets/images/enums/jacketTypes/safari.png",
+	"leather": "src/assets/images/enums/jacketTypes/biker.png",
+	"parka": "",
+	"peacoat": "",
+	"puffer": "src/assets/images/enums/jacketTypes/down.png",
+	"raincoat": "",
+	"trenchcoat": "",
+	"baseball": "src/assets/images/enums/jacketTypes/baseball.png",
+	"vest": "",
+	"windbreaker": "",
+	"winter": "",
+	"hunting": "src/assets/images/enums/jacketTypes/mackinaw.png",
+	"double-breasted": "src/assets/images/enums/jacketTypes/double-breasted.png",
+	"nehru": "src/assets/images/enums/jacketTypes/nehru.png",
+	"single-breasted": "src/assets/images/enums/jacketTypes/single-breasted.png",
+	"tailored": "src/assets/images/enums/jacketTypes/tailored.png",
+	"western": "src/assets/images/enums/jacketTypes/western.png"
+} as const;
+export const JacketTypes = z.nativeEnum(jacketTypes);
+export type JacketTypes = z.infer<typeof JacketTypes>;

@@ -1,0 +1,3893 @@
+[
+	{
+		"_id": "65ab5741b45a0d0a2d8ef4f3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652307bf6024551767d7db79",
+		"name": "Google",
+		"regex": "google"
+	},
+	{
+		"_id": "65b1f0d4f8ca43154da8a4d3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522645a9d41574cea2517bd",
+		"name": "AmazonBasics",
+		"regex": "amazonbasic"
+	},
+	{
+		"_id": "65bf521886308d55385605e5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6523020a6024551767d7da14",
+		"name": "Lenox",
+		"regex": "lenox"
+	},
+	{
+		"_id": "65c626a422f8c58c36b41bcb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Como Vintage",
+		"regex": "como.*vintage"
+	},
+	{
+		"_id": "65e4fc38f511182d2c399e3d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6523034c6024551767d7da94",
+		"name": "Wentworth",
+		"regex": "wentworth"
+	},
+	{
+		"_id": "65e4fc9af511182d2c399e3f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522c0d66024551767d7c766",
+		"name": "Fellini",
+		"regex": "fellini"
+	},
+	{
+		"_id": "65e4fcb6f511182d2c399e41",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Kuhlman",
+		"regex": "kuhlman"
+	},
+	{
+		"_id": "65e4fcc7f511182d2c399e43",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228e79b50c31c15b3e8885",
+		"name": "Marc Anthony",
+		"regex": "marc.*anthon"
+	},
+	{
+		"_id": "65e4fd1ff511182d2c399e45",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522dda56024551767d7d1a7",
+		"name": "Izod",
+		"regex": "izod"
+	},
+	{
+		"_id": "65e50184f511182d2c399e47",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "twenty-eight degrees",
+		"regex": "(28|twentyeight).*degree"
+	},
+	{
+		"_id": "65e50202f511182d2c399e4b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522fa2b6024551767d7d7b1",
+		"name": "Mossimo Supply Co",
+		"regex": "mossimo"
+	},
+	{
+		"_id": "65e5029af511182d2c399e4d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65230a166024551767d7dc5f",
+		"name": "Hobbs Creek",
+		"regex": "hobb.*creek"
+	},
+	{
+		"_id": "65e50854f511182d2c399e4f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "gerry's",
+		"regex": "gerry"
+	},
+	{
+		"_id": "65e50864f511182d2c399e51",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228f32b50c31c15b3e89f5",
+		"name": "John Ashford",
+		"regex": "john.*ashford"
+	},
+	{
+		"_id": "65e50874f511182d2c399e53",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522982fb50c31c15b3e8e8f",
+		"name": "Bobby Jones",
+		"regex": "bobby.*jones"
+	},
+	{
+		"_id": "65e50887f511182d2c399e55",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f0d56024551767d7d50b",
+		"name": "Perry Ellis",
+		"regex": "perry.*ell"
+	},
+	{
+		"_id": "65e5089cf511182d2c399e57",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652308f46024551767d7dbbc",
+		"name": "Nicole Miller",
+		"regex": "nicole.*miller"
+	},
+	{
+		"_id": "65e508bcf511182d2c399e59",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bb916024551767d7c3b4",
+		"name": "George",
+		"regex": "george(?!forem)"
+	},
+	{
+		"_id": "65e508c7f511182d2c399e5b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522aac26024551767d7b898",
+		"name": "Dockers",
+		"regex": "docker"
+	},
+	{
+		"_id": "65e508d4f511182d2c399e5d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Super USA",
+		"mercariBrand": "652338ba6024551767d7e372",
+		"regex": "super.*usa"
+	},
+	{
+		"_id": "65e508e4f511182d2c399e5f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522a192b50c31c15b3e9131",
+		"name": "Lucky Brand",
+		"regex": "lucky.*brand"
+	},
+	{
+		"_id": "65e508eef511182d2c399e61",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Metallica",
+		"regex": "metallica"
+	},
+	{
+		"_id": "65e508f6f511182d2c399e63",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Beautiful Giant",
+		"regex": "beautiful.*giant"
+	},
+	{
+		"_id": "65e50900f511182d2c399e65",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229c05b50c31c15b3e8f5a",
+		"name": "Columbia Sportswear",
+		"regex": "columbia.*sport"
+	},
+	{
+		"_id": "65e50918f511182d2c399e67",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229113b50c31c15b3e8c1f",
+		"name": "Avirex",
+		"regex": "avirex"
+	},
+	{
+		"_id": "65e50923f511182d2c399e69",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652377b154160716e5651a2e",
+		"name": "South Pole",
+		"regex": "south.*pole"
+	},
+	{
+		"_id": "65e50937f511182d2c399e6b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652290a8b50c31c15b3e8be0",
+		"name": "Levi Strauss",
+		"regex": "levi"
+	},
+	{
+		"_id": "65e50944f511182d2c399e6d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229014b50c31c15b3e8b3a",
+		"name": "Kirkland",
+		"regex": "kirkland"
+	},
+	{
+		"_id": "65e50959f511182d2c399e6f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522efb56024551767d7d4a3",
+		"name": "Riders by Lee",
+		"regex": "riders.*lee"
+	},
+	{
+		"_id": "65e5097af511182d2c399e71",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522a000b50c31c15b3e90b7",
+		"name": "Boom Boom Jeans",
+		"regex": "boom.*boom"
+	},
+	{
+		"_id": "65e5098ff511182d2c399e73",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d18f6024551767d7cc0d",
+		"name": "White Stag",
+		"regex": "white.*stag"
+	},
+	{
+		"_id": "65e5099ef511182d2c399e75",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522645a9d41574cea2517cf",
+		"name": "Roaman's",
+		"regex": "roaman"
+	},
+	{
+		"_id": "65e509abf511182d2c399e77",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bfcd6024551767d7c726",
+		"name": "Vanity Fair",
+		"regex": "vanity.*fair"
+	},
+	{
+		"_id": "65e509baf511182d2c399e79",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228fd1b50c31c15b3e8ac8",
+		"name": "Athletic Works",
+		"regex": "athletic.*work"
+	},
+	{
+		"_id": "65e509c4f511182d2c399e7b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228c15b50c31c15b3e86b9",
+		"name": "Fang",
+		"regex": "fang"
+	},
+	{
+		"_id": "65e509d3f511182d2c399e7d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522a01fb50c31c15b3e90ef",
+		"name": "No Boundaries",
+		"regex": "no.*boundar"
+	},
+	{
+		"_id": "65e509e3f511182d2c399e7f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228d94b50c31c15b3e8838",
+		"name": "Apt 9",
+		"regex": "apt.*(9|nine)"
+	},
+	{
+		"_id": "65e509f9f511182d2c399e81",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228d7ab50c31c15b3e87fc",
+		"name": "Apostrophe",
+		"regex": "apostrop"
+	},
+	{
+		"_id": "65e50a0af511182d2c399e83",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65230a0d6024551767d7dc4c",
+		"name": "Aeropostale",
+		"regex": "a.*rop.*stale"
+	},
+	{
+		"_id": "65e50a1af511182d2c399e85",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229599b50c31c15b3e8de2",
+		"name": "Victoria's Secret",
+		"regex": "victoria.*secret"
+	},
+	{
+		"_id": "65e50a2df511182d2c399e87",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522c1ce6024551767d7c7c3",
+		"name": "Tommy Hilfiger",
+		"regex": "tommy.*hilfig"
+	},
+	{
+		"_id": "65e50a37f511182d2c399e89",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ffea6024551767d7d927",
+		"name": "Wrangler",
+		"regex": "wrangler"
+	},
+	{
+		"_id": "65e50a4bf511182d2c399e8b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228f37b50c31c15b3e89fb",
+		"name": "Basic Editions",
+		"regex": "basic.*edit"
+	},
+	{
+		"_id": "65e50a64f511182d2c399e8d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bc3f6024551767d7c468",
+		"name": "Planet Motherhood",
+		"regex": "planet.*mother"
+	},
+	{
+		"_id": "65e50a95f511182d2c399e8f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228b25b50c31c15b3e8588",
+		"name": "Calvin Klein",
+		"regex": "calvin.*klein"
+	},
+	{
+		"_id": "65e50aa4f511182d2c399e91",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229113b50c31c15b3e8c2d",
+		"name": "Mavi Jeans",
+		"regex": "mavi"
+	},
+	{
+		"_id": "65e50ab2f511182d2c399e93",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652336136024551767d7e33f",
+		"name": "Guess",
+		"regex": "guess"
+	},
+	{
+		"_id": "65e50abff511182d2c399e95",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229c3eb50c31c15b3e8f9e",
+		"name": "Gloria Vanderbilt",
+		"regex": "gloria.*vanderb"
+	},
+	{
+		"_id": "65e50acef511182d2c399e97",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228c1fb50c31c15b3e86c6",
+		"name": "Citizens of Humanity",
+		"regex": "citizen.*human"
+	},
+	{
+		"_id": "65e50adef511182d2c399e99",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b23c6024551767d7bd26",
+		"name": "Adiva",
+		"regex": "adiva"
+	},
+	{
+		"_id": "65e50aeaf511182d2c399e9b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b3636024551767d7bd71",
+		"name": "Seven til Midnight",
+		"regex": "(seven|7).*midnight"
+	},
+	{
+		"_id": "65e50af8f511182d2c399e9d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228d80b50c31c15b3e881b",
+		"name": "Green Apple",
+		"regex": "green.*apple"
+	},
+	{
+		"_id": "65e50b19f511182d2c399e9f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bd3e6024551767d7c61e",
+		"name": "Forever 21",
+		"regex": "forever.*21"
+	},
+	{
+		"_id": "65e50b21f511182d2c399ea1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d9fc6024551767d7ceac",
+		"name": "Xhilaration",
+		"regex": "xhilaration"
+	},
+	{
+		"_id": "65e50b30f511182d2c399ea3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652300706024551767d7d954",
+		"name": "Nine West",
+		"regex": "nine|9.*west"
+	},
+	{
+		"_id": "65e50b3bf511182d2c399ea5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522a9546024551767d7b747",
+		"name": "INC International Concepts",
+		"regex": "inc.*concept"
+	},
+	{
+		"_id": "65e50b48f511182d2c399ea7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652312496024551767d7de3d",
+		"name": "Express",
+		"regex": "express"
+	},
+	{
+		"_id": "65e50b55f511182d2c399ea9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bb8c6024551767d7c3a8",
+		"name": "Free People",
+		"regex": "free.*people"
+	},
+	{
+		"_id": "65e50b74f511182d2c399eab",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Ranahan Jeans",
+		"regex": "ranahan"
+	},
+	{
+		"_id": "65e50b83f511182d2c399ead",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Toska",
+		"regex": "toska"
+	},
+	{
+		"_id": "65e50b8bf511182d2c399eaf",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Fashion Magazine",
+		"regex": "fashion.*mag"
+	},
+	{
+		"_id": "65e50ba6f511182d2c399eb1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bd1a6024551767d7c602",
+		"name": "Van Heusen",
+		"regex": "vanh..sen"
+	},
+	{
+		"_id": "65e50bb8f511182d2c399eb3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229060b50c31c15b3e8b7c",
+		"name": "Blauer",
+		"regex": "blauer"
+	},
+	{
+		"_id": "65e50becf511182d2c399eb5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229165b50c31c15b3e8c50",
+		"name": "Old Navy",
+		"regex": "old.*navy"
+	},
+	{
+		"_id": "65e50bf8f511182d2c399eb7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652302e86024551767d7da40",
+		"name": "Transformers",
+		"regex": "transform"
+	},
+	{
+		"_id": "65e50c0bf511182d2c399eb9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228ec7b50c31c15b3e8946",
+		"name": "Croft & Barrow",
+		"regex": "croft.*barrow"
+	},
+	{
+		"_id": "65e50c16f511182d2c399ebb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522da2f6024551767d7cf17",
+		"name": "Marilyn Monroe",
+		"regex": "marilyn.*monr"
+	},
+	{
+		"_id": "65e50c2cf511182d2c399ebd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229c67b50c31c15b3e8fef",
+		"name": "Buffalo",
+		"regex": "buffalo"
+	},
+	{
+		"_id": "65e50c4bf511182d2c399ebf",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b22b6024551767d7bce8",
+		"name": "Soft Surroundings",
+		"regex": "soft.*surround"
+	},
+	{
+		"_id": "65e50c73f511182d2c399ec1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "X2",
+		"mercariBrand": "65e5cc0b619f34ad97a3daed",
+		"regex": "x2"
+	},
+	{
+		"_id": "65e50c8bf511182d2c399ec3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652290adb50c31c15b3e8bf1",
+		"name": "Nautica",
+		"regex": "nautica"
+	},
+	{
+		"_id": "65e50c9df511182d2c399ec5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f9456024551767d7d74b",
+		"name": "MLB",
+		"regex": "mlb"
+	},
+	{
+		"_id": "65e50ca4f511182d2c399ec7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228eccb50c31c15b3e895e",
+		"name": "Star Wars",
+		"regex": "starwar"
+	},
+	{
+		"_id": "65e50cc2f511182d2c399ec9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522c4316024551767d7c8a7",
+		"name": "Fruit of the Loom",
+		"regex": "fruit.*loom"
+	},
+	{
+		"_id": "65e50ccbf511182d2c399ecb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bb4f6024551767d7c348",
+		"name": "John Henry",
+		"regex": "john.*henry"
+	},
+	{
+		"_id": "65e50cd7f511182d2c399ecd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d3046024551767d7cc87",
+		"name": "Thomas Pink",
+		"regex": "thomas.*pink"
+	},
+	{
+		"_id": "65e50ce0f511182d2c399ecf",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228a1ab50c31c15b3e840f",
+		"name": "Shaka Wear",
+		"regex": "shaka.*wear"
+	},
+	{
+		"_id": "65e50cecf511182d2c399ed1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b22b6024551767d7bce5",
+		"name": "Pierre Cardin",
+		"regex": "pierre.*card"
+	},
+	{
+		"_id": "65e50cf8f511182d2c399ed3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228c5db50c31c15b3e873b",
+		"name": "Emanuel Ungaro",
+		"regex": "emanuel.*ungaro"
+	},
+	{
+		"_id": "65e50d0cf511182d2c399ed5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522c3636024551767d7c866",
+		"name": "Junk Food Clothing",
+		"regex": "junk.*food"
+	},
+	{
+		"_id": "65e50d18f511182d2c399ed7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b1296024551767d7bc25",
+		"name": "Sideout",
+		"regex": "sideout"
+	},
+	{
+		"_id": "65e50d21f511182d2c399ed9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228ba5b50c31c15b3e8622",
+		"name": "Champion",
+		"regex": "champion(?!sport)"
+	},
+	{
+		"_id": "65e50d2cf511182d2c399edb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228c0bb50c31c15b3e8699",
+		"name": "Hanes",
+		"regex": "hanes"
+	},
+	{
+		"_id": "65e50d35f511182d2c399edd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b3ae6024551767d7bdbc",
+		"name": "London Fog",
+		"regex": "london.*fog"
+	},
+	{
+		"_id": "65e50d41f511182d2c399edf",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228b15b50c31c15b3e855e",
+		"name": "Alstyle Apparel",
+		"regex": "alstyle"
+	},
+	{
+		"_id": "65e50d47f511182d2c399ee1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652285f0b50c31c15b3e80f8",
+		"name": "Adidas",
+		"regex": "adidas"
+	},
+	{
+		"_id": "65e50d6af511182d2c399ee3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ad686024551767d7bae1",
+		"name": "Neiman Marcus",
+		"regex": "neiman.*marcus"
+	},
+	{
+		"_id": "65e50d72f511182d2c399ee5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Harry Potter",
+		"mercariBrand": "65e6382bf78c9b43422a150f",
+		"regex": "harry.*pott"
+	},
+	{
+		"_id": "65e50d83f511182d2c399ee7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ffa96024551767d7d918",
+		"name": "NFL",
+		"regex": "nfl"
+	},
+	{
+		"_id": "65e50d93f511182d2c399ee9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65232f5a6024551767d7e294",
+		"name": "Matix",
+		"regex": "matix"
+	},
+	{
+		"_id": "65e50e01f511182d2c399eed",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b1116024551767d7bbde",
+		"name": "Divided",
+		"regex": "divided"
+	},
+	{
+		"_id": "65e50e17f511182d2c399eef",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b4fa6024551767d7be92",
+		"name": "Roundtree & Yorke",
+		"regex": "roundtree.*york"
+	},
+	{
+		"_id": "65e50e29f511182d2c399ef1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522baa96024551767d7c1dc",
+		"name": "Kathy Ireland",
+		"regex": "kathy.*irelan"
+	},
+	{
+		"_id": "65e50e38f511182d2c399ef3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522e2ad6024551767d7d25c",
+		"name": "Jones New York",
+		"regex": "jones.*ny|newyork"
+	},
+	{
+		"_id": "65e50e42f511182d2c399ef5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652322006024551767d7dfcd",
+		"name": "Nino Cerruti",
+		"regex": "nino.*cerrut"
+	},
+	{
+		"_id": "65e50e60f511182d2c399ef7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229791b50c31c15b3e8e59",
+		"name": "St. John's Bay",
+		"regex": "st.*john.*bay"
+	},
+	{
+		"_id": "65e50e6bf511182d2c399ef9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f37c6024551767d7d5cc",
+		"name": "Ecko Unlimited",
+		"regex": "ecko"
+	},
+	{
+		"_id": "65e50e85f511182d2c399efb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228f6bb50c31c15b3e8a55",
+		"name": "Bill Blass",
+		"regex": "bill.*blass"
+	},
+	{
+		"_id": "65e50e92f511182d2c399efd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d7d96024551767d7cdd2",
+		"name": "Microsoft",
+		"regex": "microsoft"
+	},
+	{
+		"_id": "65e50e9cf511182d2c399eff",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bb086024551767d7c2b5",
+		"name": "Memorex",
+		"regex": "memorex"
+	},
+	{
+		"_id": "65e50eb3f511182d2c399f01",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ff2d6024551767d7d8da",
+		"name": "Nintendo",
+		"regex": "nintendo"
+	},
+	{
+		"_id": "65e50ebff511182d2c399f03",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522a277b50c31c15b3e917a",
+		"name": "CR Gibson",
+		"regex": "cr.*gibson"
+	},
+	{
+		"_id": "65e5116b46bb3506502ebc94",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Aerotech Cyclewear",
+		"regex": "aerotech"
+	},
+	{
+		"_id": "65e5118046bb3506502ebc96",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522645f9d41574cea2517d0",
+		"name": "ABC Studios",
+		"id": 16,
+		"selector": "#sellBrandOptions-16",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "abc.*studio"
+	},
+	{
+		"_id": "65e5118746bb3506502ebc98",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522c3766024551767d7c880",
+		"name": "20th Century Fox",
+		"regex": "20th.*fox"
+	},
+	{
+		"_id": "65e5119b46bb3506502ebc9a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Anne Michelle",
+		"mercariBrand": "65e60021f63d5295ab4b937a",
+		"regex": "ann.*michell"
+	},
+	{
+		"_id": "65e511b246bb3506502ebc9c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Arcoroc",
+		"mercariBrand": "65e660ebf78c9b43422a16a2",
+		"regex": "arcoroc"
+	},
+	{
+		"_id": "65e511cf46bb3506502ebc9e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b8fd6024551767d7c04c",
+		"name": "As Seen on TV",
+		"regex": "as.*seen.*(tv|televis)"
+	},
+	{
+		"_id": "65e511e346bb3506502ebca0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652308d16024551767d7dbb2",
+		"name": "Bantam Books",
+		"regex": "bantam"
+	},
+	{
+		"_id": "65e511eb46bb3506502ebca2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522babe6024551767d7c21c",
+		"name": "Belkin",
+		"regex": "belkin"
+	},
+	{
+		"_id": "65e511f446bb3506502ebca4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bad56024551767d7c26d",
+		"name": "Belvedere",
+		"regex": "belvedere"
+	},
+	{
+		"_id": "65e5120546bb3506502ebca6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522855bb50c31c15b3e8016",
+		"name": "Black & Decker",
+		"regex": "black.*decker"
+	},
+	{
+		"_id": "65e5120f46bb3506502ebca8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522855bb50c31c15b3e801b",
+		"name": "Bob Mackie",
+		"regex": "bob.*mackie"
+	},
+	{
+		"_id": "65e5121946bb3506502ebcaa",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652286c7b50c31c15b3e81cf",
+		"name": "Braetan",
+		"regex": "braetan"
+	},
+	{
+		"_id": "65e5122146bb3506502ebcac",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522887eb50c31c15b3e832d",
+		"name": "Brahma",
+		"regex": "brahma"
+	},
+	{
+		"_id": "65e5122946bb3506502ebcae",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522908eb50c31c15b3e8bb2",
+		"name": "Braun",
+		"regex": "braun"
+	},
+	{
+		"_id": "65e5123646bb3506502ebcb0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522a381b50c31c15b3e91a7",
+		"name": "Bueno",
+		"regex": "bueno"
+	},
+	{
+		"_id": "65e5125746bb3506502ebcb2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b53d6024551767d7bec6",
+		"name": "Cardinal",
+		"regex": "cardinal"
+	},
+	{
+		"_id": "65e5126446bb3506502ebcb4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228ea8b50c31c15b3e88ec",
+		"name": "Charlotte Russe",
+		"regex": "charlott.*russ"
+	},
+	{
+		"_id": "65e5127a46bb3506502ebcb6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522abd46024551767d7b983",
+		"name": "Columbia Tristar Pictures",
+		"regex": "columbia.*tristar"
+	},
+	{
+		"_id": "65e5129446bb3506502ebcb8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228935b50c31c15b3e83b9",
+		"name": "Conair",
+		"regex": "conair"
+	},
+	{
+		"_id": "65e512a146bb3506502ebcba",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ac906024551767d7ba30",
+		"name": "Cricket Wireless",
+		"regex": "cricket"
+	},
+	{
+		"_id": "65e512ab46bb3506502ebcbc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228ea2b50c31c15b3e88db",
+		"name": "Dark Horse",
+		"regex": "dark.*horse"
+	},
+	{
+		"_id": "65e512cb46bb3506502ebcbe",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Dell",
+		"mercariBrand": "65e64057f78c9b43422a158a",
+		"regex": "dell"
+	},
+	{
+		"_id": "65e512f246bb3506502ebcc0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522dc046024551767d7d0e1",
+		"name": "Dolce Vita",
+		"regex": "dolce.*vita"
+	},
+	{
+		"_id": "65e512fe46bb3506502ebcc2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bd1a6024551767d7c5ff",
+		"name": "Dr Seuss",
+		"regex": "dr.*seuss"
+	},
+	{
+		"_id": "65e5130a46bb3506502ebcc4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228bc8b50c31c15b3e8652",
+		"name": "Dreamworks",
+		"regex": "dreamwork"
+	},
+	{
+		"_id": "65e5131a46bb3506502ebcc6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bb106024551767d7c2d1",
+		"name": "Emson",
+		"regex": "emson"
+	},
+	{
+		"_id": "65e5132346bb3506502ebcc8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522c9c86024551767d7c9ea",
+		"name": "Energizer",
+		"regex": "energiz"
+	},
+	{
+		"_id": "65e5133e46bb3506502ebcca",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522abd46024551767d7b97f",
+		"name": "Coleman",
+		"regex": "coleman"
+	},
+	{
+		"_id": "65e5134746bb3506502ebccc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Eton",
+		"regex": "eton",
+		"mercariBrand": "675b09e9c5d071f0bdf9ed81"
+	},
+	{
+		"_id": "65e5136746bb3506502ebcce",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522c0c56024551767d7c762",
+		"name": "Federal Glass",
+		"regex": "federal.*glass"
+	},
+	{
+		"_id": "65e5137146bb3506502ebcd0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bc696024551767d7c4e9",
+		"name": "Fisher-Price",
+		"regex": "fisher.*price"
+	},
+	{
+		"_id": "65e5139646bb3506502ebcd2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b4966024551767d7be62",
+		"name": "Foodsaver",
+		"regex": "foodsaver"
+	},
+	{
+		"_id": "65e5139f46bb3506502ebcd4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228c77b50c31c15b3e876c",
+		"name": "Ganz",
+		"regex": "ganz"
+	},
+	{
+		"_id": "65e513b246bb3506502ebcd6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228c2ab50c31c15b3e86d8",
+		"name": "Franklin",
+		"regex": "franklin"
+	},
+	{
+		"_id": "65e513c646bb3506502ebcd8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ad246024551767d7ba8f",
+		"name": "GE",
+		"regex": "general.*elect"
+	},
+	{
+		"_id": "65e513d846bb3506502ebcda",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b2356024551767d7bd02",
+		"name": "Disney",
+		"regex": "disney"
+	},
+	{
+		"_id": "65e513e046bb3506502ebcdc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522baea6024551767d7c283",
+		"name": "George Foreman",
+		"regex": "george.*forem"
+	},
+	{
+		"_id": "65e513fb46bb3506502ebcde",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ccad6024551767d7cad9",
+		"name": "Guild",
+		"regex": "guild"
+	},
+	{
+		"_id": "65e5140346bb3506502ebce0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228ea2b50c31c15b3e88dd",
+		"name": "Hallmark",
+		"regex": "hallmark"
+	},
+	{
+		"_id": "65e5141f46bb3506502ebce2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228f13b50c31c15b3e89c2",
+		"name": "Hasbro",
+		"regex": "hasbro"
+	},
+	{
+		"_id": "65e5142b46bb3506502ebce4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652288deb50c31c15b3e8341",
+		"name": "Havaianas",
+		"regex": "havaiana"
+	},
+	{
+		"_id": "65e5143c46bb3506502ebce6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bc546024551767d7c4b2",
+		"name": "High Sierra",
+		"regex": "high.*sierra"
+	},
+	{
+		"_id": "65e5144246bb3506502ebce8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522be256024551767d7c6e2",
+		"name": "Honeywell",
+		"regex": "honeywell"
+	},
+	{
+		"_id": "65e5144e46bb3506502ebcea",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "HP",
+		"mercariBrand": "65e5c8c6e609d8ecf9234ccf",
+		"regex": "hp|hewlet.*pack"
+	},
+	{
+		"_id": "65e5147846bb3506502ebcec",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "GT",
+		"mercariBrand": "65e5ca84619f34ad97a3dad4",
+		"regex": "gt"
+	},
+	{
+		"_id": "65e5148346bb3506502ebcee",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522919db50c31c15b3e8c68",
+		"name": "Huawei",
+		"regex": "huawei"
+	},
+	{
+		"_id": "65e5148846bb3506502ebcf0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522de0b6024551767d7d1c1",
+		"name": "i-Blason",
+		"regex": "iblason"
+	},
+	{
+		"_id": "65e514a746bb3506502ebcf2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522db846024551767d7d060",
+		"name": "Kirby",
+		"regex": "kirby"
+	},
+	{
+		"_id": "65e514ac46bb3506502ebcf4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652288eeb50c31c15b3e835c",
+		"name": "KoolAid",
+		"regex": "koolaid"
+	},
+	{
+		"_id": "65e514bf46bb3506502ebcf6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6523705954160716e565191a",
+		"name": "LA Hearts",
+		"regex": "la.*heart"
+	},
+	{
+		"_id": "65e514c446bb3506502ebcf8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652288e3b50c31c15b3e8347",
+		"name": "Liz Claiborne",
+		"regex": "clairborn"
+	},
+	{
+		"_id": "65e515a346bb3506502ebcfa",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f2506024551767d7d57c",
+		"name": "Looney Tunes",
+		"regex": "looney.*tune"
+	},
+	{
+		"_id": "65e515b046bb3506502ebcfc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652285d6b50c31c15b3e80c8",
+		"name": "Madden Girl",
+		"regex": "madden.*girl"
+	},
+	{
+		"_id": "65e515bc46bb3506502ebcfe",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229321b50c31c15b3e8d38",
+		"name": "Mainstays",
+		"regex": "mainstay"
+	},
+	{
+		"_id": "65e515c546bb3506502ebd00",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "MBX",
+		"regex": "mbx"
+	},
+	{
+		"_id": "65e515d046bb3506502ebd02",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228f0eb50c31c15b3e89b3",
+		"name": "Mikasa",
+		"regex": "mikasa"
+	},
+	{
+		"_id": "65e515df46bb3506502ebd04",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ddb26024551767d7d1af",
+		"name": "Mizuno",
+		"regex": "mizuno"
+	},
+	{
+		"_id": "65e515e946bb3506502ebd06",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522fa2d6024551767d7d7b7",
+		"name": "Motorola",
+		"regex": "motorola"
+	},
+	{
+		"_id": "65e515f846bb3506502ebd08",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522a8326024551767d7b666",
+		"name": "NCAA",
+		"regex": "ncaa"
+	},
+	{
+		"_id": "65e5160346bb3506502ebd0a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bc3b6024551767d7c457",
+		"name": "Nerf",
+		"regex": "nerf"
+	},
+	{
+		"_id": "65e5164746bb3506502ebd0c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ba0e6024551767d7c1a5",
+		"name": "Mary Engelbreit",
+		"regex": "mary.*engelb"
+	},
+	{
+		"_id": "65e5165546bb3506502ebd0e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522900fb50c31c15b3e8b33",
+		"name": "Mattel",
+		"regex": "mattel"
+	},
+	{
+		"_id": "65e5165e46bb3506502ebd10",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d9c46024551767d7ce80",
+		"name": "Nike",
+		"regex": "nike"
+	},
+	{
+		"_id": "65e5166646bb3506502ebd12",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b1296024551767d7bc24",
+		"name": "Nickelodeon",
+		"regex": "nickelod"
+	},
+	{
+		"_id": "65e5167646bb3506502ebd14",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6523355e6024551767d7e321",
+		"name": "Nuby",
+		"regex": "nuby"
+	},
+	{
+		"_id": "65e5167d46bb3506502ebd16",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d1846024551767d7cbe6",
+		"name": "Ohio Art",
+		"regex": "ohio.*art"
+	},
+	{
+		"_id": "65e5168746bb3506502ebd18",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522fbaf6024551767d7d84a",
+		"name": "Optimus",
+		"regex": "optimus"
+	},
+	{
+		"_id": "65e5169246bb3506502ebd1a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b9ec6024551767d7c142",
+		"name": "Oneida",
+		"regex": "oneida"
+	},
+	{
+		"_id": "65e516a146bb3506502ebd1c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65230c776024551767d7dd8a",
+		"name": "Ozark Trail",
+		"regex": "ozark.*tr"
+	},
+	{
+		"_id": "65e516aa46bb3506502ebd1e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228f56b50c31c15b3e8a31",
+		"name": "Panasonic",
+		"regex": "panasonic"
+	},
+	{
+		"_id": "65e516ba46bb3506502ebd20",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228b9fb50c31c15b3e8619",
+		"name": "Paramount",
+		"regex": "paramount"
+	},
+	{
+		"_id": "65e516c646bb3506502ebd22",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bcb76024551767d7c56a",
+		"name": "Petco",
+		"regex": "petco"
+	},
+	{
+		"_id": "65e516cd46bb3506502ebd24",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652310176024551767d7ddf4",
+		"name": "Ping",
+		"regex": "ping"
+	},
+	{
+		"_id": "65e516da46bb3506502ebd26",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228eb7b50c31c15b3e8928",
+		"name": "Polaroid",
+		"regex": "polaroid"
+	},
+	{
+		"_id": "65e5171a46bb3506502ebd28",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228eb2b50c31c15b3e8910",
+		"name": "Pottery Barn",
+		"regex": "pottery.*barn"
+	},
+	{
+		"_id": "65e5172346bb3506502ebd2a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6523831654160716e5651b83",
+		"name": "Princess House",
+		"regex": "princess.*house"
+	},
+	{
+		"_id": "65e5173346bb3506502ebd2c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d88f6024551767d7ce2a",
+		"name": "Rifle Paper Co",
+		"regex": "rifle.*paper"
+	},
+	{
+		"_id": "65e5173f46bb3506502ebd2e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65231fa26024551767d7df47",
+		"name": "Rii",
+		"regex": "rii"
+	},
+	{
+		"_id": "65e5174646bb3506502ebd30",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65233ccc6024551767d7e3c0",
+		"name": "Rival",
+		"regex": "rival"
+	},
+	{
+		"_id": "65e5174d46bb3506502ebd32",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65237cce54160716e5651add",
+		"name": "Room Essentials",
+		"regex": "room.*essent"
+	},
+	{
+		"_id": "65e5175946bb3506502ebd34",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b8ed6024551767d7c026",
+		"name": "Reef",
+		"regex": "reef"
+	},
+	{
+		"_id": "65e5176246bb3506502ebd36",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652322586024551767d7e000",
+		"name": "Serta",
+		"regex": "serta"
+	},
+	{
+		"_id": "65e5176d46bb3506502ebd38",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652288edb50c31c15b3e8353",
+		"name": "Rubbermaid",
+		"regex": "rubbermaid"
+	},
+	{
+		"_id": "65e5178446bb3506502ebd3a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652339986024551767d7e3a2",
+		"name": "Russ Berrie",
+		"regex": "russ.*berr"
+	},
+	{
+		"_id": "65e517a246bb3506502ebd3c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652301f36024551767d7d9d0",
+		"name": "Sonoma",
+		"regex": "sonoma"
+	},
+	{
+		"_id": "65e517ac46bb3506502ebd3e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228ac8b50c31c15b3e84b0",
+		"name": "Spalding",
+		"regex": "spalding"
+	},
+	{
+		"_id": "65e517b446bb3506502ebd40",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228c2fb50c31c15b3e86e5",
+		"name": "Stanley",
+		"regex": "stanley"
+	},
+	{
+		"_id": "65e517c046bb3506502ebd42",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652285d6b50c31c15b3e80c4",
+		"name": "Steve Madden",
+		"regex": "steve.*madden"
+	},
+	{
+		"_id": "65e517d546bb3506502ebd44",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228841b50c31c15b3e830e",
+		"name": "Tahari",
+		"regex": "tahari"
+	},
+	{
+		"_id": "65e517de46bb3506502ebd46",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228e8eb50c31c15b3e88b4",
+		"name": "Target",
+		"regex": "target"
+	},
+	{
+		"_id": "65e517ed46bb3506502ebd48",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f6836024551767d7d692",
+		"name": "Taylormade",
+		"regex": "taylormade"
+	},
+	{
+		"_id": "65e5183946bb3506502ebd4a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652309bd6024551767d7dc06",
+		"name": "Winnie the Pooh",
+		"regex": "winnie.*pooh"
+	},
+	{
+		"_id": "65e5184446bb3506502ebd4c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522da226024551767d7ceed",
+		"name": "Wilson",
+		"regex": "wilson"
+	},
+	{
+		"_id": "65e5184c46bb3506502ebd4e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522da966024551767d7cf97",
+		"name": "Winlit",
+		"regex": "winlit"
+	},
+	{
+		"_id": "65e5185746bb3506502ebd50",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6523213d6024551767d7dfa3",
+		"name": "Warner Brothers",
+		"regex": "warner.*bro"
+	},
+	{
+		"_id": "65e5187346bb3506502ebd52",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652341816024551767d7e408",
+		"name": "VTech",
+		"regex": "vtech"
+	},
+	{
+		"_id": "65e5198a46bb3506502ebd56",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522dda56024551767d7d1ac",
+		"name": "Verizon",
+		"regex": "verizon"
+	},
+	{
+		"_id": "65e5199546bb3506502ebd58",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Vans",
+		"mercariBrand": "65e5fc35f63d5295ab4b932f",
+		"regex": "vans"
+	},
+	{
+		"_id": "65e519ae46bb3506502ebd5a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Kenneth Cole",
+		"mercariBrand": "6522bcc26024551767d7c57d",
+		"regex": "ken.*cole"
+	},
+	{
+		"_id": "65e519ca46bb3506502ebd5c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522dae66024551767d7cffe",
+		"name": "Universal Studios",
+		"regex": "universal.*stud"
+	},
+	{
+		"_id": "65e519ec46bb3506502ebd5e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228eadb50c31c15b3e8904",
+		"name": "Under Armour",
+		"regex": "under.*armo"
+	},
+	{
+		"_id": "65e519fb46bb3506502ebd60",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Ty Beanie Babies",
+		"mercariBrand": "65e62e68f78c9b43422a148f",
+		"regex": "tybeanie|beaniebab"
+	},
+	{
+		"_id": "65e51a4146bb3506502ebd62",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65230bcc6024551767d7dd50",
+		"name": "Towle Silversmiths",
+		"regex": "towle"
+	},
+	{
+		"_id": "65e51a4d46bb3506502ebd64",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b8ae6024551767d7bff3",
+		"name": "Tour Edge",
+		"regex": "tour.*edge"
+	},
+	{
+		"_id": "65e51a5946bb3506502ebd66",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d8c16024551767d7ce40",
+		"name": "Tiger Electronics",
+		"regex": "tiger.*elect"
+	},
+	{
+		"_id": "65e51a7246bb3506502ebd68",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Time and Tru",
+		"mercariBrand": "65e656c8f78c9b43422a1661",
+		"regex": "time.*tru"
+	},
+	{
+		"_id": "65e51a8b46bb3506502ebd6a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bed06024551767d7c707",
+		"name": "Time",
+		"regex": "time(?!x).*(?!tru)"
+	},
+	{
+		"_id": "65e51aa846bb3506502ebd6c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ad2b6024551767d7baa4",
+		"name": "Sony Pictures",
+		"regex": "sony.*pictur"
+	},
+	{
+		"_id": "65e51af746bb3506502ebd70",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b90a6024551767d7c083",
+		"name": "Sesame Street",
+		"regex": "sesame.*st"
+	},
+	{
+		"_id": "65e51b0c46bb3506502ebd72",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65231e0e6024551767d7dec6",
+		"name": "RCA",
+		"regex": "rca"
+	},
+	{
+		"_id": "65e51b1946bb3506502ebd74",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652339bb6024551767d7e3a7",
+		"name": "Route 66",
+		"regex": "route.*66"
+	},
+	{
+		"_id": "65e51b2446bb3506502ebd76",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ba0c6024551767d7c191",
+		"name": "Titleist",
+		"regex": "titleist"
+	},
+	{
+		"_id": "65e51b3046bb3506502ebd78",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f7b06024551767d7d702",
+		"name": "Timex",
+		"regex": "timex"
+	},
+	{
+		"_id": "65e51b3946bb3506502ebd7a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652304766024551767d7dade",
+		"name": "Nyko",
+		"regex": "nyko"
+	},
+	{
+		"_id": "65e51b4446bb3506502ebd7c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d7dd6024551767d7cdde",
+		"name": "Predictions",
+		"regex": "prediction"
+	},
+	{
+		"_id": "65e51b5e46bb3506502ebd7e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65237ef454160716e5651b24",
+		"name": "Pro Line",
+		"regex": "pro.*line"
+	},
+	{
+		"_id": "65e51b7846bb3506502ebd80",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Team Beans - Detroit Tigers",
+		"regex": "team.*beans"
+	},
+	{
+		"_id": "65e51bae46bb3506502ebd82",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522fa1e6024551767d7d797",
+		"name": "Momentum",
+		"regex": "momentum"
+	},
+	{
+		"_id": "65e51bc846bb3506502ebd84",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Bakers",
+		"regex": "bakers",
+		"mercariBrand": "65e61be5f78c9b43422a13b1",
+		"timestamp": "2025-03-02T08:00:00.000Z"
+	},
+	{
+		"_id": "65e560910db381d3ee1e1806",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652299e5b50c31c15b3e8f10",
+		"name": "Berkshire",
+		"regex": "berkshire"
+	},
+	{
+		"_id": "65e560a50db381d3ee1e1808",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f2596024551767d7d58f",
+		"name": "Carlos",
+		"regex": "carlos"
+	},
+	{
+		"_id": "65e560b80db381d3ee1e180a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65230b406024551767d7dd24",
+		"name": "Cougar",
+		"regex": "cougar"
+	},
+	{
+		"_id": "65e560c60db381d3ee1e180c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b13c6024551767d7bc60",
+		"name": "DexFlex",
+		"regex": "dexflex"
+	},
+	{
+		"_id": "65e560d50db381d3ee1e180e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b5306024551767d7bea8",
+		"name": "For Dummies",
+		"regex": "fordumm"
+	},
+	{
+		"_id": "65e560ea0db381d3ee1e1810",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522cfbf6024551767d7cb64",
+		"name": "HBO",
+		"regex": "hbo"
+	},
+	{
+		"_id": "65e560f70db381d3ee1e1812",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228ebcb50c31c15b3e892b",
+		"name": "HarperCollins",
+		"regex": "harpercollin"
+	},
+	{
+		"_id": "65e5610a0db381d3ee1e1814",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522c7b66024551767d7c93c",
+		"name": "Lions Gate",
+		"regex": "lion.*gate"
+	},
+	{
+		"_id": "65e561150db381d3ee1e1816",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f8a56024551767d7d736",
+		"name": "Miramax",
+		"regex": "miramax"
+	},
+	{
+		"_id": "65e561220db381d3ee1e1818",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f81a6024551767d7d714",
+		"name": "MGM",
+		"regex": "mgm"
+	},
+	{
+		"_id": "65e5613f0db381d3ee1e181a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522ff7f6024551767d7d90b",
+		"name": "New Era",
+		"regex": "new.*era"
+	},
+	{
+		"_id": "65e5614a0db381d3ee1e181c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b1296024551767d7bc23",
+		"name": "New Line",
+		"regex": "new.*line"
+	},
+	{
+		"_id": "65e561650db381d3ee1e181e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b3ac6024551767d7bda7",
+		"name": "Random House",
+		"regex": "random.*house"
+	},
+	{
+		"_id": "65e561700db381d3ee1e1820",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d3026024551767d7cc79",
+		"name": "Scholastic",
+		"regex": "scholastic"
+	},
+	{
+		"_id": "65e5618a0db381d3ee1e1822",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Stuff at the Palms - Las Vegas",
+		"regex": "the.*palms"
+	},
+	{
+		"_id": "65e6ee3fc3d74759e9e22cb7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228e37b50c31c15b3e884f",
+		"name": "Aquarius",
+		"regex": "aquarius"
+	},
+	{
+		"_id": "65e6ee6ac3d74759e9e22cb9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65230abb6024551767d7dcca",
+		"name": "Bose",
+		"regex": "bose"
+	},
+	{
+		"_id": "65e6eed0c3d74759e9e22cbb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65e6567ff78c9b43422a1659",
+		"name": "Dimensions",
+		"regex": "dimension"
+	},
+	{
+		"_id": "65e6ef01c3d74759e9e22cbd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522858ab50c31c15b3e8082",
+		"name": "InterAct",
+		"regex": "interact"
+	},
+	{
+		"_id": "65e6ef24c3d74759e9e22cbf",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65e6543bf78c9b43422a1623",
+		"name": "Intermatic",
+		"regex": "intermatic"
+	},
+	{
+		"_id": "65e6ef51c3d74759e9e22cc1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522f3fc6024551767d7d64e",
+		"name": "Lillian Vernon",
+		"regex": "lillian.*vern"
+	},
+	{
+		"_id": "65e6efa0c3d74759e9e22cc3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65231eed6024551767d7df2f",
+		"name": "Performance",
+		"regex": "performance"
+	},
+	{
+		"_id": "65e6efd4c3d74759e9e22cc5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522dc5f6024551767d7d13c",
+		"name": "Rouge Helium",
+		"regex": "rouge.*heliu"
+	},
+	{
+		"_id": "6677507065db81115786f386",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65237ef454160716e5651b25",
+		"name": "Torino",
+		"regex": "torino"
+	},
+	{
+		"_id": "6679a3c340b72220cb7d7373",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b02e6024551767d7bb67",
+		"name": "Sodastream",
+		"regex": "sodastream"
+	},
+	{
+		"_id": "6686a555183b0f52326b2e24",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522cc426024551767d7caae",
+		"name": "HGST",
+		"regex": "hgst"
+	},
+	{
+		"_id": "6688f4ebbbd5b3584e108079",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522854cb50c31c15b3e7ffe",
+		"name": "Hitachi",
+		"regex": "hitachi"
+	},
+	{
+		"_id": "668994b6464564995c53d932",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522daa76024551767d7cfbe",
+		"name": "Intel",
+		"regex": "intel"
+	},
+	{
+		"_id": "6689ceb77f7c12c812664de6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d7d96024551767d7cdd9",
+		"name": "Micron",
+		"regex": "micron"
+	},
+	{
+		"_id": "6689f5644cbb6fd174846b21",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Ramaxel",
+		"regex": "ramaxel"
+	},
+	{
+		"_id": "668fdd366c4b8ea3fb0338c7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Rodale Press",
+		"regex": "rodale"
+	},
+	{
+		"_id": "6696468368ec15b2a5d9e5f6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Qubica",
+		"regex": "qubica"
+	},
+	{
+		"_id": "6696489768ec15b2a5d9e612",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65231e1f6024551767d7ded0",
+		"name": "Commercial Electric",
+		"regex": "commercia.*elect"
+	},
+	{
+		"_id": "6696863d21673a85d1a63d6b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228f6bb50c31c15b3e8a5f",
+		"name": "Bass",
+		"regex": "bass"
+	},
+	{
+		"_id": "66968ad055d4c136453b3a20",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Great American Fun Corp",
+		"regex": "great.*amer.*fun"
+	},
+	{
+		"_id": "6696d971754b923a994ab8e5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65229c05b50c31c15b3e8f5a",
+		"name": "Columbia 300",
+		"regex": "columbia.*300"
+	},
+	{
+		"_id": "66970569eb6d7897e20e0ae6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Autophix",
+		"regex": "autophix"
+	},
+	{
+		"_id": "66970df67a2cea4625b1ddd8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bfbe6024551767d7c71e",
+		"name": "Fable Toy Corp",
+		"regex": "fable.*toy"
+	},
+	{
+		"_id": "669711c47a2cea4625b1de26",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bbd46024551767d7c41d",
+		"name": "Epson",
+		"regex": "epson"
+	},
+	{
+		"_id": "6697b7f6d9e1a3efb36c5c8f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65e61bf9f78c9b43422a13b3",
+		"name": "Parker Brothers",
+		"regex": "parker.*broth"
+	},
+	{
+		"_id": "6697fd6f4bc1876743259d2d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d1696024551767d7cbb0",
+		"name": "Toshiba",
+		"regex": "toshiba"
+	},
+	{
+		"_id": "66986b2d055ebf0aa9d9f899",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Nadel & Sons Toy Corp",
+		"regex": "nadel.*son"
+	},
+	{
+		"_id": "66988334ab955e7a8730ff65",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522be896024551767d7c6f6",
+		"name": "LEI",
+		"regex": "lei"
+	},
+	{
+		"_id": "6698b6988a5221e3b86db0c4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Apex",
+		"regex": "apex",
+		"mercariBrand": "65230b196024551767d7dd08",
+		"timestamp": "2025-03-02T08:00:00.000Z"
+	},
+	{
+		"_id": "669a022ab69717f439f3939d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65232a436024551767d7e195",
+		"name": "Easton Press",
+		"regex": "easton"
+	},
+	{
+		"_id": "669b12960a2d956b20d277a0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65228ac8b50c31c15b3e84b9",
+		"name": "McDonald's",
+		"regex": "mcdonald"
+	},
+	{
+		"_id": "669c08de64b90642d1c57482",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Caledonia Fur",
+		"regex": "caledonia.*fur"
+	},
+	{
+		"_id": "669c9089c4ce40b9e8978096",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522849eb50c31c15b3e7f04",
+		"name": "Abercrombie & Fitch",
+		"id": 17,
+		"selector": "#sellBrandOptions-17",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "abercrom"
+	},
+	{
+		"_id": "669c9432c4ce40b9e89780e7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b53d6024551767d7becc",
+		"name": "Milton",
+		"regex": "milton(?!brad)"
+	},
+	{
+		"_id": "669c95f7c4ce40b9e8978112",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "652314266024551767d7de71",
+		"name": "Pyrex",
+		"regex": "pyrex"
+	},
+	{
+		"_id": "669dda13a6efcc949f63a524",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Footaction",
+		"mercariBrand": "6522aac26024551767d7b89a",
+		"regex": "footaction|footlock"
+	},
+	{
+		"_id": "669df154bd5b94e5131c7422",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522d3496024551767d7ccdb",
+		"name": "Southpole",
+		"regex": "southpole"
+	},
+	{
+		"_id": "669df887bd5b94e5131c7494",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bcb36024551767d7c55c",
+		"name": "Metal Mulisha",
+		"regex": "metal.*mulis"
+	},
+	{
+		"_id": "669f635b3fd792cb318e6874",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522b22d6024551767d7bced",
+		"name": "Christian Dior",
+		"regex": "christian.*dior"
+	},
+	{
+		"_id": "669f6db73fd792cb318e68c0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"name": "Savada Bros",
+		"regex": "savada.*bro"
+	},
+	{
+		"_id": "669f713b6d02727410e6e510",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522cb3d6024551767d7ca65",
+		"name": "OshKosh B'gosh",
+		"regex": "oshkosh"
+	},
+	{
+		"_id": "669f78bb6d02727410e6e545",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bc6b6024551767d7c4ee",
+		"name": "Carter's",
+		"regex": "carters"
+	},
+	{
+		"_id": "669fbe5b26ac15ea654dc020",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "65e6208af78c9b43422a13d6",
+		"name": "Garanimals",
+		"regex": "garanimal"
+	},
+	{
+		"_id": "672e4b9560b944e3095e0065",
+		"name": "Acer",
+		"mercariBrand": "6522853db50c31c15b3e7fd5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "acer"
+	},
+	{
+		"_id": "672e6f0fffdd0e30f34b2543",
+		"name": "American Eagle",
+		"mercariBrand": "652287dab50c31c15b3e829e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "amer.*eag"
+	},
+	{
+		"_id": "672e6f0fffdd0e30f34b2544",
+		"name": "Affliction",
+		"mercariBrand": "6522871db50c31c15b3e81f3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "affliction"
+	},
+	{
+		"_id": "672e6f0fffdd0e30f34b2545",
+		"name": "Almost Famous",
+		"mercariBrand": "65228b9fb50c31c15b3e860c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "almost.*famous"
+	},
+	{
+		"_id": "672e6f0fffdd0e30f34b2546",
+		"name": "Altra",
+		"mercariBrand": "6522f39a6024551767d7d5f0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "altra"
+	},
+	{
+		"_id": "672e6f10ffdd0e30f34b254f",
+		"name": "Asics",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "asics",
+		"mercariBrand": "65228f37b50c31c15b3e89f9"
+	},
+	{
+		"_id": "672e6f10ffdd0e30f34b255b",
+		"name": "Ugg",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ugg",
+		"mercariBrand": "652290a8b50c31c15b3e8bdc"
+	},
+	{
+		"_id": "672e6f10ffdd0e30f34b255c",
+		"name": "B.O.C.",
+		"mercariBrand": "65230cbb6024551767d7dd92",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "boc"
+	},
+	{
+		"_id": "672e6f10ffdd0e30f34b255d",
+		"name": "Bogs Boots",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "bogs",
+		"mercariBrand": "652307ce6024551767d7db80"
+	},
+	{
+		"_id": "672e6f10ffdd0e30f34b255e",
+		"name": "Bombas",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "bombas"
+	},
+	{
+		"_id": "672e7170062834c2d7fb4496",
+		"name": "American Apparel",
+		"mercariBrand": "65228d80b50c31c15b3e880f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "amer.*appar"
+	},
+	{
+		"_id": "672e7170062834c2d7fb4497",
+		"name": "Anne Klein",
+		"mercariBrand": "65228c39b50c31c15b3e86ee",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ann.*kl(ei|ie)n"
+	},
+	{
+		"_id": "672e7170062834c2d7fb4498",
+		"name": "Ann Taylor",
+		"mercariBrand": "652292fdb50c31c15b3e8cfc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ann.*taylor"
+	},
+	{
+		"_id": "672e7171062834c2d7fb4499",
+		"name": "Anthropologie",
+		"mercariBrand": "65228c58b50c31c15b3e8727",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "anthropol"
+	},
+	{
+		"_id": "672e7171062834c2d7fb449a",
+		"name": "Arizona Jeans Company",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ariz.*jean",
+		"mercariBrand": "6522dda56024551767d7d1a9"
+	},
+	{
+		"_id": "672e7171062834c2d7fb449b",
+		"name": "Armani Exchange",
+		"mercariBrand": "6522bdbb6024551767d7c684",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "armani.*ex"
+	},
+	{
+		"_id": "672e7171062834c2d7fb449c",
+		"name": "Asus",
+		"mercariBrand": "65228f75b50c31c15b3e8a76",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "asus"
+	},
+	{
+		"_id": "672e7171062834c2d7fb449d",
+		"name": "Athleta",
+		"mercariBrand": "6522bcb36024551767d7c558",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "athleta"
+	},
+	{
+		"_id": "672e7171062834c2d7fb449e",
+		"name": "Banana Republic",
+		"mercariBrand": "65228bf6b50c31c15b3e8663",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "banana.*repub"
+	},
+	{
+		"_id": "672e7171062834c2d7fb449f",
+		"name": "Balenciaga",
+		"mercariBrand": "652287a2b50c31c15b3e8247",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "balenciaga"
+	},
+	{
+		"_id": "672e7171062834c2d7fb44a0",
+		"name": "Badgley Mischka",
+		"mercariBrand": "652285e6b50c31c15b3e80ed",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "badgley.*misch"
+	},
+	{
+		"_id": "672e7171062834c2d7fb44a1",
+		"name": "Bearpaw",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "bearpaw"
+	},
+	{
+		"_id": "672e7171062834c2d7fb44a2",
+		"name": "Betsey Johnson",
+		"mercariBrand": "6522bcd96024551767d7c5ae",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "betsey.*johnson"
+	},
+	{
+		"_id": "672e7171062834c2d7fb44a4",
+		"name": "Billabong",
+		"mercariBrand": "652284d1b50c31c15b3e7f49",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "billabong"
+	},
+	{
+		"_id": "672e7171062834c2d7fb44a5",
+		"name": "Bissell",
+		"mercariBrand": "6522bac06024551767d7c21e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "bissell"
+	},
+	{
+		"_id": "67493ff665559df546f13aaa",
+		"name": "BKE",
+		"mercariBrand": "65229d56b50c31c15b3e9005",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "bke"
+	},
+	{
+		"_id": "67493ff665559df546f13aab",
+		"name": "Bratz",
+		"mercariBrand": "6522902db50c31c15b3e8b57",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "bratz"
+	},
+	{
+		"_id": "67493ff665559df546f13aac",
+		"name": "Budweiser",
+		"mercariBrand": "6522b5a16024551767d7beeb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "budweiser"
+	},
+	{
+		"_id": "67493ff665559df546f13aad",
+		"name": "Carhartt",
+		"mercariBrand": "65228e93b50c31c15b3e88bd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "carhartt"
+	},
+	{
+		"_id": "67493ff665559df546f13aae",
+		"name": "Cat & Jack",
+		"mercariBrand": "65e66152f78c9b43422a16ab",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "cat.*jack"
+	},
+	{
+		"_id": "67493ff665559df546f13aaf",
+		"name": "Champion Sports",
+		"mercariBrand": "6522fa576024551767d7d7dd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "champion.*sport"
+	},
+	{
+		"_id": "67493ff665559df546f13ab0",
+		"name": "Chaps",
+		"mercariBrand": "65228d8fb50c31c15b3e882e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "chaps"
+	},
+	{
+		"_id": "67493ff665559df546f13ab1",
+		"name": "Children's Place",
+		"mercariBrand": "6522853db50c31c15b3e7fd6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "children.*place"
+	},
+	{
+		"_id": "67493ff665559df546f13ab2",
+		"name": "Diesel",
+		"mercariBrand": "6522b2186024551767d7bcb2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "diesel",
+		"timestamp": "2025-01-04T03:44:59.202Z"
+	},
+	{
+		"_id": "67493ff665559df546f13ab3",
+		"name": "DKNY",
+		"mercariBrand": "6522b2ac6024551767d7bd3f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dkny"
+	},
+	{
+		"_id": "67493ff665559df546f13ab4",
+		"name": "Eddie Bauer",
+		"mercariBrand": "65229060b50c31c15b3e8b7d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "eddie.*bauer"
+	},
+	{
+		"_id": "67493ff665559df546f13ab5",
+		"name": "Faded Glory",
+		"mercariBrand": "652285dcb50c31c15b3e80e5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "faded.*glory"
+	},
+	{
+		"_id": "67493ff665559df546f13ab7",
+		"name": "Gap",
+		"mercariBrand": "6522c7ae6024551767d7c931",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "gap"
+	},
+	{
+		"_id": "67493ff665559df546f13ab8",
+		"name": "Gucci",
+		"mercariBrand": "6522a8c56024551767d7b6de",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "gucci"
+	},
+	{
+		"_id": "67493ff665559df546f13aba",
+		"name": "Harley-Davidson",
+		"mercariBrand": "65229113b50c31c15b3e8c2b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "harley.*david"
+	},
+	{
+		"_id": "67493ff665559df546f13abb",
+		"name": "H&M",
+		"mercariBrand": "6523776654160716e5651a16",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "h(and|n|plus)m"
+	},
+	{
+		"_id": "67493ff665559df546f13abc",
+		"name": "Hollister",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "hollister",
+		"mercariBrand": "6522abf46024551767d7ba14"
+	},
+	{
+		"_id": "67493ff665559df546f13abd",
+		"name": "Hurley",
+		"mercariBrand": "6522d4916024551767d7cd32",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "hurley"
+	},
+	{
+		"_id": "67493ff665559df546f13abe",
+		"name": "J Crew",
+		"mercariBrand": "6522e59b6024551767d7d2d5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "jcrew"
+	},
+	{
+		"_id": "67493ff665559df546f13ac0",
+		"name": "Jessica Simpson",
+		"mercariBrand": "6522da5d6024551767d7cf57",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "jessica.*simps"
+	},
+	{
+		"_id": "67493ff665559df546f13ac1",
+		"name": "Jordache",
+		"mercariBrand": "6522b00c6024551767d7bb25",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "jordache"
+	},
+	{
+		"_id": "67493ff665559df546f13ac2",
+		"name": "Juicy",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "juicy",
+		"mercariBrand": "6522abe76024551767d7b9e5"
+	},
+	{
+		"_id": "67493ff665559df546f13ac3",
+		"name": "Kate Spade",
+		"mercariBrand": "6522e7016024551767d7d306",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "kate.*spade"
+	},
+	{
+		"_id": "67493ff665559df546f13ac4",
+		"name": "Lane Byrant",
+		"mercariBrand": "65228c0bb50c31c15b3e86a3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "lane.*bryant"
+	},
+	{
+		"_id": "67493ff665559df546f13ac5",
+		"name": "Lee",
+		"mercariBrand": "6522efb56024551767d7d4a3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "lee"
+	},
+	{
+		"_id": "67493ff665559df546f13ac7",
+		"name": "Michael Kors",
+		"mercariBrand": "6522ea846024551767d7d3d2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "michael.*kor"
+	},
+	{
+		"_id": "67493ff665559df546f13ac8",
+		"name": "Pacific Sunwear",
+		"mercariBrand": "652303e96024551767d7dac8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "pac.*sun"
+	},
+	{
+		"_id": "67493ff665559df546f13ac9",
+		"name": "Polo Jeans Co.",
+		"mercariBrand": "6522abf46024551767d7ba0e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "polo.*jean"
+	},
+	{
+		"_id": "67493ff665559df546f13aca",
+		"name": "Quiksilver",
+		"mercariBrand": "6522d9e16024551767d7cea2",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "quic?ksilver"
+	},
+	{
+		"_id": "67493ff665559df546f13acb",
+		"name": "Ralph Lauren",
+		"mercariBrand": "65228b06b50c31c15b3e854d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ralph.*lauren"
+	},
+	{
+		"_id": "67493ff665559df546f13acc",
+		"name": "Polo Ralph Lauren",
+		"mercariBrand": "65228b06b50c31c15b3e854c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "polo.*ralph"
+	},
+	{
+		"_id": "67493ff665559df546f13acd",
+		"name": "Reebok",
+		"mercariBrand": "65229febb50c31c15b3e9094",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "reebok"
+	},
+	{
+		"_id": "67493ff665559df546f13ace",
+		"name": "Rock & Republic",
+		"mercariBrand": "65229e08b50c31c15b3e9020",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "rock.*republ"
+	},
+	{
+		"_id": "67493ff665559df546f13acf",
+		"name": "Rockstar",
+		"mercariBrand": "6522eb8a6024551767d7d40d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "rockstar"
+	},
+	{
+		"_id": "67493ff665559df546f13ad0",
+		"name": "Rue21",
+		"mercariBrand": "652322a16024551767d7e04a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "rue21"
+	},
+	{
+		"_id": "67493ff665559df546f13ad2",
+		"name": "Talbots",
+		"mercariBrand": "65228abeb50c31c15b3e848d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "talbot"
+	},
+	{
+		"_id": "67493ff665559df546f13ad3",
+		"name": "True Religion",
+		"mercariBrand": "6522c9b16024551767d7c9d1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "true.*religion"
+	},
+	{
+		"_id": "67493ff665559df546f13ad4",
+		"name": "UNTUCKit",
+		"mercariBrand": "6522aaca6024551767d7b8b6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "untuckit"
+	},
+	{
+		"_id": "67493ff665559df546f13ad5",
+		"name": "Urban Outfitters",
+		"mercariBrand": "6522c1e96024551767d7c80d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "urban.*outfit"
+	},
+	{
+		"_id": "67493ff665559df546f13ad6",
+		"name": "Versace Jeans",
+		"mercariBrand": "652322176024551767d7dfd1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "versace.*jean"
+	},
+	{
+		"_id": "675a6205c5d071f0bdf9eaf2",
+		"name": "Abbott",
+		"selector": "#sellBrandOptions-15",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"id": 15,
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "abot"
+	},
+	{
+		"_id": "675a6948c5d071f0bdf9eaf3",
+		"name": "Able provider",
+		"id": 19,
+		"selector": "#sellBrandOptions-19",
+		"timestamp": "2022-12-31T08:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "able.*provide",
+		"mercariBrand": "652284c2b50c31c15b3e7f32"
+	},
+	{
+		"_id": "675a6951c5d071f0bdf9eaf4",
+		"name": "Abreva",
+		"id": 20,
+		"selector": "#sellBrandOptions-20",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "abreva"
+	},
+	{
+		"_id": "67639975386c33e0231dfd74",
+		"name": "Isaac Mizrahi",
+		"mercariBrand": "652283f5b50c31c15b3e7ebb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "isaac.*mizra"
+	},
+	{
+		"_id": "67639a9d9b7afda1db3e9d65",
+		"name": "Patagonia",
+		"mercariBrand": "652287eab50c31c15b3e82cb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "patagonia"
+	},
+	{
+		"_id": "67639abc9b7afda1db3e9d67",
+		"name": "Vera Wang",
+		"mercariBrand": "652344986024551767d7e412",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "vera.*wang"
+	},
+	{
+		"_id": "67639aca9b7afda1db3e9d69",
+		"name": "Giorgio Armani",
+		"mercariBrand": "65228eadb50c31c15b3e88fe",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "giorgio.*armani"
+	},
+	{
+		"_id": "67639ade9b7afda1db3e9d6b",
+		"name": "Dolce & Gabbana",
+		"mercariBrand": "6522848eb50c31c15b3e7ef0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "dolce.*gabban"
+	},
+	{
+		"_id": "67639ae99b7afda1db3e9d6d",
+		"name": "New Balance",
+		"mercariBrand": "65228ab8b50c31c15b3e8486",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "new.*balance"
+	},
+	{
+		"_id": "67639af29b7afda1db3e9d6f",
+		"name": "Melissa & Doug",
+		"mercariBrand": "6522b3bd6024551767d7bdf3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "melissa.*doug"
+	},
+	{
+		"_id": "67639afc9b7afda1db3e9d71",
+		"name": "Samsung",
+		"mercariBrand": "65228bb4b50c31c15b3e863d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "samsung"
+	},
+	{
+		"_id": "67639b059b7afda1db3e9d73",
+		"name": "Marc Jacobs",
+		"mercariBrand": "65228570b50c31c15b3e804c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "marc.*jacob"
+	},
+	{
+		"_id": "67639b129b7afda1db3e9d75",
+		"name": "Marc Joseph",
+		"mercariBrand": "6522bbbd6024551767d7c3f0",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "marc.*joseph"
+	},
+	{
+		"_id": "67639b1b9b7afda1db3e9d77",
+		"name": "Zara",
+		"mercariBrand": "65235bfb6024551767d7e4d4",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "zara"
+	},
+	{
+		"_id": "67639b229b7afda1db3e9d79",
+		"name": "Bamboo",
+		"mercariBrand": "65229753b50c31c15b3e8e2e",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "bamboo"
+	},
+	{
+		"_id": "67639b3b9b7afda1db3e9d7b",
+		"name": "Crabtree & Evelyn",
+		"mercariBrand": "652284ebb50c31c15b3e7f86",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "crabtree.*evel"
+	},
+	{
+		"_id": "67639b419b7afda1db3e9d7d",
+		"name": "Marc Fisher",
+		"mercariBrand": "6522c1e76024551767d7c804",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "marc.*fish"
+	},
+	{
+		"_id": "67639b499b7afda1db3e9d7f",
+		"name": "Janie and Jack",
+		"mercariBrand": "6523737b54160716e565199d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "jan.*jack"
+	},
+	{
+		"_id": "67639b519b7afda1db3e9d81",
+		"name": "Timberland",
+		"mercariBrand": "6522bc476024551767d7c485",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "timberland"
+	},
+	{
+		"_id": "67639b599b7afda1db3e9d83",
+		"name": "Bath & Body Works",
+		"mercariBrand": "65228fd1b50c31c15b3e8ac9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "bath.*body.*works"
+	},
+	{
+		"_id": "67639b629b7afda1db3e9d85",
+		"name": "Ferragamo",
+		"mercariBrand": "652287a2b50c31c15b3e8252",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "ferragamo"
+	},
+	{
+		"_id": "67639b7a9b7afda1db3e9d87",
+		"name": "Hard Rock",
+		"mercariBrand": "65228718b50c31c15b3e81e1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "hard.*rock"
+	},
+	{
+		"_id": "67639b9a9b7afda1db3e9d8b",
+		"name": "North Face",
+		"mercariBrand": "675b4a8ec5d071f0bdf9ef2a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "north.*face"
+	},
+	{
+		"_id": "67639ba59b7afda1db3e9d8d",
+		"name": "Yankee Candle",
+		"mercariBrand": "65228c2ab50c31c15b3e86dd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "yankee.*candle"
+	},
+	{
+		"_id": "67652d51d5b7b45072f2b0ef",
+		"name": "Tracfone",
+		"mercariBrand": "65228542b50c31c15b3e7fe9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "tracfone"
+	},
+	{
+		"_id": "676536c9a9ca731e893a2abf",
+		"name": "AT&T",
+		"mercariBrand": "65236fd354160716e56518fa",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "at(and|n)t"
+	},
+	{
+		"_id": "6769e4d89f769c247f8cb9d5",
+		"name": "Aaron Jones",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "aron.*jone"
+	},
+	{
+		"_id": "676a1436ea848aff92f5b28b",
+		"name": "Darc Sport",
+		"mercariBrand": "6523814154160716e5651b4c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "darc.*sport"
+	},
+	{
+		"_id": "676a1445ea848aff92f5b28d",
+		"name": "Yamaha",
+		"mercariBrand": "65228841b50c31c15b3e8312",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "yamaha"
+	},
+	{
+		"_id": "676a21ecea848aff92f5b28f",
+		"name": "Rebecca Taylor",
+		"mercariBrand": "652292fdb50c31c15b3e8d02",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "rebecca.*taylor"
+	},
+	{
+		"_id": "676a2dcaea848aff92f5b291",
+		"name": "Pippa & Julie",
+		"mercariBrand": "6522e42c6024551767d7d2af",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "pippa.*julie"
+	},
+	{
+		"_id": "676a50687108c27aeebd3501",
+		"name": "Haan",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "(?<!cole).*haan"
+	},
+	{
+		"_id": "676a52a37108c27aeebd3503",
+		"name": "Christina Aguilera",
+		"mercariBrand": "65228808b50c31c15b3e82fc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "christina.*aguilera"
+	},
+	{
+		"_id": "676a535e7108c27aeebd3509",
+		"name": "Lands End",
+		"mercariBrand": "6522b4d06024551767d7be8b",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "lands.*end"
+	},
+	{
+		"_id": "676a53787108c27aeebd350b",
+		"name": "Bradford Exchange",
+		"mercariBrand": "652285e1b50c31c15b3e80eb",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "bradford"
+	},
+	{
+		"_id": "676a54cc7108c27aeebd350d",
+		"name": "Olivia Rae",
+		"mercariBrand": "65231d956024551767d7de8c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "oliv.*rae"
+	},
+	{
+		"_id": "676a54e27108c27aeebd350f",
+		"name": "Laura Ashley",
+		"mercariBrand": "65228f32b50c31c15b3e89f8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "laura.*ashl"
+	},
+	{
+		"_id": "676a552d7108c27aeebd3511",
+		"name": "Valentino Garavani",
+		"mercariBrand": "65231db86024551767d7dea8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "valentino.*garavani"
+	},
+	{
+		"_id": "676a553c7108c27aeebd3513",
+		"name": "KAB Cosmetics",
+		"mercariBrand": "6522e6db6024551767d7d2dc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "kab.*cosmet"
+	},
+	{
+		"_id": "676a57468cf6d4134003fdb1",
+		"name": "Ellen Tracy",
+		"mercariBrand": "652285a3b50c31c15b3e8098",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "ellen.*tracy"
+	},
+	{
+		"_id": "676a577b8cf6d4134003fdb3",
+		"name": "Rylee + Cru",
+		"mercariBrand": "6522acaa6024551767d7ba4f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "rylee.*cru"
+	},
+	{
+		"_id": "676a57f18cf6d4134003fdb5",
+		"name": "Serena & Lily",
+		"mercariBrand": "675e98d9e50c0a0dd4b41807",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "sererna.*lily"
+	},
+	{
+		"_id": "676a5901703b699d07cca0c1",
+		"name": "Sarah Coventry",
+		"mercariBrand": "6522abea6024551767d7b9fc",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "sarah.*co"
+	},
+	{
+		"_id": "676a5911703b699d07cca0c3",
+		"name": "rag & bone",
+		"mercariBrand": "65229ffbb50c31c15b3e90ae",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "rag.*bone"
+	},
+	{
+		"_id": "676a5ad906a3a74a946d5e20",
+		"name": "Chiara Ferragni",
+		"mercariBrand": "652287e5b50c31c15b3e82be",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "chiara.*ferragni"
+	},
+	{
+		"_id": "676a5ae806a3a74a946d5e22",
+		"name": "Cards Against Humanity",
+		"mercariBrand": "652287a2b50c31c15b3e8251",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "cards.*against.*human"
+	},
+	{
+		"_id": "676a5b0706a3a74a946d5e24",
+		"name": "Kawasaki",
+		"mercariBrand": "65228a43b50c31c15b3e8434",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "kawasaki"
+	},
+	{
+		"_id": "676a5b1506a3a74a946d5e26",
+		"name": "Tommy Bahama",
+		"mercariBrand": "65228841b50c31c15b3e830f",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "tommy.*bahama"
+	},
+	{
+		"_id": "676a5b2a06a3a74a946d5e28",
+		"name": "Callaway",
+		"mercariBrand": "65229189b50c31c15b3e8c55",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "callaway"
+	},
+	{
+		"_id": "676a5cf4c254b04eefe213e6",
+		"name": "Marciano",
+		"mercariBrand": "65228c3eb50c31c15b3e8707",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "marciano"
+	},
+	{
+		"_id": "676a5d02c254b04eefe213e8",
+		"name": "Lancôme",
+		"mercariBrand": "65e673b1f78c9b43422a1756",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "lancome"
+	},
+	{
+		"_id": "676a5d19c254b04eefe213ea",
+		"name": "Ariana Grande",
+		"mercariBrand": "6523705754160716e5651916",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "arian.*grand"
+	},
+	{
+		"_id": "676a5d40c254b04eefe213ec",
+		"name": "Capcom",
+		"mercariBrand": "65228d3db50c31c15b3e87b1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "capcom"
+	},
+	{
+		"_id": "676a5f36c254b04eefe213ee",
+		"name": "Zyia Active",
+		"mercariBrand": "652356146024551767d7e4a9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "zyia.*active"
+	},
+	{
+		"_id": "676a5f61c254b04eefe213f0",
+		"name": "Dooney & Bourke",
+		"mercariBrand": "6522a01fb50c31c15b3e90ec",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "dooney.*b.*urk"
+	},
+	{
+		"_id": "676a605bddbef9eb7c959bb6",
+		"name": "Dungeon & Dragons",
+		"mercariBrand": "652287eab50c31c15b3e82d8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "dungeon.*dragon"
+	},
+	{
+		"_id": "676a6112544781281b988956",
+		"name": "Salvatore Ferragamo",
+		"mercariBrand": "652287a2b50c31c15b3e824d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "salvator.*ferrag"
+	},
+	{
+		"_id": "676a61ad02344edb4714f055",
+		"name": "Saab",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "saab"
+	},
+	{
+		"_id": "676a61b802344edb4714f057",
+		"name": "Koala Kids",
+		"mercariBrand": "6522d81c6024551767d7cdf8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "koala.*kid"
+	},
+	{
+		"_id": "676a61ec02344edb4714f059",
+		"name": "Atari",
+		"mercariBrand": "65228e98b50c31c15b3e88c8",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "atari"
+	},
+	{
+		"_id": "676a621f02344edb4714f05b",
+		"name": "Myra Bag",
+		"mercariBrand": "6522fcaf6024551767d7d864",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "myra.*bag"
+	},
+	{
+		"_id": "676a62e14e68ce25129a123e",
+		"name": "Build-A-Bear Workshop",
+		"mercariBrand": "652294a4b50c31c15b3e8dc9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "buildabear"
+	},
+	{
+		"_id": "676a62f94e68ce25129a1240",
+		"name": "Macy's",
+		"mercariBrand": "652285a3b50c31c15b3e809d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "macy"
+	},
+	{
+		"_id": "676a63a8728e4e86ddedade1",
+		"name": "Astoria Odier",
+		"mercariBrand": "675e7d64e50c0a0dd4b41460",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "astoria"
+	},
+	{
+		"_id": "676a63bf728e4e86ddedade3",
+		"name": "Stella Artois",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "stella.*artoi"
+	},
+	{
+		"_id": "676a64e65d52c8a257f1116c",
+		"name": "Baja East",
+		"mercariBrand": "6522897db50c31c15b3e83f6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "baja.*east"
+	},
+	{
+		"_id": "676a65015d52c8a257f1116e",
+		"name": "Panama Jack",
+		"mercariBrand": "6522645a9d41574cea2517ce",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "panama.*jac"
+	},
+	{
+		"_id": "676a652e5d52c8a257f11170",
+		"name": "Sephora",
+		"mercariBrand": "6522bbbd6024551767d7c3e7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "sephora"
+	},
+	{
+		"_id": "676a65d85d52c8a257f11172",
+		"name": "Prada",
+		"mercariBrand": "652285c7b50c31c15b3e80b7",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "prada"
+	},
+	{
+		"_id": "676a676e1197570e945b97a8",
+		"name": "Puma",
+		"mercariBrand": "6523131b6024551767d7de5c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "puma"
+	},
+	{
+		"_id": "676a67931197570e945b97aa",
+		"name": "Ava Sky",
+		"mercariBrand": "65e5fc55f63d5295ab4b9338",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "ava.*sky"
+	},
+	{
+		"_id": "676a69e12da4d26421267ca7",
+		"name": "Crate & Barrel",
+		"mercariBrand": "65e65f05f78c9b43422a1689",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "crate*barrel"
+	},
+	{
+		"_id": "676a6aa12da4d26421267ca9",
+		"name": "Fitz & Floyd",
+		"mercariBrand": "6522dc396024551767d7d130",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "fitz.*floyd"
+	},
+	{
+		"_id": "676a6ab32da4d26421267cab",
+		"name": "Style & Co",
+		"mercariBrand": "65232a586024551767d7e1ab",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "style.*co"
+	},
+	{
+		"_id": "676a6b2b2da4d26421267cad",
+		"name": "Robert Graham",
+		"mercariBrand": "65228841b50c31c15b3e830d",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "robert.*graham"
+	},
+	{
+		"_id": "676a6b3c2da4d26421267caf",
+		"name": "Roberto Cavalli",
+		"mercariBrand": "652290eab50c31c15b3e8c03",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "robert.*cavalli"
+	},
+	{
+		"_id": "676a6b4b2da4d26421267cb1",
+		"name": "Natasha Denona",
+		"mercariBrand": "6522bb496024551767d7c338",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "natasha.*denona"
+	},
+	{
+		"_id": "676a6b7e2da4d26421267cb3",
+		"name": "Chelsea & Violet",
+		"mercariBrand": "6522dad76024551767d7cfe5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "chelsea.*violet"
+	},
+	{
+		"_id": "676a6b912da4d26421267cb5",
+		"name": "Hanna-Barbera",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "hanna.*barbar"
+	},
+	{
+		"_id": "676a6c172da4d26421267cb7",
+		"name": "Kendra Scott",
+		"mercariBrand": "6522abe56024551767d7b9da",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "kendr.*scott"
+	},
+	{
+		"_id": "676a6c2b2da4d26421267cb9",
+		"name": "Cupcakes and Cashmere",
+		"mercariBrand": "6522a8476024551767d7b681",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "cupcake.*cashmere"
+	},
+	{
+		"_id": "676a6c572da4d26421267cbb",
+		"name": "Donald J Pliner",
+		"mercariBrand": "65228ac8b50c31c15b3e84b3",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "donald.*pline"
+	},
+	{
+		"_id": "676a6c862da4d26421267cbd",
+		"name": "Mommy & Me",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "mommy.*me"
+	},
+	{
+		"_id": "676a6c992da4d26421267cbf",
+		"name": "Mitchell & Ness",
+		"mercariBrand": "6522d07b6024551767d7cb81",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "mitchell.*ness"
+	},
+	{
+		"_id": "676a6cae2da4d26421267cc1",
+		"name": "Alice + Olivia",
+		"mercariBrand": "6522d7be6024551767d7cdb6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "alice.*olivia"
+	},
+	{
+		"_id": "676a6ccd2da4d26421267cc3",
+		"name": "Rocawear",
+		"mercariBrand": "6522919db50c31c15b3e8c65",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "roca.*wear"
+	},
+	{
+		"_id": "676a6cea2da4d26421267cc5",
+		"name": "Savage X Fenty",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2022-12-31T08:00:00.000Z",
+		"regex": "savage.*fenty",
+		"mercariBrand": "6522c0da6024551767d7c774"
+	},
+	{
+		"_id": "676a6d2e2da4d26421267cc7",
+		"name": "Madewell",
+		"mercariBrand": "6522b13a6024551767d7bc57",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "madewell"
+	},
+	{
+		"_id": "676a72f4953a6525839f09b5",
+		"name": "Rae Dunn",
+		"mercariBrand": "6522b5326024551767d7bead",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "raedunn"
+	},
+	{
+		"_id": "676a7358953a6525839f09b7",
+		"name": "Brandy Melville",
+		"mercariBrand": "6522bad56024551767d7c262",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "brandy.*melv"
+	},
+	{
+		"_id": "676a7364953a6525839f09b9",
+		"name": "Alexander Wang",
+		"mercariBrand": "65228c15b50c31c15b3e86a9",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "alex.*wang"
+	},
+	{
+		"_id": "676a7376953a6525839f09bb",
+		"name": "Avon",
+		"mercariBrand": "65229132b50c31c15b3e8c31",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "avon"
+	},
+	{
+		"_id": "676a7397953a6525839f09bd",
+		"name": "Kate Quinn",
+		"mercariBrand": "6523749454160716e56519c5",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "kate.*quinn"
+	},
+	{
+		"_id": "676a73a9953a6525839f09bf",
+		"name": "Chase 54",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "chase.*54"
+	},
+	{
+		"_id": "676a7475953a6525839f09c1",
+		"name": "Sylvania",
+		"mercariBrand": "6522f3f86024551767d7d64c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "sylvania"
+	},
+	{
+		"_id": "676a7494953a6525839f09c3",
+		"name": "PANDORA",
+		"mercariBrand": "6522b3b76024551767d7bdd6",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "pandora"
+	},
+	{
+		"_id": "676a74ca953a6525839f09c5",
+		"name": "Juliana",
+		"mercariBrand": "6522e42c6024551767d7d2b1",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "juliana"
+	},
+	{
+		"_id": "676a7502953a6525839f09c7",
+		"name": "Cassandra Stone",
+		"mercariBrand": "65228f6bb50c31c15b3e8a56",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "cassandra.*stone"
+	},
+	{
+		"_id": "676a7517953a6525839f09c9",
+		"name": "Skullcandy",
+		"mercariBrand": "6522ebfb6024551767d7d41a",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "skullcandy"
+	},
+	{
+		"_id": "676a7543953a6525839f09cb",
+		"name": "Grace Karin",
+		"mercariBrand": "6522853db50c31c15b3e7fdd",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "grace.*karin"
+	},
+	{
+		"_id": "676a757b953a6525839f09cd",
+		"name": "Matilda Jane",
+		"mercariBrand": "6522df266024551767d7d1ec",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "matilda.*jane"
+	},
+	{
+		"_id": "676a86dfcb9f92d5ee01517a",
+		"name": "Tesla",
+		"mercariBrand": "6522bc896024551767d7c529",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "tesla"
+	},
+	{
+		"_id": "676a86f6cb9f92d5ee01517c",
+		"name": "Pontiac",
+		"mercariBrand": "6522d7386024551767d7cd67",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "pontiac"
+	},
+	{
+		"_id": "676a870ccb9f92d5ee01517e",
+		"name": "Acme",
+		"mercariBrand": "65228566b50c31c15b3e803c",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "acme"
+	},
+	{
+		"_id": "676a8717cb9f92d5ee015180",
+		"name": "Wildflower",
+		"mercariBrand": "6522b1646024551767d7bc70",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "wildflower"
+	},
+	{
+		"_id": "676a8724cb9f92d5ee015182",
+		"name": "Chevrolet",
+		"mercariBrand": "6522a9ff6024551767d7b796",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "chevy|chevrolet"
+	},
+	{
+		"_id": "676a8851cb9f92d5ee015198",
+		"name": "Apple",
+		"mercariBrand": "652310c66024551767d7de03",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "apple"
+	},
+	{
+		"_id": "676a88a6cb9f92d5ee0151a6",
+		"name": "Lenovo",
+		"mercariBrand": "6522bb496024551767d7c334",
+		"owner": "admin@junk-in-the-trunk.com",
+		"timestamp": "2023-01-01T00:00:00.000Z",
+		"regex": "lenovo"
+	},
+	{
+		"_id": "676cad3c754d3b4dda1b81ad",
+		"name": "Stella McCartney",
+		"mercariBrand": "6522a8b46024551767d7b6c5",
+		"timestamp": "2024-12-26T01:11:24.737Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "stella.*mccart"
+	},
+	{
+		"_id": "676cae15754d3b4dda1b81bb",
+		"name": "Blizzard",
+		"mercariBrand": "65228e7eb50c31c15b3e888c",
+		"timestamp": "2024-12-26T01:15:01.803Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "blizzard"
+	},
+	{
+		"_id": "676cd633aaf405f7378c604d",
+		"name": "Bandai Namco",
+		"mercariBrand": "65228b62b50c31c15b3e85c8",
+		"timestamp": "2024-12-26T04:06:11.861Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "namco"
+	},
+	{
+		"_id": "677084b3a318d2b0849c70e7",
+		"name": "Infinity Ward",
+		"timestamp": "2024-12-28T23:07:31.571Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "infinity.*ward"
+	},
+	{
+		"_id": "677084fda318d2b0849c70e9",
+		"name": "Sledgehammer Games",
+		"timestamp": "2024-12-28T23:08:45.728Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "sledgehammer.*gam"
+	},
+	{
+		"_id": "67708569a318d2b0849c70ef",
+		"name": "Raven Software",
+		"timestamp": "2024-12-28T23:10:33.846Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "raven.*soft"
+	},
+	{
+		"_id": "677085b0a318d2b0849c70f5",
+		"name": "Sega",
+		"mercariBrand": "6522b9646024551767d7c0df",
+		"timestamp": "2024-12-28T23:11:44.189Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "sega"
+	},
+	{
+		"_id": "6770862da318d2b0849c70ff",
+		"name": "Square Enix",
+		"mercariBrand": "652300856024551767d7d974",
+		"timestamp": "2024-12-28T23:13:49.300Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "square.*enix"
+	},
+	{
+		"_id": "6770f3f0fc702da9843d4e93",
+		"name": "Tiffany & Co",
+		"mercariBrand": "6522abf46024551767d7ba10",
+		"timestamp": "2024-12-29T07:02:08.701Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "tiffany.*co"
+	},
+	{
+		"_id": "6773afbb3b6bea59d858a065",
+		"name": "Aldo",
+		"mercariBrand": "65228ac8b50c31c15b3e84ac",
+		"timestamp": "2024-12-31T08:47:55.703Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "aldo"
+	},
+	{
+		"_id": "6773afc73b6bea59d858a067",
+		"name": "American Girl",
+		"mercariBrand": "6522c9b86024551767d7c9db",
+		"timestamp": "2024-12-31T08:48:07.800Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "amer.*girl"
+	},
+	{
+		"_id": "6773afdb3b6bea59d858a069",
+		"name": "Baggallini",
+		"mercariBrand": "652287c1b50c31c15b3e827a",
+		"timestamp": "2024-12-31T08:48:27.664Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "baggall"
+	},
+	{
+		"_id": "6773afe43b6bea59d858a06b",
+		"name": "Barnes & Noble",
+		"mercariBrand": "652301dc6024551767d7d9c0",
+		"timestamp": "2024-12-31T08:48:36.150Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "barnes.*noble"
+	},
+	{
+		"_id": "6773afec3b6bea59d858a06d",
+		"name": "Cabbage Patch Kids",
+		"mercariBrand": "6522848eb50c31c15b3e7efc",
+		"timestamp": "2024-12-31T08:48:44.688Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "cabbagepatch"
+	},
+	{
+		"_id": "6773aff93b6bea59d858a06f",
+		"name": "Cadillac",
+		"mercariBrand": "6522b2266024551767d7bcd7",
+		"timestamp": "2024-12-31T08:48:57.286Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "cadillac"
+	},
+	{
+		"_id": "6773b0033b6bea59d858a071",
+		"name": "Chanel",
+		"mercariBrand": "65228c0bb50c31c15b3e8693",
+		"timestamp": "2024-12-31T08:49:07.915Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "chanel"
+	},
+	{
+		"_id": "6773b00c3b6bea59d858a073",
+		"name": "Coach",
+		"mercariBrand": "6522854cb50c31c15b3e7ff3",
+		"timestamp": "2024-12-31T08:49:16.037Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "coach"
+	},
+	{
+		"_id": "6773b02d3b6bea59d858a077",
+		"name": "Christopher Radko",
+		"mercariBrand": "652285fab50c31c15b3e810d",
+		"timestamp": "2024-12-31T08:49:49.468Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "chris.*radko"
+	},
+	{
+		"_id": "6773b0473b6bea59d858a079",
+		"name": "Cole Haan",
+		"mercariBrand": "6522842db50c31c15b3e7ec3",
+		"timestamp": "2024-12-31T08:50:15.252Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "cole.*haan"
+	},
+	{
+		"_id": "6773b0513b6bea59d858a07b",
+		"name": "Craftsman",
+		"mercariBrand": "6522ac806024551767d7ba1c",
+		"timestamp": "2024-12-31T08:50:25.560Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "crafts?man"
+	},
+	{
+		"_id": "6773b0583b6bea59d858a07d",
+		"name": "David's Bridal",
+		"mercariBrand": "65229113b50c31c15b3e8c25",
+		"timestamp": "2024-12-31T08:50:32.522Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "david.*bridal"
+	},
+	{
+		"_id": "6773b0633b6bea59d858a07f",
+		"name": "Delta",
+		"mercariBrand": "6522b1226024551767d7bc07",
+		"timestamp": "2024-12-31T08:50:43.065Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "delta"
+	},
+	{
+		"_id": "6773b0693b6bea59d858a081",
+		"name": "Donna Karan",
+		"mercariBrand": "6522e6fd6024551767d7d2fd",
+		"timestamp": "2024-12-31T08:50:49.559Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "donna.*kar"
+	},
+	{
+		"_id": "6773b0833b6bea59d858a085",
+		"name": "Electronic Arts",
+		"mercariBrand": "652300596024551767d7d940",
+		"timestamp": "2024-12-31T08:51:15.152Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "electron.*art|ea(game|sport)"
+	},
+	{
+		"_id": "6773b0983b6bea59d858a087",
+		"name": "Giani Bernini",
+		"mercariBrand": "6523789f54160716e5651a49",
+		"timestamp": "2024-12-31T08:51:36.258Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "giani.*bernini"
+	},
+	{
+		"_id": "6773b0a63b6bea59d858a089",
+		"name": "Gymboree",
+		"mercariBrand": "6522a00fb50c31c15b3e90ca",
+		"timestamp": "2024-12-31T08:51:50.576Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "gymbore"
+	},
+	{
+		"_id": "6773b0ad3b6bea59d858a08b",
+		"name": "Gwen Stacy",
+		"timestamp": "2024-12-31T08:51:57.019Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "gwen.*stac"
+	},
+	{
+		"_id": "6773b0c33b6bea59d858a08d",
+		"name": "Homer Laughlin",
+		"timestamp": "2024-12-31T08:52:19.743Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "homer.*laughl"
+	},
+	{
+		"_id": "6773b0eb3b6bea59d858a091",
+		"name": "Kendall + Kylie",
+		"mercariBrand": "675b1e45c5d071f0bdf9ee2c",
+		"timestamp": "2024-12-31T08:52:59.608Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "kendal.*kylie"
+	},
+	{
+		"_id": "6773b0f93b6bea59d858a093",
+		"name": "lululemon",
+		"timestamp": "2024-12-31T08:53:13.533Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"mercariBrand": "6522bb086024551767d7c2b8",
+		"regex": "lululemon"
+	},
+	{
+		"_id": "6773b1183b6bea59d858a095",
+		"name": "Manolo Blahnik",
+		"mercariBrand": "65228883b50c31c15b3e832f",
+		"timestamp": "2024-12-31T08:53:44.908Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "manolo.*bla"
+	},
+	{
+		"_id": "6773b12b3b6bea59d858a097",
+		"name": "Maui Jim",
+		"mercariBrand": "65229075b50c31c15b3e8b93",
+		"timestamp": "2024-12-31T08:54:03.302Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "maui.*jim"
+	},
+	{
+		"_id": "6773b1363b6bea59d858a099",
+		"name": "McFarlane Toys",
+		"mercariBrand": "65230c5c6024551767d7dd81",
+		"timestamp": "2024-12-31T08:54:14.395Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "mcfarl.*toy"
+	},
+	{
+		"_id": "6773b13f3b6bea59d858a09b",
+		"name": "Milton Bradley",
+		"mercariBrand": "652285ffb50c31c15b3e811d",
+		"timestamp": "2024-12-31T08:54:23.875Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "milton.*brad"
+	},
+	{
+		"_id": "6773b14a3b6bea59d858a09d",
+		"name": "Ninja",
+		"mercariBrand": "6522da926024551767d7cf8a",
+		"timestamp": "2024-12-31T08:54:34.343Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ninja"
+	},
+	{
+		"_id": "6773b1503b6bea59d858a09f",
+		"name": "Pokemon",
+		"mercariBrand": "6522bb086024551767d7c2b6",
+		"timestamp": "2024-12-31T08:54:40.800Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "pokemon"
+	},
+	{
+		"_id": "6773b15e3b6bea59d858a0a1",
+		"name": "Rock Revival",
+		"mercariBrand": "6522bd466024551767d7c627",
+		"timestamp": "2024-12-31T08:54:54.370Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "rock.*reviv"
+	},
+	{
+		"_id": "6773b1673b6bea59d858a0a3",
+		"name": "Zapdos",
+		"timestamp": "2024-12-31T08:55:03.679Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "zapdos"
+	},
+	{
+		"_id": "6773b1723b6bea59d858a0a5",
+		"name": "Wolfgang Puck",
+		"mercariBrand": "6522c1406024551767d7c7ad",
+		"timestamp": "2024-12-31T08:55:14.499Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "wolfgang.*puck"
+	},
+	{
+		"_id": "6773d521ce0d23596a4c41b8",
+		"name": "Hot Wheels",
+		"mercariBrand": "6522b8f96024551767d7c038",
+		"timestamp": "2024-12-31T11:27:29.510Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "hot.*wheel"
+	},
+	{
+		"_id": "6773d5d084b1b74fd88491e4",
+		"name": "Ford",
+		"mercariBrand": "65230a786024551767d7dc79",
+		"timestamp": "2024-12-31T11:30:24.461Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "ford"
+	},
+	{
+		"_id": "6773d5d784b1b74fd88491e6",
+		"name": "Honda",
+		"mercariBrand": "6522ff106024551767d7d8d2",
+		"timestamp": "2024-12-31T11:30:31.573Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "honda"
+	},
+	{
+		"_id": "67774c781a2d24a0e09d1b6e",
+		"name": "DeKuyper",
+		"timestamp": "2025-01-03T02:33:28.362Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dekuyper"
+	},
+	{
+		"_id": "67774cd01a2d24a0e09d1b70",
+		"name": "One Animation",
+		"timestamp": "2025-01-03T02:34:56.457Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "(one|1).*animation"
+	},
+	{
+		"_id": "67774d2a1a2d24a0e09d1b78",
+		"name": "Todd Snyder",
+		"mercariBrand": "652304676024551767d7dadb",
+		"timestamp": "2025-01-03T02:36:26.589Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "todd.*snyder"
+	},
+	{
+		"_id": "677866ab57719209ab77a469",
+		"name": "bond-eye swim",
+		"mercariBrand": "6522b6e46024551767d7bf19",
+		"timestamp": "2025-01-03T22:37:31.772Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "bondeye"
+	},
+	{
+		"_id": "67786c55c2bdbb0f02c51033",
+		"name": "DC Comics",
+		"mercariBrand": "6522d7db6024551767d7cddb",
+		"timestamp": "2025-01-03T23:01:41.915Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dccomic"
+	},
+	{
+		"_id": "6778a93ca926a8593b13d1db",
+		"name": "World Gym",
+		"timestamp": "2025-01-04T03:21:32.684Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "worldgym"
+	},
+	{
+		"_id": "6778a958a926a8593b13d1dd",
+		"name": "Spell & The Gypsy Collective",
+		"mercariBrand": "6522cdbd6024551767d7cb05",
+		"timestamp": "2025-01-04T03:22:00.434Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "spell.*gypsy"
+	},
+	{
+		"_id": "6778a974a926a8593b13d1df",
+		"name": "Dave & Buster",
+		"timestamp": "2025-01-04T03:22:28.955Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dave.*buster"
+	},
+	{
+		"_id": "6778ae1ad99886446b103fef",
+		"name": "Boyd's Crystal Art Glass",
+		"timestamp": "2025-01-04T03:42:18.231Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "boyd.*glass"
+	},
+	{
+		"_id": "6778ae5bd99886446b103ff1",
+		"name": "Kellogg's",
+		"timestamp": "2025-01-04T03:43:23.934Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "kell?ogg?"
+	},
+	{
+		"_id": "6778aed9d99886446b103ff3",
+		"name": "dELiA*s",
+		"mercariBrand": "6522bab96024551767d7c215",
+		"timestamp": "2025-01-04T03:45:29.483Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "delia"
+	},
+	{
+		"_id": "6778af0ed99886446b103ff5",
+		"name": "Baby Jogger",
+		"mercariBrand": "6522971bb50c31c15b3e8dfb",
+		"timestamp": "2025-01-04T03:46:22.761Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "babyjogger"
+	},
+	{
+		"_id": "6778af41d99886446b103ff7",
+		"name": "Cinemark",
+		"timestamp": "2025-01-04T03:47:13.558Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "cinemark"
+	},
+	{
+		"_id": "6778af8ed99886446b103ff9",
+		"name": "Tory Burch",
+		"mercariBrand": "6522a3c3b50c31c15b3e91e7",
+		"timestamp": "2025-01-04T03:48:30.160Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "tory.*burch"
+	},
+	{
+		"_id": "6778afb4d99886446b103ffb",
+		"name": "StitchFix",
+		"timestamp": "2025-01-04T03:49:08.388Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "stitchfix"
+	},
+	{
+		"_id": "6778afd8d99886446b103ffd",
+		"name": "Lindsay Phillips",
+		"mercariBrand": "6522b4966024551767d7be63",
+		"timestamp": "2025-01-04T03:49:44.968Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "lindsay.*phillips|switchflop"
+	},
+	{
+		"_id": "6778b021d99886446b103fff",
+		"name": "Norton McNaughton",
+		"mercariBrand": "6522906bb50c31c15b3e8b86",
+		"timestamp": "2025-01-04T03:50:57.714Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "norton.*mcnaughton"
+	},
+	{
+		"_id": "6778b04ed99886446b104001",
+		"name": "Erika",
+		"mercariBrand": "6522d9bc6024551767d7ce71",
+		"timestamp": "2025-01-04T03:51:42.050Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "erika"
+	},
+	{
+		"_id": "6778b05cd99886446b104003",
+		"name": "Energie",
+		"mercariBrand": "6522bb346024551767d7c2fc",
+		"timestamp": "2025-01-04T03:51:56.553Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "energie"
+	},
+	{
+		"_id": "6778b072d99886446b104005",
+		"name": "Netgear",
+		"mercariBrand": "6522bcc06024551767d7c57a",
+		"timestamp": "2025-01-04T03:52:18.363Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "netgear"
+	},
+	{
+		"_id": "677e3b40f6d00bbdc4afd857",
+		"name": "DeKryptic",
+		"timestamp": "2025-01-08T08:45:52.101Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dekryptic"
+	},
+	{
+		"_id": "677e3b748d2b553d986dc846",
+		"name": "carddass",
+		"timestamp": "2025-01-08T08:46:44.236Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "carddass"
+	},
+	{
+		"_id": "677e3b928d2b553d986dc848",
+		"name": "Modcloth",
+		"mercariBrand": "6522b0a16024551767d7bb9a",
+		"timestamp": "2025-01-08T08:47:14.734Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "modcloth"
+	},
+	{
+		"_id": "677e3bad8d2b553d986dc84a",
+		"name": "Sand Cloud",
+		"timestamp": "2025-01-08T08:00:00.000Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "sandcloud",
+		"mercariBrand": "65230b3a6024551767d7dd1f"
+	},
+	{
+		"_id": "677e3bc88d2b553d986dc84c",
+		"name": "Dermelect",
+		"mercariBrand": "65e65595f78c9b43422a1652",
+		"timestamp": "2025-01-08T08:48:08.021Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dermelect"
+	},
+	{
+		"_id": "677e3bd98d2b553d986dc84e",
+		"name": "Peloton",
+		"mercariBrand": "65e671d7f78c9b43422a1735",
+		"timestamp": "2025-01-08T08:48:25.970Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "peloton"
+	},
+	{
+		"_id": "677e3beb8d2b553d986dc850",
+		"name": "Cover Girl",
+		"mercariBrand": "6522c9b86024551767d7c9dc",
+		"timestamp": "2025-01-08T08:48:43.318Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "cover.*girl"
+	},
+	{
+		"_id": "677e3bfa8d2b553d986dc852",
+		"name": "Cracker Barrel",
+		"timestamp": "2025-01-08T08:48:58.780Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "cracker.*barrel"
+	},
+	{
+		"_id": "677e3c138d2b553d986dc854",
+		"name": "Zimmermann",
+		"mercariBrand": "6522da576024551767d7cf45",
+		"timestamp": "2025-01-08T08:49:23.089Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "zimmermann"
+	},
+	{
+		"_id": "677e3c258d2b553d986dc856",
+		"name": "Sol de Janeiro",
+		"mercariBrand": "6522ba0a6024551767d7c186",
+		"timestamp": "2025-01-08T08:49:41.010Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "sol.*janeiro"
+	},
+	{
+		"_id": "677e3c388d2b553d986dc858",
+		"name": "Oak + Fort",
+		"timestamp": "2025-01-08T08:50:00.634Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "oak.*fort"
+	},
+	{
+		"_id": "677e3c4e8d2b553d986dc85a",
+		"name": "Dereon",
+		"mercariBrand": "6522bb886024551767d7c39d",
+		"timestamp": "2025-01-08T08:50:22.611Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dereon"
+	},
+	{
+		"_id": "677e3c5d8d2b553d986dc85c",
+		"name": "Goodfellow & Co",
+		"mercariBrand": "6522b1556024551767d7bc6d",
+		"timestamp": "2025-01-08T08:50:37.169Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "goodfellow"
+	},
+	{
+		"_id": "677e3c6d8d2b553d986dc85e",
+		"name": "Freebird",
+		"mercariBrand": "65229c5db50c31c15b3e8fdd",
+		"timestamp": "2025-01-08T08:50:53.530Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "freebird"
+	},
+	{
+		"_id": "677e3cad8d2b553d986dc862",
+		"name": "Etude House",
+		"mercariBrand": "6522bcdd6024551767d7c5c1",
+		"timestamp": "2025-01-08T08:51:57.305Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "etude.*house"
+	},
+	{
+		"_id": "677e3cbd8d2b553d986dc864",
+		"name": "DBPOWER",
+		"mercariBrand": "6522a09eb50c31c15b3e912b",
+		"timestamp": "2025-01-08T08:52:13.241Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dbpower"
+	},
+	{
+		"_id": "677e3cca8d2b553d986dc866",
+		"name": "dBrand",
+		"timestamp": "2025-01-08T08:52:26.443Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "dbrand"
+	},
+	{
+		"_id": "677e3cdf8d2b553d986dc868",
+		"name": "Red Bull",
+		"mercariBrand": "675a9b2cc5d071f0bdf9eb89",
+		"timestamp": "2025-01-08T08:52:47.114Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "red.*bull"
+	},
+	{
+		"_id": "677e3cf18d2b553d986dc86a",
+		"name": "Huda Beauty",
+		"mercariBrand": "6522b8086024551767d7bf71",
+		"timestamp": "2025-01-08T08:53:05.092Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "huda.*beauty"
+	},
+	{
+		"_id": "677e3cff8d2b553d986dc86c",
+		"name": "Cutter & Buck",
+		"mercariBrand": "6522a376b50c31c15b3e918c",
+		"timestamp": "2025-01-08T08:53:19.874Z",
+		"owner": "admin@junk-in-the-trunk.com",
+		"regex": "cutter.*buck"
+	}
+]
