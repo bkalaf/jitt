@@ -6,7 +6,7 @@ import fs from 'graceful-fs';
 async function run() {
     const response = await fetch('http://localhost:3000/api/data/v1/dropdown');
     const dropdowns: DropdownMemory[] = await response.json();
-    return dropdowns.filter(x => x.enumType === 'generation').map(({ enumType, values }) => {
+    return dropdowns.filter(x => x.enumType === 'pocketTypes').map(({ enumType, values }) => {
         console.log(enumType);
         const enumName = toProperCase(enumType).replaceAll(' ', '');
         const sample = values[0];

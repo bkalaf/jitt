@@ -1,6 +1,5 @@
 import { z } from "zod";
 export const countries = {
-	"": "",
 	"Andorra": "AD",
 	"United Arab Emirates": "AE",
 	"Afghanistan": "AF",
@@ -249,7 +248,8 @@ export const countries = {
 	"Mayotte": "YT",
 	"South Africa": "ZA",
 	"Zambia": "ZM",
-	"Zimbabwe": "ZW"
+	"Zimbabwe": "ZW",
+	"": ""
 } as const;
 export const Countries = z.nativeEnum(countries);
 export type Countries = z.infer<typeof Countries>;

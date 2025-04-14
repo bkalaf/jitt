@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from "zod";
 export const generation = {
     '': '0',
     '1st': '1',

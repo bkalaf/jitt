@@ -1,6 +1,5 @@
 import { z } from "zod";
 export const fabricTypes = {
-	"": "",
 	"corduroy": "corduroy",
 	"fur": "fur",
 	"faux-fur": "faux-fur",
@@ -24,7 +23,8 @@ export const fabricTypes = {
 	"suede": "suede",
 	"velvet": "velvet",
 	"viscose": "viscose",
-	"wool": "wool"
+	"wool": "wool",
+	"": ""
 } as const;
 export const FabricTypes = z.nativeEnum(fabricTypes);
 export type FabricTypes = z.infer<typeof FabricTypes>;
