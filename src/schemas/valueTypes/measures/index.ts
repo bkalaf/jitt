@@ -7,7 +7,7 @@ export { default as durationMinutes } from './durationMinutes';
 export { default as durationSeconds } from './durationSeconds';
 export { default as electricalCharge } from './electricalCharge';
 export { default as frequency } from './frequency';
-export { default as length } from './length';
+export { default as length } from './lengthMeasurement';
 export { default as powerConsumption } from './powerConsumption';
 export { default as resolution } from './resolution';
 export { default as rotationalSpeed } from './rotationalSpeed';

@@ -1,4 +1,4 @@
-import { BarcodeTypes } from '../schemas/enums/barcodeTypes';
+import { BarcodeTypes } from '../schemas/valueTypes/enums/barcodeTypes';
 
 const UPC_MULTIPLIERS = [1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 0];
 const ISBN_MULTIPLIERS = [0, 0, 0, 10, 9, 8, 7, 6, 5, 4, 3, 2, 0];

@@ -12,46 +12,45 @@ import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
 import branding from './branding';
 import barcode from './barcode';
-import dimensions from '../valueTypes/embeddedObjects/dimensions';
-import { length, measurement, weight } from './$uoms';
-import modelInfo from './modelInfo';
-import { Countries } from '../enums';
+import dimensions from '../embedded/dimensions';
+import measurement from './../valueTypes/measurement';
+import { Countries, WeightUOM, weightUOM } from '../valueTypes/enums';
 import { toCallout, toEnumList, toFlatList, toKVP } from '../../util/toKVP';
-import { enumLookup } from '../enums/inverseEnum';
+import { enumLookup } from '../valueTypes/enums/inverseEnum';
 import { classifyBarcode } from '../../util/barcode';
-import monthYear from '../valueTypes/embeddedObjects/monthYear';
-import { ProductColors } from '../enums/productColors';
+import monthYear from '../embedded/monthYear';
+import { ProductColors } from '../valueTypes/enums/productColors';
 import hashTag from './hashTag';
 import classification from './classification';
-import { Flags } from '../enums/flags';
+import { Flags } from '../valueTypes/enums/flags';
 import madeOf from './madeOf';
-import { Genders } from '../enums/genders';
-import { ClosureTypes } from '../enums/closureTypes';
+import { Genders } from '../valueTypes/enums/genders';
+import { ClosureTypes } from '../valueTypes/enums/closureTypes';
 import ClothingCare from './clothingCare';
-import { FitTypes } from '../enums/fitTypes';
-import { LegStyles } from '../enums/legStyles';
-import { GarmentLengths } from '../enums/garmentLengths';
-import { LifestyleTypes } from '../enums/lifestyleTypes';
-import { PocketTypes } from '../enums/pocketTypes';
-import { RiseTypes } from '../enums/riseTypes';
-import { BootTypes } from '../enums/bootTypes';
-import { StrapTypes } from '../enums/strapTypes';
-import { HeightMaps } from '../enums/heightMaps';
-import { ToeStyles } from '../enums/toeStyles';
-import { ShoeHeelTypes } from '../enums/shoeHeelTypes';
-import { ShoeWidths } from '../enums/shoeWidths';
-import { SwimsuitBottomStyles } from '../enums/swimsuitBottomStyles';
-import { SwimsuitTopStyles } from '../enums/swimsuitTopStyles';
-import { CuffTypes } from '../enums/cuffTypes';
-import { CollarTypes } from '../enums/collarTypes';
-import { LapelTypes } from '../enums/lapelTypes';
-import { SleeveTypes } from '../enums/sleeveTypes';
-import { SleeveLengths } from '../enums/sleeveLengths';
-import { NeckTypes } from '../enums/neckTypes';
-import { BacklineTypes } from '../enums/backlineTypes';
-import { DressTypes } from '../enums/dressTypes';
-import { BlazerTypes } from '../enums/blazerTypes';
-import { SizeGroups } from '../enums/sizeGroups';
+import { FitTypes } from '../valueTypes/enums/fitTypes';
+import { LegStyles } from '../valueTypes/enums/legStyles';
+import { GarmentLengths } from '../valueTypes/enums/garmentLengths';
+import { LifestyleTypes } from '../valueTypes/enums/lifestyleTypes';
+import { PocketTypes } from '../valueTypes/enums/pocketTypes';
+import { RiseTypes } from '../valueTypes/enums/riseTypes';
+import { BootTypes } from '../valueTypes/enums/bootTypes';
+import { StrapTypes } from '../valueTypes/enums/strapTypes';
+import { HeightMaps } from '../valueTypes/enums/heightMaps';
+import { ToeStyles } from '../valueTypes/enums/toeStyles';
+import { ShoeHeelTypes } from '../valueTypes/enums/shoeHeelTypes';
+import { ShoeWidths } from '../valueTypes/enums/shoeWidths';
+import { SwimsuitBottomStyles } from '../valueTypes/enums/swimsuitBottomStyles';
+import { SwimsuitTopStyles } from '../valueTypes/enums/swimsuitTopStyles';
+import { CuffTypes } from '../valueTypes/enums/cuffTypes';
+import { CollarTypes } from '../valueTypes/enums/collarTypes';
+import { LapelTypes } from '../valueTypes/enums/lapelTypes';
+import { SleeveTypes } from '../valueTypes/enums/sleeveTypes';
+import { SleeveLengths } from '../valueTypes/enums/sleeveLengths';
+import { NeckTypes } from '../valueTypes/enums/neckTypes';
+import { BacklineTypes } from '../valueTypes/enums/backlineTypes';
+import { DressTypes } from '../valueTypes/enums/dressTypes';
+import { BlazerTypes } from '../valueTypes/enums/blazerTypes';
+import { SizeGroups } from '../valueTypes/enums/sizeGroups';
 import {
     BustSizesEnum,
     MensFootwearEnum,
@@ -61,12 +60,12 @@ import {
     WomensFootwearEnum,
     WomensLetterEnum,
     YouthSizesEnum
-} from '../enums/runSizes';
+} from '../../scripts/runSizes';
 import { BleachingEnum, DryCleanEnum, WashEnum } from '../../util/cc';
 import MEDIA from './media';
 import { includesToNarrative } from './toNarrative/includesToNarrative';
 import { preStringArrayToNarrative } from './preStringArrayToNarrative';
-import { productColorsToNarrative } from './productColorsToNarrative';
+import { productColorsToNarrative } from './toNarrative/productColorsToNarrative';
 import { monthYearToNarrative } from './monthYearToNarrative';
 import { modelInfoToNarrative } from './modelInfoToNarrative';
 import { barcodesToNarrative } from './toNarrative/barcodesToNarrative';
@@ -75,6 +74,7 @@ import { dollarToMemory } from './dollarToNarrative';
 import { madeOfToNarrative } from './madeOfToNarrative';
 import { sizeToNarrative } from './sizeToNarrative';
 import { optStringToMemory } from './toNarrative/optStringToMemory';
+import modelInfo from './../embedded/modelInfo';
 
 const { toMemory: sizeToMeory, toDatabase: sizeToDatabase } = Size;
 const { toMemory: mediaDetailsMemory, toDatabase: mediaDeailsDatabase } = MEDIA;
@@ -85,15 +85,11 @@ const toMemory = z.object({
     branding: branding.toMemory.optional(),
     upcs: barcode.toMemory.array().default([]),
     dimensions: dimensions.toMemory.default({}),
-    weight: weight.toMemory.default({ value: 0, uom: 'g' }),
-    modelInfo: modelInfo.toMemory.default({}).transform(modelInfoToNarrative),
+    weight: measurement.toMemory(WeightUOM, 'g').default({}),
+    modelInfo: modelInfo.toMemory.default({}),
     origin: Countries.default(''),
-    manufactureDate: monthYear.toMemory
-        .default({})
-        .transform(monthYearToNarrative),
-    colors: ProductColors.array()
-        .default([])
-        .transform(productColorsToNarrative),
+    manufactureDate: monthYear.toMemory.default({}),
+    colors: ProductColors.array().default([]),
     hashTags: hashTag.toMemory.array().default([]),
     classification: classification.toMemory.optional(),
     features: z

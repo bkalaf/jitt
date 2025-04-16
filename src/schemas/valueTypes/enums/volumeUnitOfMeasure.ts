@@ -2,7 +2,8 @@ import { z } from "zod";
 export const volumeUnitOfMeasure = {
 	"mL": "mL",
 	"qt": "qt",
-	"gal": "gal"
+	"gal": "gal",
+	"flOz": "flOz"
 } as const;
 export const volumeUnitOfMeasureToGroup = {
 	"mL": ["volume"],

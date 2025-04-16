@@ -7,11 +7,11 @@ import $is from '../checkType';
 import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
-import { BookCategories } from '../enums/bookCategories';
-import { BookGenres } from '../enums/bookGenres';
-import { BookTypes } from '../enums/bookTypes';
-import { Generation } from '../enums/generation';
-import { Languages } from '../enums/languages';
+import { BookCategories } from '../valueTypes/enums/bookCategories';
+import { BookGenres } from '../valueTypes/enums/bookGenres';
+import { BookTypes } from '../valueTypes/enums/bookTypes';
+import { Generation } from '../valueTypes/enums/generation';
+import { Languages } from '../valueTypes/enums/languages';
 import person from './person';
 import { toDatabaseBase } from './media';
 

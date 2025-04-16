@@ -1,5 +1,5 @@
-import { DurationUnitOfMeasure } from '../../enums/durationUnitOfMeasure';
-import measurement from '../../entities/measurement';;
+import { DurationUnitOfMeasure } from '../enums/durationUnitOfMeasure';
+import measurement from '../measurement';;
 
 export default {
     toMemory: measurement.toMemory(DurationUnitOfMeasure, 's'),

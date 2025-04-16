@@ -1,6 +1,6 @@
 import { z } from 'zod';
-import { groupBy } from '../../common/groupBy';
-import { sizes, sizesToGroup } from './sizes';
+import { groupBy } from '../common/groupBy';
+import { sizes, sizesToGroup } from '../schemas/valueTypes/enums/sizes';
 
 const master = new Map();
 

@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { toProperCase } from '../common/toTitleCase';
-import { Flags } from '../schemas/enums/flags';
-import { enumLookup } from '../schemas/enums/inverseEnum';
+import { Flags } from '../schemas/valueTypes/enums/flags';
+import { enumLookup } from '../schemas/valueTypes/enums/inverseEnum';
 import './../preload';
 
 export function toKVP(key: string) {

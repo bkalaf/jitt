@@ -1,6 +1,6 @@
-import { DataTransferRateUnitOfMeasure } from '../../enums/dataTransferRateUnitOfMeasure';
-import { WeightUOM } from '../../enums/weightUOM';
-import measurement from '../../entities/measurement';;
+import { DataTransferRateUnitOfMeasure } from '../enums/dataTransferRateUnitOfMeasure';
+import { WeightUOM } from '../enums/weightUOM';
+import measurement from '../measurement';;
 
 export default {
     toMemory: measurement.toMemory(DataTransferRateUnitOfMeasure, 'mbit/s'),

@@ -1,5 +1,5 @@
-import { enumLookup } from '../enums/inverseEnum';
-import { Sizes } from '../enums/sizes';
+import { enumLookup } from '../valueTypes/enums/inverseEnum';
+import { Sizes } from '../valueTypes/enums/sizes';
 import { SizeMemory } from './size';
 
 export function sizeToNarrative(data: SizeMemory) {

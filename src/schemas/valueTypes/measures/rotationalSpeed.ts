@@ -1,6 +1,6 @@
-import { RotationalSpeedUnitOfMeasure } from '../../enums/rotationalSpeedUnitOfMeasure';
-import { WeightUOM } from '../../enums/weightUOM';
-import measurement from '../../entities/measurement';;
+import { RotationalSpeedUnitOfMeasure } from '../enums/rotationalSpeedUnitOfMeasure';
+import { WeightUOM } from '../enums/weightUOM';
+import measurement from '../measurement';;
 
 export default {
     toMemory: measurement.toMemory(RotationalSpeedUnitOfMeasure, 'rpm'),

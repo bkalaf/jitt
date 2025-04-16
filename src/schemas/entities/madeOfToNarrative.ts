@@ -1,5 +1,5 @@
-import { FabricTypes } from '../enums/fabricTypes';
-import { enumLookup } from '../enums/inverseEnum';
+import { FabricTypes } from '../valueTypes/enums/fabricTypes';
+import { enumLookup } from '../valueTypes/enums/inverseEnum';
 import { MadeOfMemory } from './madeOf';
 
 export function madeOfToNarrative(data: MadeOfMemory) {

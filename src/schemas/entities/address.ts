@@ -7,7 +7,7 @@ import $is from '../checkType';
 import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
-import { USStates, CAProvinces } from './../enums/provinces2';
+import { USStates, CAProvinces } from '../valueTypes/enums/provinces2';
 
 const toMemoryBase = z.object({
     mailing1: z

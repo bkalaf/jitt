@@ -1,5 +1,5 @@
-import { LengthUOM } from '../../enums/lengthUOM';
-import measurement from '../../entities/measurement';
+import { LengthUOM } from '../enums/lengthUOM';
+import measurement from '../measurement';
 
 export default {
     toMemory: measurement.toMemory(LengthUOM, 'mm'),

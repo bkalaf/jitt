@@ -19,7 +19,7 @@ import {
     TumbleDryEnum,
     GentleOrDelicateEnum
 } from '../../util/cc';
-import { enumLookup } from '../enums/inverseEnum';
+import { enumLookup } from '../valueTypes/enums/inverseEnum';
 
 const toCategory = <T extends Record<any, any>>(obj: z.ZodNativeEnum<T>) =>
     obj

@@ -7,7 +7,7 @@ import $is from '../checkType';
 import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
-import { MediaTypes } from '../enums/mediaTypes';
+import { MediaTypes } from '../valueTypes/enums/mediaTypes';
 
 const toMemory = z.object({
     _id: $objectId.memory,

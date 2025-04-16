@@ -7,9 +7,9 @@ import $is from '../checkType';
 import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
-import { PersonRoles } from '../enums/personRoles';
-import { PersonCredentials, PersonPrefixes, PersonSuffixes } from '../enums';
-import { enumLookup, inverseEnum } from '../enums/inverseEnum';
+import { PersonRoles } from '../valueTypes/enums/personRoles';
+import { PersonCredentials, PersonPrefixes, PersonSuffixes } from '../valueTypes/enums';
+import { enumLookup, inverseEnum } from '../valueTypes/enums/inverseEnum';
 
 const toMemory = z
     .object({

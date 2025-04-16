@@ -1,7 +1,7 @@
-import { countries } from './countries';
-import { provinces, provincesToGroup } from './provinces';
-import { surroundQuotes } from '../../common/addPrefix';
-import { groupBy } from '../../common/groupBy';
+import { countries } from '../schemas/valueTypes/enums/countries';
+import { provinces, provincesToGroup } from '../schemas/valueTypes/enums/provinces';
+import { surroundQuotes } from '../common/addPrefix';
+import { groupBy } from '../common/groupBy';
 
 // const printKeys = (obj: { value: string }[]) => obj.map(x => x.value).map(surroundQuotes).join(' | ');
 

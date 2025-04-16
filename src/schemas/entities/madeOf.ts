@@ -8,7 +8,7 @@ import $is from '../checkType';
 import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
-import { FabricTypes } from '../enums/fabricTypes';
+import { FabricTypes } from '../valueTypes/enums/fabricTypes';
 
 const toMemory = z
     .discriminatedUnion('kind', [

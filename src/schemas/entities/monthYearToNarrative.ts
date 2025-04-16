@@ -1,7 +1,7 @@
 import { toKVP } from '../../util/toKVP';
-import { enumLookup } from '../enums/inverseEnum';
-import { Months } from '../enums/months';
-import { MonthYearMemory } from '../valueTypes/embeddedObjects/monthYear';
+import { enumLookup } from '../valueTypes/enums/inverseEnum';
+import { Months } from '../valueTypes/enums/months';
+import { MonthYearMemory } from '../embedded/monthYear';
 
 export function monthYearToNarrative(data: MonthYearMemory) {
     return {

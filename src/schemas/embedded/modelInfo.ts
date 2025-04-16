@@ -7,7 +7,7 @@ import $is from '../checkType';
 import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { z } from 'zod';
-import { Flags } from '../enums/flags';
+import { Flags } from '../valueTypes/enums/flags';
 
 const toMemory = z.object({
     modelName: z.string().default(''),

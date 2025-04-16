@@ -8,7 +8,7 @@ import { $dbOpt, $memOpt } from '../asOptional';
 import { $dbReq, $memReq } from '../asRequired';
 import { AnyZodObject, z } from 'zod';
 import magnitude from './magnitude';
-import { LengthUOM } from '../enums/lengthUOM';
+import { LengthUOM } from '../valueTypes/enums/lengthUOM';
 
 const { toMemory: magnitudeMemory, toDatabase: magnitudeDatabase } = magnitude;
 

@@ -8,7 +8,7 @@ import {
     SuitSizesEnum,
     YouthSizesEnum,
     WaistSizesEnum
-} from '../enums/runSizes';
+} from '../../scripts/runSizes';
 
 export const toMemory = z.discriminatedUnion('kind', [
     z.object({

@@ -17,6 +17,12 @@ declare global {
         preface: <T>(this: Array<T>, s: T) => Array<T>;
         prefaceIfNonEmpty: <T>(this: Array<T>, s: T) => Array<T>;
         prefaceNonEmptyJoin: (this: Array<string>, s?: string, j?: string) => Array<string>;
+        concatIfNonEmpty: <T>(this: Array<T>, s: T) => Array<T>;
+        zip: <T, U>(this: Array<T>, arr: Array<U>) => Array<[T, U]>;
+        cinch: (this: Array<[number, string]>, pluralize?: boolean) => string;
+    }
+    interface String {
+        prefaceNonEmpty: (this: string, prefix: string) => string;
     }
 }
 

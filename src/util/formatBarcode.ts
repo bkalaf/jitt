@@ -1,5 +1,5 @@
-import { BarcodeTypes } from '../schemas/enums';
-import { enumLookup } from '../schemas/enums/inverseEnum';
+import { BarcodeTypes } from '../schemas/valueTypes/enums';
+import { enumLookup } from '../schemas/valueTypes/enums/inverseEnum';
 
 export function formatBarcode({ barcodeType, value }: { barcodeType: BarcodeTypes; value: string; }) {
     function inner() {

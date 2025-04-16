@@ -1,14 +1,14 @@
 ///<reference path="./../../global.d.ts" />
 import { z } from 'zod';
-import { DurationUnitOfMeasure } from '../enums/durationUnitOfMeasure';
-import { LengthUOM } from '../enums/lengthUOM';
-import { VolumeUnitOfMeasure } from '../enums/volumeUnitOfMeasure';
-import { WeightUOM } from '../enums/weightUOM';
+import { DurationUnitOfMeasure } from '../valueTypes/enums/durationUnitOfMeasure';
+import { LengthUOM } from '../valueTypes/enums/lengthUOM';
+import { VolumeUnitOfMeasure } from '../valueTypes/enums/volumeUnitOfMeasure';
+import { WeightUOM } from '../valueTypes/enums/weightUOM';
 import unitOfMeasure, { $toString } from './unitOfMeasure';
 import magnitude from './magnitude';
 import { surround, surroundParens } from '../../common/addPrefix';
 import { toKVP } from '../../util/toKVP';
-import { truncate } from './truncate';
+import { truncate } from '../../common/truncate';
 
 const { toMemory: magnitudeMemory, toDatabase: magnitudeDatabase } = magnitude;
 
