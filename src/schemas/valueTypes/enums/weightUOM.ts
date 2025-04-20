@@ -1,10 +1,10 @@
 import { z } from 'zod';
 
 export const weightUOM = {
-    g: 'g',
-    kg: 'kg',
-    lb: 'lb',
-    oz: 'oz'
+    g: 'G',
+    kg: 'KG',
+    lb: 'LB',
+    oz: 'OZ'
 } as const;
 
 export const WeightUOM = z.nativeEnum(weightUOM);

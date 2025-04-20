@@ -5,7 +5,7 @@ import entityTypes from './../schemas/entities/mercariBrand';
 const router = express.Router();
 const { toMemory, toDatabase } = entityTypes;
 
-const collectionController = new Controller(
+export const collectionController = new Controller(
     new MongoService('mercariBrand', toMemory, toDatabase)
 );
 

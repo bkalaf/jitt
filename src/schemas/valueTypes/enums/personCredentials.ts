@@ -7,9 +7,9 @@ export const personCredentialss = [
 ];
 
 export const personCredentials = {
-    MD: 'md',
-    PhD: 'phd',
-    Esq: 'esq'
+    MD: 'MD',
+    PhD: 'PHD',
+    Esq: 'ESQ'
 } as const;
 
 export const PersonCredentials = z.nativeEnum(personCredentials);

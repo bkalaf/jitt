@@ -1,11 +1,11 @@
 import { z } from 'zod';
 
 export const lengthUOM = {
-    cm: 'cm',
-    mm: 'mm',
-    m: 'm',
-    ft: 'ft',
-    in: 'in'
+    cm: 'CM',
+    mm: 'MM',
+    m: 'M',
+    ft: 'FT',
+    in: 'IN'
 } as const;
 
 export const LengthUOM = z.nativeEnum(lengthUOM);

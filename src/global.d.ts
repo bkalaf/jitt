@@ -1,3 +1,4 @@
+import { ObjectId } from 'mongodb';
 import { z } from 'zod';
 
 declare global {
@@ -23,6 +24,34 @@ declare global {
     }
     interface String {
         prefaceNonEmpty: (this: string, prefix: string) => string;
+    }
+
+    interface MB {
+        _id: ObjectId;
+        name: string;
+        parent?: MB;
+        timestamp: Date;
+    }
+    export type BarcodeGroup = {
+        leading: number;
+        group: number[];
+        current: number;
+    };
+    export type NumberValue = {
+        v: number;
+    }
+    export type Fraction = {
+        i?: number;
+        n: number;
+        d: number;
+    }
+    export type Barcode = {
+        _id: ObjectId;
+        barcodes: {
+            value: string;
+            barcodeType: string;
+            isValid: boolean;
+        }[]
     }
 }
 

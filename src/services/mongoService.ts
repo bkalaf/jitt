@@ -7,7 +7,7 @@ import {
     ObjectId
 } from 'mongodb';
 import { UnknownKeysParam, z } from 'zod';
-import is from './../schemas/checkType';
+import is from './../schemas/checkType.js';
 import fs from 'graceful-fs';
 
 export interface IService<

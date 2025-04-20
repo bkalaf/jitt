@@ -8,9 +8,9 @@ export const personPrefixess = [
 ]
 
 export const personPrefixes = {
-    Dr: 'dr',
-    Lord: 'lord', 
-    Lady: 'lady'
+    Dr: 'DR',
+    Lord: 'LORD', 
+    Lady: 'LADY'
 } as const;
 
 export const PersonPrefixes = z.nativeEnum(personPrefixes);

@@ -1,8 +1,8 @@
 import { z } from "zod";
 export const durationUnitOfMeasure = {
-	"s": "s",
-	"m": "m",
-	"h": "h"
+	"s": "S",
+	"m": "M",
+	"h": "H"
 } as const;
 export const durationUnitOfMeasureToGroup = {
 	"s": ["duration"],

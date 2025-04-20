@@ -1,13 +1,14 @@
 import { z } from "zod";
 export const personRoles = {
-	"Writer/Author": "writer",
-	"Illustrator": "illustrator",
-	"Director": "director",
-	"Actor/Actress": "actor",
-	"Artist": "artist",
-	"Athlete": "athlete",
-	"Celebrity": "celebrity",
-	"Character": "character"
+	"Writer/Author": "WRITER",
+	"Illustrator": "ILLUSTRATOR",
+	"Director": "DIRECTOR",
+	"Actor/Actress": "ACTOR",
+	"Artist": "ARTIST",
+	"Athlete": "ATHLETE",
+	"Celebrity": "CELEBRITY",
+	"Historical Figure": "HISTORICAL",
+	"Fictional Character": "FICTIONAL"
 } as const;
 export const personRolesToGroup = {
 	"writer": ["movie","tvSeries","book","music"],

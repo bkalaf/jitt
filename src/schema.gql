@@ -1,0 +1,792 @@
+scalar Date
+scalar Email
+scalar Url
+scalar PhoneNumber
+scalar PostalCode
+scalar ObjectId
+scalar JSONObject
+scalar Year 
+scalar USCurrency
+scalar Percentage
+
+type MercariBrand {
+    _id: ID!
+    name: String!
+    timestamp: Date!
+    parent: MercariBrand
+    ID: Int!
+    selector: String!
+}
+
+type Brand {
+    _id: ID!
+    name: String!
+    timestamp: Date!
+    mercariBrand: MercariBrand
+    regex: String
+}
+
+type HashTagUsage {
+    from: Date!
+    count: Int!
+}
+
+type HashTag {
+    _id: ID!
+    name: String!
+    usage: [HashTagUsage!]
+    mostRecent: Date
+    highestCount: Int
+}
+
+input HashTagUsageData {
+    count: Int
+    from: Date
+}
+input HashTagData {
+    name: String!
+    count: Int!
+}
+
+type MercariCategory {
+    name: String!
+    selector: String!
+}
+
+type MercariTaxonomy {
+    _id: ID!
+    category: MercariCategory!
+    subCategory: MercariCategory!
+    subSubCategory: MercariCategory!
+    name: String!
+    timestamp: Date!
+}
+input MercariTaxonomyData {
+    categoryName: String!
+    categorySelector: String!
+    subCategoryName: String!
+    subCategorySelector: String!
+    subSubCategoryName: String!
+    subSubCategorySelector: String!
+}
+
+type ProductLine {
+    _id: ID!
+    brand: Brand
+    description: String
+    name: String!
+    timestamp: Date!
+}
+
+input ProductLineData {
+    brand: ID
+    description: String
+}
+
+type SelfStorage {
+    _id: ID!
+    name: String!
+    website: Url
+}
+
+input SelfStorageData {
+    name: String!
+    website: Url
+}
+
+enum Country {
+    AD
+    AE
+    AF
+    AG
+    AI
+    AL
+    AM
+    AO
+    AQ
+    AR
+    AS
+    AT
+    AU
+    AW
+    AX
+    AZ
+    BA
+    BB
+    BD
+    BE
+    BF
+    BG
+    BH
+    BI
+    BJ
+    BL
+    BM
+    BN
+    BO
+    BQ
+    BR
+    BS
+    BT
+    BV
+    BW
+    BY
+    BZ
+    CA
+    CC
+    CD
+    CF
+    CG
+    CH
+    CI
+    CK
+    CL
+    CM
+    CN
+    CO
+    CR
+    CU
+    CV
+    CW
+    CX
+    CY
+    CZ
+    DE
+    DJ
+    DK
+    DM
+    DO
+    DZ
+    EC
+    EE
+    EG
+    EH
+    ER
+    ES
+    ET
+    FI
+    FJ
+    FK
+    FM
+    FO
+    FR
+    GA
+    GB
+    GD
+    GE
+    GF
+    GG
+    GH
+    GI
+    GL
+    GM
+    GN
+    GP
+    GQ
+    GR
+    GS
+    GT
+    GU
+    GW
+    GY
+    HK
+    HM
+    HN
+    HR
+    HT
+    HU
+    ID
+    IE
+    IL
+    IM
+    IN
+    IO
+    IQ
+    IR
+    IS
+    IT
+    JE
+    JM
+    JO
+    JP
+    KE
+    KG
+    KH
+    KI
+    KM
+    KN
+    KP
+    KR
+    KW
+    KY
+    KZ
+    LA
+    LB
+    LC
+    LI
+    LK
+    LR
+    LS
+    LT
+    LU
+    LV
+    LY
+    MA
+    MC
+    MD
+    ME
+    MF
+    MG
+    MH
+    MK
+    ML
+    MM
+    MN
+    MO
+    MP
+    MQ
+    MR
+    MS
+    MT
+    MU
+    MV
+    MW
+    MX
+    MY
+    MZ
+    NA
+    NC
+    NE
+    NF
+    NG
+    NI
+    NL
+    NO
+    NP
+    NR
+    NU
+    NZ
+    OM
+    PA
+    PE
+    PF
+    PG
+    PH
+    PK
+    PL
+    PM
+    PN
+    PR
+    PS
+    PT
+    PW
+    PY
+    QA
+    RE
+    RO
+    RS
+    RU
+    RW
+    SA
+    SB
+    SC
+    SD
+    SE
+    SG
+    SH
+    SI
+    SJ
+    SK
+    SL
+    SM
+    SN
+    SO
+    SR
+    SS
+    ST
+    SV
+    SX
+    SY
+    SZ
+    TC
+    TD
+    TF
+    TG
+    TH
+    TJ
+    TK
+    TL
+    TM
+    TN
+    TO
+    TR
+    TT
+    TV
+    TW
+    TZ
+    UA
+    UG
+    UM
+    US
+    UY
+    UZ
+    VA
+    VC
+    VE
+    VG
+    VI
+    VN
+    VU
+    WF
+    WS
+    YE
+    YT
+    ZA
+    ZM
+    ZW
+}
+
+enum Province {
+    AB
+    AK
+    AL
+    AR
+    AZ
+    BC
+    CA
+    CO
+    CT
+    DC
+    DE
+    FL
+    GA
+    HI
+    IA
+    ID
+    IL
+    IN
+    KS
+    KY
+    LA
+    MA
+    MB
+    MD
+    ME
+    MI
+    MN
+    MO
+    MS
+    MT
+    NB
+    NC
+    ND
+    NE
+    NH
+    NJ
+    NL
+    NM
+    NS
+    NT
+    NU
+    NV
+    NY
+    OH
+    OK
+    ON
+    OR
+    PA
+    PE
+    PR
+    QC
+    RI
+    SC
+    SD
+    SK
+    TN
+    TX
+    UT
+    VA
+    VT
+    WA
+    WI
+    WV
+    WY
+    YT
+}
+
+type Address {
+    mailing1: String
+    mailing2: String
+    suite: String
+    city: String!
+    province: Province!
+    country: Country!
+    postalCode: PostalCode
+}
+
+type Facility {
+    _id: ID!
+    selfStorage: SelfStorage!
+    facilityNumber: String 
+    emailAddress: Email
+    phoneNumber: PhoneNumber
+    address: Address!
+    name: String!
+}
+
+input SelfStorageData {
+    name: String!
+    website: Url
+}
+input FacilityData {
+    selfStorage: String!
+    facilityNumber: String 
+    emailAddress: Email 
+    phoneNumber: PhoneNumber
+    mailing1: String 
+    suite: String
+    city: String!
+    province: Province!
+    country: Country!
+    postalCode: PostalCode
+}
+
+union Branding = ProductLine | Brand
+
+enum PersonPrefix {
+    DR
+    LORD
+    LADY
+}
+enum PersonSuffix {
+    JR
+    SR
+    III
+}
+enum PersonCredentials {
+    MD
+    PHD
+    ESQ
+}
+enum PersonRole {
+    WRITER
+    ILLUSTRATOR
+    DIRECTOR
+    ACTOR
+    ARTIST
+    SONGWRITER
+    ATHLETE
+    CELEBRITY
+    HISTORICAL
+    FICTIONAL
+}
+type Person {
+    _id: ID!
+    firstName: String 
+    middleName: String
+    lastName: String
+    prefix: PersonPrefix
+    suffix: PersonSuffix
+    credentials: [PersonCredentials!]
+    regex: String
+    roles: [PersonRole!]
+    name: String!
+}
+input PersonData {
+    firstName: String 
+    middleName: String
+    lastName: String
+    prefix: PersonPrefix
+    suffix: PersonSuffix
+    credentials: [PersonCredentials!]
+    regex: String
+    roles: [PersonRole!]
+}
+input MercariBrandData {
+    name: String!
+    ID: Int!
+    parent: ID
+}
+input BrandData {
+    name: String!
+    mercariBrand: ID
+    regex: String
+}
+
+enum TaskType {
+    UNKNOWN
+    MERCARI_PROMOTE
+    MERCARI_IMPORT_BRANDS 
+    MERCARI_IMPORT_TAXONOMY
+    MERCARI_IMPORT_SHIPPING 
+    MERCARI_IMPORT_HASHTAGS 
+    MERCARI_IMPORT_FIELDS
+}
+type AdminTaskResult {
+    count: Int!
+    error: String
+}
+type AdminTask {
+    _id: ID!
+    taskType: TaskType!
+    startTime: Date!
+    endTime: Date
+    isComplete: Boolean!
+    result: AdminTaskResult!
+    isSuccess: Boolean!
+}
+input AdminTaskErrorData {
+    error: String!
+    id: ID!
+}
+type BarcodeGroup {
+    leading: Int!
+    group: [Int!]
+    current: Int!
+}
+type BarcodeGenerator {
+    sku: BarcodeGroup!
+    locator: BarcodeGroup!
+}
+enum LengthUOM {
+    IN
+    CM
+    MM
+    FT
+    M
+}
+enum WeightUOM {
+    G
+    KG
+    OZ
+    LB
+}
+enum VolumeUOM {
+    ML
+    FLOZ
+    PT
+    QT
+    GAL
+    L
+}
+enum DurationUOM {
+    S
+    M 
+    H 
+}
+type NumberValue {
+    v: Float!
+}
+type Fraction {
+    v: Int
+    n: Int!
+    d: Int!
+}
+union Numeric = NumberValue | Fraction
+
+type Length {
+    magnitude: Numeric!
+    unit: LengthUOM!
+    remain: Length
+}
+type Weight {
+    magnitude: Numeric!
+    unit: WeightUOM!
+    remain: Weight
+}
+type Volume {
+    magnitude: Numeric!
+    unit: VolumeUOM!
+    remain: Volume
+}
+type Dimensions {
+    length: Length
+    width: Length
+    height: Length
+}
+enum Colors {
+    BLACK
+    WHITE
+    RED
+    YELLOW
+    ORANGE
+    GREEN
+    BLUE
+    PURPLE
+    ROSE
+    PINK
+    GOLD
+    SILVER
+    COPPER
+    BROWN
+    BEIGE
+    GRAY
+    CYAN
+    LIME
+    AMBER
+    SCARLET
+    FUSCHIA
+    MAROON
+    OLIVE
+    BURGUNDY
+    BRONZE
+}
+enum ColorShades {
+    LIGHT
+    DARK
+}
+enum ColorPatterns {
+    STRIPED
+    PLAID
+    GEOMETRIC
+    ABSTRACT
+    POLKA_DOT
+    FLORAL
+    TIE_DYE
+}
+type Color {
+    color: Colors!
+    shade: ColorShades
+    pattern: ColorPatterns
+}
+type MonthYear {
+    month: Int
+    year: Year!
+}
+enum BarcodeType {
+    LOCATOR
+    SKU
+    EAN
+    UPC
+    ISBN10
+    ISBN13
+    UNKNOWN
+}
+type IndividualBarcode {
+    value: String!
+    isValid: Boolean!
+    barcodeType: BarcodeType!
+}
+type Barcode {
+    _id: ID!
+    barcodes: [IndividualBarcode!]!
+}
+enum BaseFlags {
+    VINTAGE
+    RARE
+    COLLECTIBLE
+    DISCONTINUED
+    NOVELTY
+    HANDMADE
+    ADJUSTABLE
+    ANTIQUE
+    UNOPENED
+}
+enum Materials {
+    LEAD_CRYSTAL
+    GLASS
+    PLASTIC
+    WOOD
+}
+enum Fabrics {
+    COTTON
+    POLYESTER
+}
+enum Metals {
+    GOLD_24K
+    SILVER
+}
+type MadeOfBaseLineItem {
+    material: Materials!
+    percent: Percentage!
+}
+type MadeOfFabricLineItem {
+    fabric: Fabrics!
+    percent: Percentage!
+}
+type MadeOfMetalLineItem {
+    metal: Metals!
+    percent: Percentage!
+}
+union MadeOfLineItem = MadeOfBaseLineItem | MadeOfFabricLineItem | MadeOfMetalLineItem
+
+type MadeOfSection {
+    name: String
+    value: MadeOfLineItem!
+}
+
+type Product {
+    _id: ID!
+    notes: String 
+    branding: Branding
+    modelName: String 
+    modelNo: String 
+    dimensions: Dimensions
+    weight: Weight
+    volume: Volume
+    colors: [Color]
+    includes: JSONObject
+    features: [String]!
+    origin: Country
+    manufactured: MonthYear
+    upcs: [Barcode]
+    hashTags: [HashTag]
+    flags: [BaseFlags]
+    madeOf: [MadeOfSection]
+    isVintage: Boolean!
+    isRare: Boolean!
+    isDiscontinued: Boolean!
+    isCollectible: Boolean!
+    isUnopened: Boolean!
+    isAntique: Boolean!
+    isHandmade: Boolean!
+    isAdjustable: Boolean!
+    isNovelty: Boolean!
+}
+
+type Query {
+    mercariBrands: [MercariBrand]
+    mercariBrand(id: ID!): MercariBrand
+    brands: [Brand]
+    brand(id: ID!): Brand
+    hashTags: [HashTag]
+    hashTag(id: ID!): HashTag
+    mercariTaxonomies: [MercariTaxonomy]
+    mercariTaxonomy(id: ID!): MercariTaxonomy
+    productLines: [ProductLine]
+    productLine(id: ID!): ProductLine
+    brandings: [Branding]
+    branding(id: ID!): Branding
+    selfStorages: [SelfStorage]
+    selfStorage(id: ID!): SelfStorage
+    facilities: [Facility]
+    facility(id: ID!): Facility
+    people: [Person]
+    person(id: ID!): Person
+    personByRole(role: PersonRole): [Person]
+    adminTasks: [AdminTask]
+    adminTask(id: ID!): AdminTask 
+    runningTasks: [AdminTask]
+    getNextSku: String!
+    getNextLocator: String!
+    barcodes: [Barcode]
+    barcode(id: ID!): Barcode
+    allBarcodes: JSONObject
+    idForBarcode(barcode: String!): ID
+}
+
+type Mutation {
+    addMercariBrand(data: MercariBrandData): MercariBrand!
+    addBrand(data: BrandData): Brand!
+    addMercariTaxonomy(data: MercariTaxonomyData): MercariTaxonomy!
+    addHashTag(data: HashTagData): HashTag!
+    addProductLine(data: ProductLineData): ProductLine!
+    addSelfStorage(data: SelfStorageData): SelfStorage!
+    addFacility(data: FacilityData): Facility!
+    addPerson(data: PersonData): Person!
+    startAdminTask(data: TaskType!): AdminTask!
+    incrAdminTask(data: ID!): AdminTask!
+    errorAdminTask(data: AdminTaskErrorData): AdminTask!
+    endAdminTask(data: ID!): AdminTask!
+    addBarcode(barcode: String!): Barcode!
+}
