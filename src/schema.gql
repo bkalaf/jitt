@@ -70,6 +70,44 @@ input MercariTaxonomyData {
     subSubCategorySelector: String!
 }
 
+type YouthTaxonomy {
+    low: MercariTaxonomy
+    mid: MercariTaxonomy
+    high: MercariTaxonomy
+}
+type GenderedTaxonomy {
+    mens: MercariTaxonomy
+    womens: MercariTaxonomy 
+    boys: YouthTaxonomy
+    girls: YouthTaxonomy
+}
+
+union Taxonomy = MercariTaxonomy | GenderedTaxonomy 
+
+type Classification {
+    _id: ID!
+    classifier: Classifier!
+    path: String!
+    traits: JSONObject
+    hashTags: [HashTag]
+}
+type Classifier {
+    _id: ID!
+    path: String!
+    itemType: String!
+    parent: Classifier
+    taxonomy: Taxonomy
+    scheme: String 
+    details: [String!]
+    fields: JSONObject
+    level: Int!
+    isRoot: Boolean!
+    effectiveTaxonomy: Taxonomy 
+    effectiveScheme: String 
+    effectiveDetails: [String!]
+    effectiveFields: JSONObject
+    classifications: [Classification]
+}
 type ProductLine {
     _id: ID!
     brand: Brand
@@ -742,6 +780,14 @@ type Product {
     isHandmade: Boolean!
     isAdjustable: Boolean!
     isNovelty: Boolean!
+}
+
+interface Details {
+    taxonomy: Taxonomy;
+}
+
+type ApparelDetails {
+    
 }
 
 type Query {

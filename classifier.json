@@ -1,0 +1,5572 @@
+[
+
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"toys-games"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"toys-games",
+			"puzzles"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"toys-games",
+			"puzzles",
+			"jigsaw-puzzles"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "jigsaw puzzle",
+		"fullname": ,
+		"conditions": [],
+		"path": [
+			"toys-games",
+			"puzzles",
+			"jigsaw-puzzles"
+		],
+		"attributes": {}
+	},
+
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"electrical"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"electrical",
+			"timer"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "timer",
+		"fullname": ,
+		"conditions": [],
+		"path": [
+			"tools",
+			"electrical",
+			"timer"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"fastening-tools"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"fastening-tools",
+			"hooks"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "hooks",
+		"fullname": ,
+		"conditions": [],
+		"path": [
+			"tools",
+			"fastening-tools",
+			"hooks"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"power-tools"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"power-tools",
+			"drills"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"power-tools",
+			"drills",
+			"straight-drills"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "power drill",
+		"fullname": "Tools::Power Tools::Power Drills",
+		"conditions": [],
+		"path": [
+			"tools",
+			"power-tools",
+			"drills",
+			"straight-drills"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"emergency-equipment"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"emergency-equipment",
+			"jumper-box"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "jumper box",
+		"fullname": "Other::Automotive::Tools & equipment",
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"emergency-equipment",
+			"jumper-box"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"emergency-equipment",
+			"power-station"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "power station jump starter",
+		"fullname": "Other::Automotive::Tools & equipment",
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"emergency-equipment",
+			"power-station"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"emergency-equipment",
+			"jumper-cables"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "jumper cables",
+		"fullname": "Other::Automotive::Tools & equipment",
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"emergency-equipment",
+			"jumper-cables"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"maintenance"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"maintenance",
+			"error-code-reader"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "error code reader",
+		"fullname": "Other::Automotive::Tools & equipment",
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"maintenance",
+			"error-code-reader"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"maintenance",
+			"tire-gauge"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "tire gauge",
+		"fullname": "Other::Automotive::Automotive Tire & Wheel Accessories",
+		"conditions": [],
+		"path": [
+			"tools",
+			"vehicle-tools",
+			"maintenance",
+			"tire-gauge"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"hvac"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"hvac",
+			"space-heaters"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "space heater",
+		"fullname": "Home::Home appliances::Space heaters",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"hvac",
+			"space-heaters"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"hvac",
+			"air-circulators"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "air circulator",
+		"fullname": "Home::Home appliances::Fans",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"hvac",
+			"air-circulators"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"hvac",
+			"fans"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "fan",
+		"fullname": "Home::Home appliances::Fans",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"hvac",
+			"fans"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"floor-care"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"floor-care",
+			"vacuum"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "vacuum",
+		"fullname": "Home::Home appliances::Vacuums",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"floor-care",
+			"vacuum"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"floor-care",
+			"attachments"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "attachments",
+		"fullname": "Home::Home appliances::Vacuums",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"floor-care",
+			"attachments"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"coffee-makers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "coffee maker",
+		"fullname": "Home::Kitchen Coffee & Espresso Makers::Coffee Drippers",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"coffee-makers"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"toaster-ovens"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "toaster oven",
+		"fullname": "Home::Kitchen Small Appliances::Toaster Ovens",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"toaster-ovens"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"toasters"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "toaster",
+		"fullname": "Home::Kitchen Small Appliances::Toasters",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"toasters"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"soda-makers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "soda maker",
+		"fullname": "Home::Kitchen Small Appliances::Soda Makers",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"soda-makers"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"indoor-grills"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "indoor grill",
+		"fullname": "Home::Kitchen Small Appliances::Contact Grills",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"indoor-grills"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"food-processors"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "food processor",
+		"fullname": "Home::Kitchen Small Appliances::Food Processors",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"food-processors"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"waffle-irons"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "waffle iron",
+		"fullname": "Home::Kitchen Small Appliances::Waffle Makers",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"waffle-irons"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"hand-mixers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "hand mixer",
+		"fullname": "Home::Kitchen Small Appliances::Hand Mixers",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"hand-mixers"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"electric-kettles"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "electric kettle",
+		"fullname": "Home::Kitchen Tea & Accessories::Electric Kettles",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"electric-kettles"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"electric-can-openers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "electric can opener",
+		"fullname": "Home::Kitchen Small Appliances::Other Small Appliances",
+		"conditions": [],
+		"path": [
+			"appliances",
+			"small-kitchen",
+			"electric-can-openers"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"hard-drives"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"hard-drives",
+			"external"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "hard drive",
+		"fullname": "Electronics::Computer Components & Parts::Computer Drive Enclosures",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"hard-drives",
+			"external"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"hard-drives",
+			"internal"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "hard drive",
+		"fullname": "Electronics::Computers & Laptops::Computer Drives",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"hard-drives",
+			"internal"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"cd-drive"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "CD-rom drive",
+		"fullname": "Electronics::Computers & Laptops::Computer Drives",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"cd-drive"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"dvd-drive"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "DVD drive",
+		"fullname": "Electronics::Computers & Laptops::Computer Drives",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"dvd-drive"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"dvdrw-drive"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "DVD/RW drive",
+		"fullname": "Electronics::Computers & Laptops::Computer Drives",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"drives",
+			"dvdrw-drive"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"memory"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"memory",
+			"ddr-ram"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "DDR RAM",
+		"fullname": "Electronics::Computer Components & Parts::Computer Memory (RAM)",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"memory",
+			"ddr-ram"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"cpu"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "CPU",
+		"fullname": "Electronics::Computer Components & Parts::Computer CPUs",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"cpu"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"networking"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "network card",
+		"fullname": "Electronics::Computer Components & Parts::Other Computer Parts & Components",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"networking"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"rechargable-battery"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "rechargable battery",
+		"fullname": "Electronics::Computer Components & Parts::Computer Power Supplies",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"components",
+			"rechargable-battery"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"desktops"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "desktop computer",
+		"fullname": "Electronics::Computers & Laptops::Desktops Computers",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"desktops"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"laptops"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "laptop computer",
+		"fullname": "Electronics::Computers & Laptops::Laptops",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"laptops"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"scanners"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "scanner",
+		"fullname": "Electronics::Computers & Laptops::Scanners",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"scanners"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"printers"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"printers",
+			"inkjet"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "inkjet printer",
+		"fullname": "Electronics::Computers & Laptops::Printers",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"printers",
+			"inkjet"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"printers",
+			"laser"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "laser printer",
+		"fullname": "Electronics::Computers & Laptops::Printers",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"printers",
+			"laser"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"printers",
+			"other"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "printer",
+		"fullname": "Electronics::Computers & Laptops::Printers",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"printers",
+			"other"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"all-in-one"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "all-in-one printer",
+		"fullname": "Electronics::Computers & Laptops::All-In-One Printers",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"computers",
+			"all-in-one"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"accessories"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"accessories",
+			"wireless-chargers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "wireless charger",
+		"fullname": "Electronics::Cell phones & accessories::Wireless Cell Phone Chargers",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"accessories",
+			"wireless-chargers"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"accessories",
+			"cases"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "phone case",
+		"fullname": "Electronics::Cell phones & accessories::Cell Phone Cases",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"accessories",
+			"cases"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"accessories",
+			"mounts"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "cell phone mount",
+		"fullname": "Electronics::Cell phones & accessories::Cell Phone Cradles",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"accessories",
+			"mounts"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"smart-phones"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "smart phone",
+		"fullname": "Electronics::Cell phones & accessories::Cell phones & smartphones",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"cell-phones",
+			"smart-phones"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"cd-players"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "CD player",
+		"fullname": "Electronics::Home Audio::CD Players",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"cd-players"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"radios"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "radio",
+		"fullname": "Electronics::Home Audio::Radios",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"radios"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"turntables"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "turntable",
+		"fullname": "Electronics::Home Audio::Home Audio Turntables",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"turntables"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"speakers"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"speakers",
+			"bluetooth"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "bluetooth speaker",
+		"fullname": "Electronics::Home Audio::Bluetooth Speakers",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"speakers",
+			"bluetooth"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"speakers",
+			"desktop"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "speakers",
+		"fullname": "Electronics::Home Audio::Home Speakers",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"audio",
+			"speakers",
+			"desktop"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"gaming"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"gaming",
+			"consoles"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "video game console",
+		"fullname": "Electronics::Video games & consoles::Consoles",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"gaming",
+			"consoles"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"gaming",
+			"accessories"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"gaming",
+			"accessories",
+			"gamepads"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "gamepad",
+		"fullname": "Electronics::Video games & consoles::Accessories",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"gaming",
+			"accessories",
+			"gamepads"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"photography"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"photography",
+			"digital-cameras"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "digital camera",
+		"fullname": "Electronics::Cameras & photography::Digital cameras",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"photography",
+			"digital-cameras"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"photography",
+			"film-cameras"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "camera",
+		"fullname": "Electronics::Cameras & photography::Film & Polaroid Cameras",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"photography",
+			"film-cameras"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"photography",
+			"polaroid-cameras"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "polaroid camera",
+		"fullname": "Electronics::Cameras & photography::Film & Polaroid Cameras",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"photography",
+			"polaroid-cameras"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"home-security"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"home-security",
+			"surveillance-cameras"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "survelliance camera",
+		"fullname": "Electronics::Smart Home & Security::Home surveillance",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"home-security",
+			"surveillance-cameras"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"home-security",
+			"door-alarms"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "door alarm",
+		"fullname": "Electronics::Smart Home & Security::Other",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"home-security",
+			"door-alarms"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"wearables"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"wearables",
+			"smart-watch"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "smart watch",
+		"fullname": "Electronics::Wearables::Smart Watches",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"wearables",
+			"smart-watch"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"cable-boxes"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"cable-boxes",
+			"dvrs"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "DVR",
+		"fullname": "Electronics::TV & Video::DVRs",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"cable-boxes",
+			"dvrs"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"dvd-player"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "DVD player",
+		"fullname": "Electronics::TV & Video::DVD Players",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"dvd-player"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"vhs-player"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "VHS player",
+		"fullname": "Electronics::TV & Video::Other",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"vhs-player"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"projectors"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "projector",
+		"fullname": "Electronics::TV & Video::Projectors",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"projectors"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"streaming-devices"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "streaming device",
+		"fullname": "Electronics::TV & Video::Streaming Devices",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"video",
+			"streaming-devices"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"electronics",
+			"telephones"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "telephone",
+		"fullname": "Vintage & collectibles::Electronics::Telephone",
+		"conditions": [],
+		"path": [
+			"electronics",
+			"telephones"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"cleaning"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"cleaning",
+			"dusters"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "duster",
+		"fullname": "Home::Cleaning supplies::Dusting",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"cleaning",
+			"dusters"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"fine-china"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"fine-china",
+			"teapots"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "fine china teapot",
+		"fullname": "Vintage & collectibles::Serving::Teapot",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"fine-china",
+			"teapots"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "fine china teapot set",
+		"fullname": "Vintage & collectibles::Serving::Teapot",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"fine-china",
+			"teapots"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"servingware"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"servingware",
+			"platters"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "platter",
+		"fullname": "Home::Kitchen Serveware::Serving Platters",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"servingware",
+			"platters"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"servingware",
+			"serving-trays"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "serving tray",
+		"fullname": "Home::Kitchen Serveware::Serving Trays",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"servingware",
+			"serving-trays"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"drinkware"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"drinkware",
+			"coffee-mugs"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "coffee mug",
+		"fullname": "Home::Kitchen Drinkware::Coffee Mugs",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"drinkware",
+			"coffee-mugs"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"drinkware",
+			"tumblers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "drinking glass",
+		"fullname": "Home::Kitchen Drinkware::Drinking Glasses",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"drinkware",
+			"tumblers"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "glassware set",
+		"fullname": "Home::Kitchen Drinkware::Glassware Collections",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"drinkware",
+			"tumblers"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"tongs"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "kitchen tongs",
+		"fullname": "Home::Kitchen Utensils::Kitchen Tongs",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"tongs"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"spatulas"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "spatula",
+		"fullname": "Home::Kitchen Utensils::Kitchen Spatulas",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"spatulas"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "spatula set",
+		"fullname": "Home::Kitchen Utensils::Kitchen Spatulas",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"spatulas"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"misc"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "kitchen utensil set",
+		"fullname": "Home::Kitchen Utensils::Kitchen Utensil Sets",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"misc"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"measuring-spoons"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "measuring spoon",
+		"fullname": "Home::Kitchen Utensils::Measuring Spoons",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"measuring-spoons"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "measuring spoon set",
+		"fullname": "Home::Kitchen Utensils::Measuring Spoons",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"measuring-spoons"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"measuring-cups"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "measuring cup",
+		"fullname": "Home::Kitchen Utensils::Measuring Cups",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"measuring-cups"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "measuring cup set",
+		"fullname": "Home::Kitchen Utensils::Measuring Cups",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"measuring-cups"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"chef-knives"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "chef knives",
+		"fullname": "Home::Kitchen Cutlery::Chef's Knives",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"chef-knives"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "kitchen knife set",
+		"fullname": "Home::Kitchen Cutlery::Kitchen Knife Sets",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"chef-knives"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"flour-sifter"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "flour sifter",
+		"fullname": "Home::Kitchen Utensils::Kitchen Sifters",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"utensils",
+			"flour-sifter"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"bakeware"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"bakeware",
+			"baking-sheets"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "baking sheet",
+		"fullname": "Home::Kitchen Bakeware::Baking Sheets",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"bakeware",
+			"baking-sheets"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "bakeware set",
+		"fullname": "Home::Kitchen Bakeware::Bakeware Sets",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"bakeware",
+			"baking-sheets"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"cookware"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"cookware",
+			"colanders"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "colander",
+		"fullname": "Home::Kitchen Utensils::Kitchen Colanders",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"cookware",
+			"colanders"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"cookware",
+			"kettles"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "kettle",
+		"fullname": "Home::Kitchen Tea & Accessories::Stovetop Kettles",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"cookware",
+			"kettles"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"cookware",
+			"stock-pots"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "stock pot",
+		"fullname": "Home::Kitchen Cookware::Stock Pots & Multipots",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"cookware",
+			"stock-pots"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "cookware set",
+		"fullname": "Home::Kitchen Cookware::Cookware Sets",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"cookware",
+			"stock-pots"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware",
+			"napkin-rings"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "napkin ring",
+		"fullname": "Home::Kitchen & Table Linens::Kitchen Napkin Rings",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware",
+			"napkin-rings"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware",
+			"dinner-plates"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "dinner plate",
+		"fullname": "Home::Kitchen Dinnerware::Dinner Plates",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware",
+			"dinner-plates"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "dinnerware set",
+		"fullname": "Home::Kitchen Dinnerware::Dinnerware Sets",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware",
+			"dinner-plates"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware",
+			"salad-plates"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "salad plate",
+		"fullname": "Home::Kitchen Dinnerware::Salad Plates",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware",
+			"salad-plates"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "dinnerware set",
+		"fullname": "Home::Kitchen Dinnerware::Dinnerware Sets",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"kitchen",
+			"dinnerware",
+			"salad-plates"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"ironing-board"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "ironing board",
+		"fullname": "Home::Home appliances::Ironing Boards",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"ironing-board"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"bathmats"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "bathmat",
+		"fullname": "Home::Bath::Bath rugs",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"bathmats"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "bathmat set",
+		"fullname": "Home::Bath::Bath rugs",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"linens",
+			"bathmats"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"towels"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "bath towels",
+		"fullname": "Home::Bath::Towels",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"towels"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "bath towel set",
+		"fullname": "Home::Bath::Towels",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"linens",
+			"towels"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"bed-sheets"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "bed sheets",
+		"fullname": "Home::Bedding::Bed Sheets",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"bed-sheets"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "bed sheet set",
+		"fullname": "Home::Bedding::Bed Sheets",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"linens",
+			"bed-sheets"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"comforters"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "bed comforter",
+		"fullname": "Home::Bedding::Comforters",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"linens",
+			"comforters"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "comforter set",
+		"fullname": "Home::Bedding::Comforter Sets",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"linens",
+			"comforters"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"kitchen-canisters"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "kitchen canister",
+		"fullname": "Home::Kitchen Storage::Kitchen Canisters",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"kitchen-canisters"
+		],
+		"attributes": {}
+	},
+	{
+		"itemType": "kitchen canister set",
+		"fullname": "Home::Kitchen Storage::Kitchen Canisters",
+		"attributes": {},
+		"path": [
+			"home-goods",
+			"storage",
+			"kitchen-canisters"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"cd-storage"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "cd storage",
+		"fullname": "Home::Storage & organization::Clothing & closet storage",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"cd-storage"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"kitchen-drawer-organizer"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "kitchen drawer organizer",
+		"fullname": "Home::Kitchen Storage::Kitchen Drawers Organizers",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"kitchen-drawer-organizer"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"jewelry-organizer"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "jewelry organizer",
+		"fullname": "Home::Storage & organization::Jewelry boxes & organizers",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"jewelry-organizer"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"jewelry-box"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "jewelry box",
+		"fullname": "Home::Storage & organization::Jewelry boxes & organizers",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"jewelry-box"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"food"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "food storage container",
+		"fullname": "Home::Kitchen Storage::Food Storage Containers",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"storage",
+			"food"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"area-rugs"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "area rug",
+		"fullname": "Home::Home decor::Area Rugs",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"area-rugs"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"baskets"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "basket",
+		"fullname": "Home::Home decor::Baskets",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"baskets"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"clocks"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "clock",
+		"fullname": "Home::Home decor::Clocks",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"clocks"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"pillows"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "accent pillow",
+		"fullname": "Home::Home decor::Decorative pillows",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"pillows"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"candles"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "candle",
+		"fullname": "Home::Home decor::Home Candles",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"candles"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"photo-albums"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "photo album",
+		"fullname": "Home::Home decor::Photo Albums",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"photo-albums"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"picture-frames"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "picture frame",
+		"fullname": "Home::Home decor::Picture Frames",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"picture-frames"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"vases"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "vase",
+		"fullname": "Home::Home decor::Vases",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"vases"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"pottery"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "pottery",
+		"fullname": "Home::Home decor::Home decor accents",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"pottery"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"ceramics"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "ceramic decor",
+		"fullname": "Home::Home decor::Home decor accents",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"ceramics"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"planters"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "planter",
+		"fullname": "Handmade::Ceramics and pottery::Planters",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"accents",
+			"planters"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"lighting"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"lighting",
+			"bulbs"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "light bulbs",
+		"fullname": "Home::Home decor::Home Decor Lighting",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"lighting",
+			"bulbs"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"lighting",
+			"table-lamps"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "table lamp",
+		"fullname": "Home::Home decor::Home Decor Lamps",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"lighting",
+			"table-lamps"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"wall-hangings"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"wall-hangings",
+			"mirrors"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "wall mirror",
+		"fullname": "Home::Home decor::Mirrors",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"wall-hangings",
+			"mirrors"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"wall-hangings",
+			"tapestries"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "tapestry",
+		"fullname": "Home::Home decor::Tapestries",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"wall-hangings",
+			"tapestries"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"wall-hangings",
+			"window-treatments"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "window treatment",
+		"fullname": "Home::Home decor::Window treatments",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"wall-hangings",
+			"window-treatments"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"easter"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "easter decor",
+		"fullname": "Handmade::Holidays::Easter",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"easter"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"halloween"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "halloween decor",
+		"fullname": "Handmade::Holidays::Halloween",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"halloween"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"hanukkah"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "hanukkah decor",
+		"fullname": "Handmade::Holidays::Hanukkah",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"hanukkah"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"patriotic"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "holiday decor",
+		"fullname": "Handmade::Holidays::Patriotic",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"patriotic"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"valentines"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "valentine's day decor",
+		"fullname": "Handmade::Holidays::Valentine",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"valentines"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"christmas"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"christmas",
+			"misc"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "christmas decor",
+		"fullname": "Handmade::Holidays::Christmas",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"christmas",
+			"misc"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"christmas",
+			"ornaments"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "christmas ornament",
+		"fullname": "Handmade::Holidays::Christmas",
+		"conditions": [],
+		"path": [
+			"home-goods",
+			"decor",
+			"holidays",
+			"christmas",
+			"ornaments"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"figurines"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"figurines",
+			"ceramic"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "ceramic figurine",
+		"fullname": "Toys & Collectibles::Vintage & Antique Collectibles::Figurines",
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"figurines",
+			"ceramic"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"figurines",
+			"crystal"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "crystal figurine",
+		"fullname": "Toys & Collectibles::Vintage & Antique Collectibles::Figurines",
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"figurines",
+			"crystal"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"novelty"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "novelty collectible",
+		"fullname": "Toys & Collectibles::Novelty & Gag Toys::All Novelty & Gag Toys",
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"novelty"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"toys"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"toys",
+			"dolls"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "doll",
+		"fullname": "Toys & Collectibles::Vintage & Antique Toys::Dolls",
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"toys",
+			"dolls"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"toys",
+			"happy-meal-toys"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "happy meal toy",
+		"fullname": "Toys & Collectibles::Vintage & Antique Toys::Other",
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"toys",
+			"happy-meal-toys"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"trading-cards"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"trading-cards",
+			"baseball-cards"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "baseball cards",
+		"fullname": "Toys & Collectibles::Sports Trading Cards::Baseball Trading Cards",
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"trading-cards",
+			"baseball-cards"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"trading-cards",
+			"football-cards"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "football cards",
+		"fullname": "Toys & Collectibles::Sports Trading Cards::Football Trading Cards",
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"trading-cards",
+			"football-cards"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"trading-cards",
+			"basketball-cards"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "basketball cards",
+		"fullname": "Toys & Collectibles::Sports Trading Cards::Basketball Trading Cards",
+		"conditions": [],
+		"path": [
+			"collectibles",
+			"trading-cards",
+			"basketball-cards"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"outdoors"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"outdoors",
+			"camping-coolers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "cooler",
+		"fullname": "Sports & outdoors::Camping Equipment::Camping Coolers & Ice Chests",
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"outdoors",
+			"camping-coolers"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"outdoors",
+			"camping-chairs"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "camping chair",
+		"fullname": "Sports & outdoors::Camping Equipment::Camping Chairs",
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"outdoors",
+			"camping-chairs"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"outdoors",
+			"hiking-equipment"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "hiking equipment",
+		"fullname": "Sports & outdoors::Outdoors::Hiking Equipment",
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"outdoors",
+			"hiking-equipment"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"tennis"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"tennis",
+			"rackets"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "tennis racquet",
+		"fullname": "Sports & outdoors::Team sports::Tennis & racquets",
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"tennis",
+			"rackets"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"bowling"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"bowling",
+			"balls"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "bowling ball",
+		"fullname": "Sports & outdoors::Exercise::Bowling",
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"bowling",
+			"balls"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"bowling",
+			"accessories"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "bowling accessory",
+		"fullname": "Sports & outdoors::Exercise::Bowling",
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"bowling",
+			"accessories"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"bowling",
+			"pins"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "bowling pin",
+		"fullname": "Sports & outdoors::Exercise::Bowling",
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"bowling",
+			"pins"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"irons"
+		]
+	},
+	{
+		"traits": {
+			"gender": "mens"
+		},
+		"conditions": [],
+		"itemType": "golf club",
+		"fullname": "Sports & outdoors::Golf::Men's golf clubs",
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"irons"
+		],
+		"attributes": {
+			"gender": "mens"
+		}
+	},
+	{
+		"itemType": "golf clubs",
+		"fullname": "Sports & outdoors::Golf::Men's golf clubs",
+		"attributes": {
+			"gender": "mens"
+		},
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"irons"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"traits": {
+			"gender": "womens"
+		},
+		"conditions": [],
+		"itemType": "golf club",
+		"fullname": "Sports & outdoors::Golf::Women's golf clubs",
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"irons"
+		],
+		"attributes": {
+			"gender": "womens"
+		}
+	},
+	{
+		"itemType": "golf clubs",
+		"fullname": "Sports & outdoors::Golf::Women's golf clubs",
+		"attributes": {
+			"gender": "womens"
+		},
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"irons"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"drivers"
+		]
+	},
+	{
+		"traits": {
+			"gender": "mens"
+		},
+		"conditions": [],
+		"itemType": "golf club",
+		"fullname": "Sports & outdoors::Golf::Men's golf clubs",
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"drivers"
+		],
+		"attributes": {
+			"gender": "mens"
+		}
+	},
+	{
+		"itemType": "golf clubs",
+		"fullname": "Sports & outdoors::Golf::Men's golf clubs",
+		"attributes": {
+			"gender": "mens"
+		},
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"drivers"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"traits": {
+			"gender": "womens"
+		},
+		"conditions": [],
+		"itemType": "golf club",
+		"fullname": "Sports & outdoors::Golf::Women's golf clubs",
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"drivers"
+		],
+		"attributes": {
+			"gender": "womens"
+		}
+	},
+	{
+		"itemType": "golf clubs",
+		"fullname": "Sports & outdoors::Golf::Women's golf clubs",
+		"attributes": {
+			"gender": "womens"
+		},
+		"path": [
+			"sporting-goods",
+			"sports",
+			"golf",
+			"clubs",
+			"drivers"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"hair-care"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"hair-care",
+			"hair-dryers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "hair dryer",
+		"fullname": "Beauty::Tools & accessories::Hair styling tools",
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"hair-care",
+			"hair-dryers"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"hair-care",
+			"curling-irons"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "curling iron",
+		"fullname": "Beauty::Tools & accessories::Hair styling tools",
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"hair-care",
+			"curling-irons"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"eye-shadow"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "eye shadow",
+		"fullname": "Beauty::Makeup::Eyes",
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"eye-shadow"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"eye-liner"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "eye liner",
+		"fullname": "Beauty::Makeup::Eyes",
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"eye-liner"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"lipstick"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "lipstick",
+		"fullname": "Beauty::Makeup::Lips",
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"lipstick"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"foundation"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "foundation",
+		"fullname": "Beauty::Makeup::Face",
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"foundation"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"nail-polish"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "nail polish",
+		"fullname": "Beauty::Makeup::Nails",
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"cosmetics",
+			"nail-polish"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		]
+	},
+	{
+		"traits": {
+			"gender": "mens"
+		},
+		"conditions": [],
+		"itemType": "perfume",
+		"fullname": "Beauty::Fragrance::Men",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"attributes": {
+			"gender": "mens"
+		}
+	},
+	{
+		"itemType": "perfume boxed set",
+		"fullname": "Beauty::Fragrance::Sets",
+		"attributes": {
+			"gender": "mens"
+		},
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"traits": {
+			"gender": "womens"
+		},
+		"conditions": [],
+		"itemType": "perfume",
+		"fullname": "Beauty::Fragrance::Women",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"attributes": {
+			"gender": "womens"
+		}
+	},
+	{
+		"itemType": "perfume boxed set",
+		"fullname": "Beauty::Fragrance::Sets",
+		"attributes": {
+			"gender": "womens"
+		},
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"traits": {
+			"gender": "boys",
+			"youthSize": "0-24M"
+		},
+		"conditions": [],
+		"itemType": "perfume",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"attributes": {
+			"gender": "boys",
+			"youthSize": "0-24M"
+		}
+	},
+	{
+		"traits": {
+			"gender": "boys",
+			"youthSize": "2T-5T"
+		},
+		"conditions": [],
+		"itemType": "perfume",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"attributes": {
+			"gender": "boys",
+			"youthSize": "2T-5T"
+		}
+	},
+	{
+		"traits": {
+			"gender": "boys",
+			"youthSize": "4T+"
+		},
+		"conditions": [],
+		"itemType": "perfume",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"attributes": {
+			"gender": "boys",
+			"youthSize": "4T+"
+		}
+	},
+	{
+		"traits": {
+			"gender": "girls",
+			"youthSize": "0-24M"
+		},
+		"conditions": [],
+		"itemType": "perfume",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"attributes": {
+			"gender": "girls",
+			"youthSize": "0-24M"
+		}
+	},
+	{
+		"traits": {
+			"gender": "girls",
+			"youthSize": "2T-5T"
+		},
+		"conditions": [],
+		"itemType": "perfume",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"attributes": {
+			"gender": "girls",
+			"youthSize": "2T-5T"
+		}
+	},
+	{
+		"traits": {
+			"gender": "girls",
+			"youthSize": "4T+"
+		},
+		"conditions": [],
+		"itemType": "perfume",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"perfume"
+		],
+		"attributes": {
+			"gender": "girls",
+			"youthSize": "4T+"
+		}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		]
+	},
+	{
+		"traits": {
+			"gender": "mens"
+		},
+		"conditions": [],
+		"itemType": "cologne",
+		"fullname": "Beauty::Fragrance::Men",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"attributes": {
+			"gender": "mens"
+		}
+	},
+	{
+		"itemType": "cologne boxed set",
+		"fullname": "Beauty::Fragrance::Sets",
+		"attributes": {
+			"gender": "mens"
+		},
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"traits": {
+			"gender": "womens"
+		},
+		"conditions": [],
+		"itemType": "cologne",
+		"fullname": "Beauty::Fragrance::Women",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"attributes": {
+			"gender": "womens"
+		}
+	},
+	{
+		"itemType": "cologne boxed set",
+		"fullname": "Beauty::Fragrance::Sets",
+		"attributes": {
+			"gender": "womens"
+		},
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"conditions": [
+			"isBoxedSet"
+		]
+	},
+	{
+		"traits": {
+			"gender": "boys",
+			"youthSize": "0-24M"
+		},
+		"conditions": [],
+		"itemType": "cologne",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"attributes": {
+			"gender": "boys",
+			"youthSize": "0-24M"
+		}
+	},
+	{
+		"traits": {
+			"gender": "boys",
+			"youthSize": "2T-5T"
+		},
+		"conditions": [],
+		"itemType": "cologne",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"attributes": {
+			"gender": "boys",
+			"youthSize": "2T-5T"
+		}
+	},
+	{
+		"traits": {
+			"gender": "boys",
+			"youthSize": "4T+"
+		},
+		"conditions": [],
+		"itemType": "cologne",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"attributes": {
+			"gender": "boys",
+			"youthSize": "4T+"
+		}
+	},
+	{
+		"traits": {
+			"gender": "girls",
+			"youthSize": "0-24M"
+		},
+		"conditions": [],
+		"itemType": "cologne",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"attributes": {
+			"gender": "girls",
+			"youthSize": "0-24M"
+		}
+	},
+	{
+		"traits": {
+			"gender": "girls",
+			"youthSize": "2T-5T"
+		},
+		"conditions": [],
+		"itemType": "cologne",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"attributes": {
+			"gender": "girls",
+			"youthSize": "2T-5T"
+		}
+	},
+	{
+		"traits": {
+			"gender": "girls",
+			"youthSize": "4T+"
+		},
+		"conditions": [],
+		"itemType": "cologne",
+		"fullname": "Beauty::Fragrance::Kids",
+		"path": [
+			"personal-care",
+			"beauty",
+			"fragrances",
+			"cologne"
+		],
+		"attributes": {
+			"gender": "girls",
+			"youthSize": "4T+"
+		}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"baby-care"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"baby-care",
+			"teethers"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "teether",
+		"fullname": "Kids::Health & baby care::Teethers",
+		"conditions": [],
+		"path": [
+			"personal-care",
+			"baby-care",
+			"teethers"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"videos"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"videos",
+			"vhs"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Electronics::Media::VHS",
+		"conditions": [],
+		"path": [
+			"media",
+			"videos",
+			"vhs"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"videos",
+			"dvd"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Electronics::Media::DVD",
+		"conditions": [],
+		"path": [
+			"media",
+			"videos",
+			"dvd"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"videos",
+			"blu-ray"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Electronics::Media::Blu-ray",
+		"conditions": [],
+		"path": [
+			"media",
+			"videos",
+			"blu-ray"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"music"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"music",
+			"cd"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Electronics::Media::CD",
+		"conditions": [],
+		"path": [
+			"media",
+			"music",
+			"cd"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"video-games"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"video-games",
+			"console-games"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Electronics::Video games & consoles::Games",
+		"conditions": [],
+		"path": [
+			"media",
+			"video-games",
+			"console-games"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"video-games",
+			"pc-games"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Electronics::Video games & consoles::PC Gaming",
+		"conditions": [],
+		"path": [
+			"media",
+			"video-games",
+			"pc-games"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"video-games",
+			"strategy-guides"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Electronics::Video games & consoles::Strategy guides",
+		"conditions": [],
+		"path": [
+			"media",
+			"video-games",
+			"strategy-guides"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"international"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Magazines::International Magazines",
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"international"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"lifestyle"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Magazines::Lifestyle & Culture Magazines",
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"lifestyle"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"culture"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Magazines::Lifestyle & Culture Magazines",
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"culture"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"professional"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Magazines::Professional & Trade Magazines",
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"professional"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"trade"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Magazines::Professional & Trade Magazines",
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"trade"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"other"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Magazines::Other Magazines",
+		"conditions": [],
+		"path": [
+			"media",
+			"magazines",
+			"other"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"adventure"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Action & Adventure Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"adventure"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"comics"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Comics",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"comics"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"childrens-books"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Fictional Children's Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"childrens-books"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"historical-fiction"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Historical Fiction Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"historical-fiction"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"horror"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Horror Fiction Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"horror"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"literary-fiction"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Literary Fiction Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"literary-fiction"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"mystery"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Mystery & Crime Fiction Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"mystery"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"other"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Other Fiction Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"other"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"romance"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Romance Fiction Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"romance"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"fantasy"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Sci-fi & Fantasy Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"fantasy"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"sci-fi"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Sci-fi & Fantasy Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"sci-fi"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"thriller"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Thriller Fiction Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"thriller"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"western"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Western Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"western"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"action"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Fiction Books::Action & Adventure Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"fiction",
+			"action"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"art"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Art Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"art"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"biographies"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Biographies & Memoirs",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"biographies"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"business"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Business & Finance Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"business"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"craft"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Craft Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"craft"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"childrens-books"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Nonfiction Children's Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"childrens-books"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"other"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Other Nonfiction Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"other"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"photography"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Photography Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"photography"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"politics"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Politics Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"politics"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"spirtuality"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Nonfiction Books::Religion & Spirituality Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"spirtuality"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"cookbooks"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Reference Books::Cookbooks",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"cookbooks"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"dictionaries"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Reference Books::Dictionaries",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"dictionaries"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"instructional"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Reference Books::Educational & Instructional Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"instructional"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"encyclopedias"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Reference Books::Encyclopedias",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"encyclopedias"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"fitness"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Reference Books::Health & Fitness Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"fitness"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"self-help"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Reference Books::Self-Help Books",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"self-help"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"textbooks"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Reference Books::Textbooks",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"textbooks"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"thesauruses"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "",
+		"fullname": "Books::Reference Books::Thesauruses",
+		"conditions": [],
+		"path": [
+			"media",
+			"books",
+			"nonfiction",
+			"thesauruses"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"cables"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"cables",
+			"data"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "cord",
+		"fullname": "Electronics::Cell phones & accessories::Cell Phone Cables",
+		"conditions": [],
+		"path": [
+			"cables",
+			"data"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"cables",
+			"audio"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "cord",
+		"fullname": "Electronics::Home Audio::Home Audio Cables",
+		"conditions": [],
+		"path": [
+			"cables",
+			"audio"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"cables",
+			"power"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "cord",
+		"fullname": "Other::Other::All Other",
+		"conditions": [],
+		"path": [
+			"cables",
+			"power"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"cables",
+			"video"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "cord",
+		"fullname": "Other::Other::All Other",
+		"conditions": [],
+		"path": [
+			"cables",
+			"video"
+		],
+		"attributes": {}
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"furniture"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"furniture",
+			"living-room"
+		]
+	},
+	{
+		"attributes": {},
+		"conditions": [],
+		"path": [
+			"furniture",
+			"living-room",
+			"coffee-table"
+		]
+	},
+	{
+		"traits": {},
+		"itemType": "coffee table",
+		"fullname": "Home::Living Room Furniture::Coffee Tables",
+		"conditions": [],
+		"path": [
+			"furniture",
+			"living-room",
+			"coffee-table"
+		],
+		"attributes": {}
+	}
+]

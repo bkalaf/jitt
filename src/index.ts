@@ -1,4 +1,8 @@
 import { ApolloServer, ApolloServerOptions } from '@apollo/server';
+import express, { Request, Response } from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import { expressMiddleware } from '@apollo/server/express4';
 import { startStandaloneServer } from '@apollo/server/standalone';
 import { Filter, MongoClient, ObjectId } from 'mongodb';
 import {
@@ -1418,19 +1422,48 @@ const resolvers: ApolloServerOptions<MyContext>['resolvers'] = {
     }
 };
 
+// const server = new ApolloServer<MyContext>({ typeDefs, resolvers });
+// const { url } = await startStandaloneServer<MyContext>(server, {
+//     context: async ({ req }) => ({
+//         token: req.headers.token as string,
+//         datasource: {
+//             client: await new MongoClient(
+//                 'mongodb://localhost:27017/?authSource=admin',
+//                 {
+//                     ignoreUndefined: true
+//                 }
+//             ).connect()
+//         }
+//     }),
+//     listen: { port: 4000, path: 'graphql' }
+// });
+// console.log(`🚀  Server ready at ${url}`);
+
 const server = new ApolloServer<MyContext>({ typeDefs, resolvers });
-const { url } = await startStandaloneServer<MyContext>(server, {
-    context: async ({ req }) => ({
-        token: req.headers.token as string,
-        datasource: {
-            client: await new MongoClient(
-                'mongodb://localhost:27017/?authSource=admin',
-                {
-                    ignoreUndefined: true
-                }
-            ).connect()
-        }
-    }),
-    listen: { port: 4000, path: 'graphql' }
+const app = express();
+await server.start();
+
+app.use(cors());
+app.use(express.static('public'));
+app.use(
+    '/graphql',
+    cors(),
+    express.json(),
+    expressMiddleware(server, {
+        context: async ({ req }) => ({
+            token: req.headers.token as string,
+            datasource: {
+                client: await new MongoClient(
+                    'mongodb://localhost:27017/?authSource=admin',
+                    {
+                        ignoreUndefined: true
+                    }
+                ).connect()
+            }
+        })
+    }) as any
+);
+
+app.listen(4000, () => {
+    console.log('🚀 Server ready at http://localhost:4000');
 });
-console.log(`🚀  Server ready at ${url}`);
