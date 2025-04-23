@@ -1,3 +1,69 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Beauty || Hair care || Hair loss products
+    Beauty || Hair care || Hair Perms
 Arts & Crafts || Aceo || All Aceo
 Arts & Crafts || Aceo || All Aceo
 Arts & Crafts || Art Paper & Surfaces || Acrylic Painting Paper
@@ -152,20 +218,13 @@ Beauty || Bath & body || Sets
 Beauty || Fragrance || All Fragrance
 Beauty || Fragrance || All Fragrance
 Beauty || Fragrance || Kids
-Beauty || Fragrance || Men
-Beauty || Fragrance || Other
-Beauty || Fragrance || Sets
-Beauty || Fragrance || Women
 Beauty || Hair care || All Hair care
 Beauty || Hair care || All Hair care
 Beauty || Hair care || Conditioners
 Beauty || Hair care || Hair & scalp treatments
 Beauty || Hair care || Hair color
-Beauty || Hair care || Hair loss products
-Beauty || Hair care || Hair Perms
 Beauty || Hair care || Hair relaxers
 Beauty || Hair care || Hair Texturizers
-Beauty || Hair care || Other
 Beauty || Hair care || Shampoo & conditioner sets
 Beauty || Hair care || Shampoo plus conditioner
 Beauty || Hair care || Shampoos
@@ -173,89 +232,30 @@ Beauty || Hair care || Styling products
 Beauty || Makeup || All Makeup
 Beauty || Makeup || All Makeup
 Beauty || Makeup || Body
-Beauty || Makeup || Eyes
-Beauty || Makeup || Face
-Beauty || Makeup || Lips
-Beauty || Makeup || Makeup palettes
-Beauty || Makeup || Makeup remover
-Beauty || Makeup || Makeup sets
-Beauty || Makeup || Nails
-Beauty || Makeup || Other
-Beauty || Other || All Other
-Beauty || Other || All Other
 Beauty || Skin care || All Skin care
 Beauty || Skin care || All Skin care
-Beauty || Skin care || Body
 Beauty || Skin care || Eyes
-Beauty || Skin care || Face
-Beauty || Skin care || Feet
-Beauty || Skin care || Hand Care
 Beauty || Skin care || Lips
 Beauty || Skin care || Maternity
 Beauty || Skin care || Nail Care
-Beauty || Skin care || Other
 Beauty || Skin care || Sets & kits
-Beauty || Skin care || Sun
 Beauty || Tools & accessories || All Tools & accessories
 Beauty || Tools & accessories || All Tools & accessories
 Beauty || Tools & accessories || Cosmetic Cases
 Beauty || Tools & accessories || Cotton & swabs
-Beauty || Tools & accessories || Epilators
 Beauty || Tools & accessories || Hair coloring tools
-Beauty || Tools & accessories || Hair styling tools
 Beauty || Tools & accessories || Makeup Brushes
 Beauty || Tools & accessories || Makeup Sponges
-Beauty || Tools & accessories || Mirrors
-Beauty || Tools & accessories || Nail tools
-Beauty || Tools & accessories || Other
-Beauty || Tools & accessories || Toiletry kits
-Beauty || Tools & accessories || Tweezers
 Beauty || Tools & accessories || Waxing
-Books || Fiction Books || Action & Adventure Books
 Books || Fiction Books || All Fiction Books
 Books || Fiction Books || All Fiction Books
-Books || Fiction Books || Comics
-Books || Fiction Books || Fictional Children's Books
-Books || Fiction Books || Historical Fiction Books
-Books || Fiction Books || Horror Fiction Books
-Books || Fiction Books || Literary Fiction Books
-Books || Fiction Books || Manga
-Books || Fiction Books || Mystery & Crime Fiction Books
-Books || Fiction Books || Other Fiction Books
-Books || Fiction Books || Romance Fiction Books
-Books || Fiction Books || Sci-fi & Fantasy Books
-Books || Fiction Books || Thriller Fiction Books
-Books || Fiction Books || Western Books
 Books || Magazines || All Magazines
 Books || Magazines || All Magazines
-Books || Magazines || International Magazines
-Books || Magazines || Lifestyle & Culture Magazines
-Books || Magazines || Other Magazines
-Books || Magazines || Professional & Trade Magazines
 Books || Nonfiction Books || All Nonfiction Books
 Books || Nonfiction Books || All Nonfiction Books
-Books || Nonfiction Books || Art Books
-Books || Nonfiction Books || Biographies & Memoirs
-Books || Nonfiction Books || Business & Finance Books
-Books || Nonfiction Books || Craft Books
-Books || Nonfiction Books || Nonfiction Children's Books
-Books || Nonfiction Books || Other Nonfiction Books
-Books || Nonfiction Books || Photography Books
-Books || Nonfiction Books || Politics Books
-Books || Nonfiction Books || Religion & Spirituality Books
-Books || Other Books || All Other Books
 Books || Other Books || All Other Books
 Books || Reference Books || All Reference Books
 Books || Reference Books || All Reference Books
-Books || Reference Books || Cookbooks
-Books || Reference Books || Dictionaries
-Books || Reference Books || Educational & Instructional Books
-Books || Reference Books || Encyclopedias
-Books || Reference Books || Health & Fitness Books
-Books || Reference Books || Other Reference Books
-Books || Reference Books || Self-Help Books
-Books || Reference Books || Textbooks
-Books || Reference Books || Thesauruses
 Electronics || Cameras & photography || All Cameras & photography
 Electronics || Cameras & photography || All Cameras & photography
 Electronics || Cameras & photography || Binoculars
