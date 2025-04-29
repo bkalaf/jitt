@@ -25,7 +25,14 @@ import { AdminTaskTypes } from './schemas/valueTypes/enums/adminTaskTypes.js';
 import { constructFilter } from './constructFilter.js';
 import { getNextBarcode } from './util/generator.js';
 import { classifyBarcode } from './util/barcode.js';
+import { surroundQuotes } from './common/addPrefix.js';
 
+function createFrom<T>(func: () => T): (n: number) => T[] {
+    return (qty: number = 0): T[] => {
+        if (qty === 0) return [];
+        return [func(), ...createFrom(func)(qty - 1)];
+    };
+}
 const typeDefs = `#graphql
 scalar Date
 scalar Email
@@ -43,7 +50,7 @@ type MercariBrand {
     name: String!
     timestamp: Date!
     parent: MercariBrand
-    ID: Int!
+    id: Int!
     selector: String!
 }
 
@@ -99,6 +106,44 @@ input MercariTaxonomyData {
     subSubCategorySelector: String!
 }
 
+type YouthTaxonomy {
+    low: MercariTaxonomy
+    mid: MercariTaxonomy
+    high: MercariTaxonomy
+}
+type GenderedTaxonomy {
+    mens: MercariTaxonomy
+    womens: MercariTaxonomy 
+    boys: YouthTaxonomy
+    girls: YouthTaxonomy
+}
+
+union Taxonomy = MercariTaxonomy | GenderedTaxonomy 
+
+type Classification {
+    _id: ID!
+    classifier: Classifier!
+    path: String!
+    traits: JSONObject
+    hashTags: [HashTag]
+}
+type Classifier {
+    _id: ID!
+    path: String!
+    itemType: String!
+    parent: Classifier
+    taxonomy: Taxonomy
+    scheme: String 
+    details: [String!]
+    fields: JSONObject
+    level: Int!
+    isRoot: Boolean!
+    effectiveTaxonomy: Taxonomy 
+    effectiveScheme: String 
+    effectiveDetails: [String!]
+    effectiveFields: JSONObject
+    classifications: [Classification]
+}
 type ProductLine {
     _id: ID!
     brand: Brand
@@ -533,7 +578,7 @@ input PersonData {
 }
 input MercariBrandData {
     name: String!
-    ID: Int!
+    id: Int!
     parent: ID
 }
 input BrandData {
@@ -741,7 +786,7 @@ union MadeOfLineItem = MadeOfBaseLineItem | MadeOfFabricLineItem | MadeOfMetalLi
 
 type MadeOfSection {
     name: String
-    value: MadeOfLineItem!
+    value: [MadeOfLineItem!]
 }
 
 type Product {
@@ -773,6 +818,16 @@ type Product {
     isNovelty: Boolean!
 }
 
+interface Details {
+    taxonomy: Taxonomy
+}
+
+
+input BrandingData {
+    brandName: String!
+    description: String
+}
+
 type Query {
     mercariBrands: [MercariBrand]
     mercariBrand(id: ID!): MercariBrand
@@ -802,6 +857,8 @@ type Query {
     barcode(id: ID!): Barcode
     allBarcodes: JSONObject
     idForBarcode(barcode: String!): ID
+    getBrandingByName(data: BrandingData): Branding
+    getManySku(quantity: Int!): String!
 }
 
 type Mutation {
@@ -1387,6 +1444,19 @@ const resolvers: ApolloServerOptions<MyContext>['resolvers'] = {
             'adminTask',
             (x: { endTime?: Date }) => x.endTime == null
         ),
+        getManySku: async (_a, { quantity }: { quantity: number }, context) => {
+            const skus = [];
+            while (skus.length < quantity) {
+                const sku = await getNextGeneratedBarcode('sku')(
+                    _a,
+                    {},
+                    context
+                );
+                skus.push(sku); 
+            }
+            return skus.map(surroundQuotes).map(x => `0,${x},`).join(`
+            `);
+        },
         getNextSku: getNextGeneratedBarcode('sku'),
         getNextLocator: getNextGeneratedBarcode('locator'),
         barcodes: getAll('barcode'),
@@ -1396,6 +1466,46 @@ const resolvers: ApolloServerOptions<MyContext>['resolvers'] = {
             const lookup = await allBarcodes(context);
             console.log(`data`, barcode, lookup[barcode]);
             return lookup[barcode.padStart(13, '0')];
+        },
+        getBrandingByName: async (
+            _a,
+            { data }: { data: { brandName: string; description?: string } },
+            context
+        ) => {
+            const { brandName, description } = data;
+            if (description) {
+                const results = await context.datasource.client
+                    .db('jitt-data')
+                    .collection('productLine')
+                    .aggregate([
+                        {
+                            $lookup: {
+                                from: 'brand',
+                                localField: 'brand',
+                                foreignField: '_id',
+                                as: 'brand'
+                            }
+                        },
+                        {
+                            $unwind: {
+                                preserveNullAndEmptyArrays: true,
+                                path: '$brand'
+                            }
+                        },
+                        {
+                            'brand.name': brandName,
+                            description: description
+                        }
+                    ])
+                    .toArray();
+                return results.length > 0 ? results[0] : undefined;
+            }
+            return await context.datasource.client
+                .db('jitt-data')
+                .collection('brand')
+                .findOne({
+                    name: brandName
+                });
         }
     },
     Mutation: {
