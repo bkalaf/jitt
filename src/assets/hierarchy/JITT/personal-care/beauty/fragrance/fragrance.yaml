@@ -1,0 +1,6 @@
+itemType: fragrance
+taxonomy: Beauty || Fragrance || Other
+properties:
+  - volume
+scheme:
+detailsTemplate:

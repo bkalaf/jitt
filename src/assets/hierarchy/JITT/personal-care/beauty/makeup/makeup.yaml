@@ -1,0 +1,6 @@
+itemType: makeup
+taxonomy: Beauty || Makeup || Other
+properties:
+  - volume
+scheme:
+detailsTemplate:

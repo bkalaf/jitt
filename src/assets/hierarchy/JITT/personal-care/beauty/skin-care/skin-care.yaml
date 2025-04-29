@@ -1,0 +1,7 @@
+itemType: skin care
+taxonomy: Beauty || Skin care || Other
+properties:
+  - volume
+  - scent
+scheme:
+detailsTemplate:
