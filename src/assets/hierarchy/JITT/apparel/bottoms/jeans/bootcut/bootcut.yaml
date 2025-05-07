@@ -1,0 +1,15 @@
+itemType: boot-cut jeans
+taxonomy:
+    mens: Men || Jeans || Boot cut
+    womens: Women || Jeans || Boot cut
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

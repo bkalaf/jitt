@@ -1,0 +1,15 @@
+itemType: boyfriend jeans
+taxonomy:
+    mens:
+    womens: Women || Jeans || Boyfriend
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

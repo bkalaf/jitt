@@ -1,0 +1,44 @@
+branding:
+  on: Product
+modelName:
+  on: Product
+modelNo:
+  on: Product
+dimensions:
+  on: Product
+weight:
+  on: Product
+volume:
+  on: Product
+colors: 
+  on: Product
+includes:
+  on: Product
+features: 
+  on: Product
+origin:
+  on: Product
+manufactured:
+  on: Product
+upcs:
+  on: Product
+madeOf:
+  on: Product
+isVintage:
+  on: Product
+isRare:
+  on: Product
+isCollectible:
+  on: Product
+isUnopened:
+  on: Product
+isAntique:
+  on: Product
+isHandmade:
+  on: Product
+isNovelty:
+  on: Product
+isAjustable:
+  on: Product
+isDiscontinued:
+  on: Product

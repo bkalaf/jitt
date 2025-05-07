@@ -1,0 +1,15 @@
+itemType: bracelet
+taxonomy:
+    mens: Men || Jewelry || Bracelets
+    womens: Women || Jewelry || Bracelets
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

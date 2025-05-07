@@ -1,0 +1,15 @@
+itemType: athletic pants
+taxonomy:
+    mens: Men || Athletic apparel || Pants
+    womens: Women || Athletic apparel || Athletic Pants
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

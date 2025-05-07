@@ -1,0 +1,15 @@
+itemType: cardholder
+taxonomy:
+    mens: Men || Men's accessories || Cardholders
+    womens: Women || Women's accessories || Cardholders
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

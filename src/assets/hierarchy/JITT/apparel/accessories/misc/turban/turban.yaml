@@ -1,0 +1,15 @@
+itemType: turban
+taxonomy:
+    mens: Men || Men's accessories || Turbans
+    womens:
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

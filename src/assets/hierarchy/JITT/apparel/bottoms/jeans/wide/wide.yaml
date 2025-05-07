@@ -1,0 +1,15 @@
+itemType: wide-leg jeans
+taxonomy:
+    mens:
+    womens: Women || Jeans || Wide leg
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

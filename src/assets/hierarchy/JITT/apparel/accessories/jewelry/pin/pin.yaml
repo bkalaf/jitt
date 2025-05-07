@@ -1,0 +1,15 @@
+itemType: pin
+taxonomy:
+    mens: Men || Jewelry || Pins
+    womens: Women || Jewelry || Pins
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

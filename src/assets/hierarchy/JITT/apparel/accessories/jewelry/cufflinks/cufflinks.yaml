@@ -1,0 +1,15 @@
+itemType: cufflinks
+taxonomy:
+    mens: Men || Jewelry || Cufflinks
+    womens:
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

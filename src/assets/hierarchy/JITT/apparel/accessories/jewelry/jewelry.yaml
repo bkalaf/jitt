@@ -1,0 +1,15 @@
+itemType: jewelry
+taxonomy:
+    mens: Men || Jewelry || All Jewelry
+    womens: Women || Jewelry || All Jewelry
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

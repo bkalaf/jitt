@@ -757,6 +757,7 @@ type MadeOfSection {
 type Product {
     _id: ID!
     notes: String 
+    mercariTaxonomy: MercariTaxonomy!
     branding: Branding
     modelName: String 
     modelNo: String 

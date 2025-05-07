@@ -1,0 +1,15 @@
+itemType: hijab
+taxonomy:
+    mens:
+    womens: Women || Women's accessories || Hijabs
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

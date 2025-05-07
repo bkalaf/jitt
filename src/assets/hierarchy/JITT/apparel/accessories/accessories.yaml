@@ -1,0 +1,15 @@
+itemType: accessories
+taxonomy:
+    mens: Men || Men's accessories || Other
+    womens: Women || Women's accessories || Other
+    boys:
+        low: Kids || Boys accessories || Boys 0-24 mos
+        mid: Kids || Boys accessories || Boys 2T-5T
+        high: Kids || Boys accessories || Boys (4+)
+    girls:
+        low: Kids || Girls accessories || Girls 0-24 mos
+        mid: Kids || Girls accessories || Girls 2T-5T
+        high: Kids || Girls accessories || Girls (4+)
+properties:
+scheme:
+detailsTemplate:

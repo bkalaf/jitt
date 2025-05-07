@@ -1,0 +1,15 @@
+itemType: slim jeans
+taxonomy:
+    mens: Men || Jeans || Slim Jeans
+    womens: Women || Jeans || Slim Jeans
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

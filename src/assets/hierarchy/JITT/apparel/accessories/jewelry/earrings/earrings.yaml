@@ -1,0 +1,15 @@
+itemType: earrings
+taxonomy:
+    mens: Men || Jewelry || Earrings
+    womens: Women || Jewelry || Earrings
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:
