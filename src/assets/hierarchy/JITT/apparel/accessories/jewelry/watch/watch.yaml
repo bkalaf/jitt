@@ -1,0 +1,15 @@
+itemType: watch
+taxonomy:
+    mens: Men || Men's accessories || Watches
+    womens: Women || Women's accessories || Watches
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

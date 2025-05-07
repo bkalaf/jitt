@@ -1,0 +1,15 @@
+itemType: leggings
+taxonomy:
+    mens:
+    womens: Women || Jeans || Leggings
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

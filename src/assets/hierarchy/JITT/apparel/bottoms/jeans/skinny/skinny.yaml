@@ -1,0 +1,15 @@
+itemType: skinny jeans
+taxonomy:
+    mens: Men || Jeans || Skinny Jeans
+    womens: Women || Jeans || Skinny Jeans
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

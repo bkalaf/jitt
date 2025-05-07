@@ -1,0 +1,15 @@
+itemType: bow tie
+taxonomy:
+    mens: Men || Men's accessories || Bow Ties
+    womens:
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

@@ -1,0 +1,15 @@
+itemType: hair accessory
+taxonomy:
+    mens:
+    womens: Women || Women's accessories || Hair accessories
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

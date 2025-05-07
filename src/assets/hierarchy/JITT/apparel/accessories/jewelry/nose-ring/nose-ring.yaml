@@ -1,0 +1,15 @@
+itemType: nose ring
+taxonomy:
+    mens:
+    womens: Women || Jewelry || Nose Rings
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

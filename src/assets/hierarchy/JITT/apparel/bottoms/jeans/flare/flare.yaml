@@ -1,0 +1,15 @@
+itemType: flare jeans
+taxonomy:
+    mens:
+    womens: Women || Jeans || Flare
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

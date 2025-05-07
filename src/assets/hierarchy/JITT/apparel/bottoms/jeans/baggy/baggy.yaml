@@ -1,0 +1,15 @@
+itemType: baggy jeans
+taxonomy:
+    mens: Men || Jeans || Baggy, loose
+    womens:
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

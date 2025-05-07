@@ -1,0 +1,15 @@
+itemType: toe ring
+taxonomy:
+    mens:
+    womens: Women || Jewelry || Toe Rings
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

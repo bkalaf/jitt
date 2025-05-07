@@ -1,0 +1,15 @@
+itemType: necklace
+taxonomy:
+    mens: Men || Jewelry || Necklaces
+    womens: Women || Jewelry || Necklaces
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

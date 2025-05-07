@@ -1,0 +1,15 @@
+itemType: umbrella
+taxonomy:
+    mens: Men || Men's accessories || Umbrellas
+    womens: Women || Women's accessories || Umbrellas
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

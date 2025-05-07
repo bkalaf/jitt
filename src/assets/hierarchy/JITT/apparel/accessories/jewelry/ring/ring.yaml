@@ -1,0 +1,15 @@
+itemType: ring
+taxonomy:
+    mens: Men || Jewelry || Rings
+    womens: Women || Jewelry || Rings
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

@@ -1,0 +1,15 @@
+itemType: headband
+taxonomy:
+    mens:
+    womens: Women || Women's accessories || Headbands
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

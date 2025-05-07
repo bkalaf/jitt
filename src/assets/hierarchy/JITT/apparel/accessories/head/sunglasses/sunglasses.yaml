@@ -1,0 +1,15 @@
+itemType: sunglasses
+taxonomy:
+    mens: Men || Men's accessories || Sunglasses
+    womens: Women || Women's accessories || Sunglasses
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

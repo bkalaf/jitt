@@ -1,0 +1,15 @@
+itemType: cargo jeans
+taxonomy:
+    mens: Men || Jeans || Cargo
+    womens: Women || Jeans || Cargo
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

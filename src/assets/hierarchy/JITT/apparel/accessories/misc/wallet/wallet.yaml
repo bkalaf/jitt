@@ -1,0 +1,15 @@
+itemType: wallet
+taxonomy:
+    mens: Men || Men's accessories || Wallets
+    womens: Women || Women's accessories || Wallets
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:

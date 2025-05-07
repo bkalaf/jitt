@@ -1,0 +1,15 @@
+itemType: bandana
+taxonomy:
+    mens: Men || Men's accessories || Bandanas
+    womens: Women || Women's accessories || Bandanas
+    boys:
+        low:
+        mid:
+        high:
+    girls:
+        low:
+        mid:
+        high:
+properties:
+scheme:
+detailsTemplate:
