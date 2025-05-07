@@ -1533,9 +1533,9 @@ Kids || Bathing & skin care || Skin care
 Kids || Bathing & skin care || Travel bathing kits
 Kids || Boys accessories || All Boys accessories
 Kids || Boys accessories || All Boys accessories
-Kids || Boys accessories || Boys (4+)
-Kids || Boys accessories || Boys 0-24 mos
-Kids || Boys accessories || Boys 2T-5T
+
+
+
 Kids || Boys bottoms || All Boys bottoms
 Kids || Boys bottoms || All Boys bottoms
 Kids || Boys bottoms || Boys (4+)
@@ -1625,9 +1625,9 @@ Kids || Gear || Travel beds
 Kids || Gear || Walkers
 Kids || Girls accessories || All Girls accessories
 Kids || Girls accessories || All Girls accessories
-Kids || Girls accessories || Girls (4+)
-Kids || Girls accessories || Girls 0-24 mos
-Kids || Girls accessories || Girls 2T-5T
+
+
+
 Kids || Girls bottoms || All Girls bottoms
 Kids || Girls bottoms || All Girls bottoms
 Kids || Girls bottoms || Girls (4+)
@@ -1746,7 +1746,7 @@ Men || Athletic apparel || Jerseys
 Men || Athletic apparel || Jerseys
 Men || Athletic apparel || Jerseys
 Men || Athletic apparel || Other
-Men || Athletic apparel || Pants
+
 Men || Athletic apparel || Shorts
 Men || Athletic apparel || Snow Bibs
 Men || Athletic apparel || Snow Pants
@@ -1783,24 +1783,24 @@ Men || Coats & jackets || Windbreaker
 Men || Coats & jackets || Wool
 Men || Jeans || All Jeans
 Men || Jeans || All Jeans
-Men || Jeans || Baggy, loose
-Men || Jeans || Boot cut
-Men || Jeans || Cargo
-Men || Jeans || Carpenter
-Men || Jeans || Classic, straight leg
-Men || Jeans || Other
-Men || Jeans || Overalls
-Men || Jeans || Relaxed
-Men || Jeans || Skinny Jeans
-Men || Jeans || Slim Jeans
+
+
+
+
+
+
+
+
+
+
 Men || Jewelry || All Jewelry
-Men || Jewelry || All Jewelry
-Men || Jewelry || Bracelets
-Men || Jewelry || Cufflinks
-Men || Jewelry || Earrings
-Men || Jewelry || Necklaces
-Men || Jewelry || Pins
-Men || Jewelry || Rings
+
+
+
+
+
+
+
 Men || Kimono / Yukata || All Kimono / Yukata
 Men || Kimono / Yukata || Hakama (Pants)
 Men || Kimono / Yukata || Haori (Coat)
@@ -1816,23 +1816,23 @@ Men || Men's accessories || All Men's accessories
 Men || Men's accessories || All Men's accessories
 Men || Men's accessories || Backpacks
 Men || Men's accessories || Bags
-Men || Men's accessories || Bandanas
-Men || Men's accessories || Belts
-Men || Men's accessories || Bow Ties
+
+
+
 Men || Men's accessories || Briefcases
-Men || Men's accessories || Cardholders
-Men || Men's accessories || Collar Stays
-Men || Men's accessories || Fashion Gloves
-Men || Men's accessories || Handkerchiefs
-Men || Men's accessories || Hats
-Men || Men's accessories || Other
-Men || Men's accessories || Scarves
-Men || Men's accessories || Sunglasses
-Men || Men's accessories || Ties
-Men || Men's accessories || Turbans
-Men || Men's accessories || Umbrellas
-Men || Men's accessories || Wallets
-Men || Men's accessories || Watches
+
+
+
+
+
+
+
+
+
+
+
+
+
 Men || Other || All Other
 Men || Other || All Other
 Men || Pants || All Pants
@@ -3173,7 +3173,7 @@ Women || Athletic apparel || All Athletic apparel
 Women || Athletic apparel || Athletic Dresses
 Women || Athletic apparel || Athletic Hoodies
 Women || Athletic apparel || Athletic Leggings
-Women || Athletic apparel || Athletic Pants
+
 Women || Athletic apparel || Athletic Polos
 Women || Athletic apparel || Athletic Skirts
 Women || Athletic apparel || Athletic Skorts
@@ -3224,29 +3224,29 @@ Women || Dresses || Midi
 Women || Dresses || Other
 Women || Jeans || All Jeans
 Women || Jeans || All Jeans
-Women || Jeans || Boot cut
-Women || Jeans || Boyfriend
-Women || Jeans || Capri Jeans
-Women || Jeans || Cargo
-Women || Jeans || Cropped Jeans
-Women || Jeans || Flare
-Women || Jeans || Leggings
-Women || Jeans || Other
-Women || Jeans || Overalls
-Women || Jeans || Relaxed
-Women || Jeans || Skinny Jeans
-Women || Jeans || Slim Jeans
-Women || Jeans || Straight leg
-Women || Jeans || Wide leg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Women || Jewelry || All Jewelry
-Women || Jewelry || All Jewelry
-Women || Jewelry || Bracelets
-Women || Jewelry || Earrings
-Women || Jewelry || Necklaces
-Women || Jewelry || Nose Rings
-Women || Jewelry || Pins
-Women || Jewelry || Rings
-Women || Jewelry || Toe Rings
+
+
+
+
+
+
+
+
 Women || Kimono / Yukata || All Kimono / Yukata
 Women || Kimono / Yukata || Hair accessories
 Women || Kimono / Yukata || Hakama (Pants)
@@ -3263,7 +3263,7 @@ Women || Maternity || All Maternity
 Women || Maternity || Athletic apparel
 Women || Maternity || Coats & jackets
 Women || Maternity || Dresses
-Women || Maternity || Jeans
+
 Women || Maternity || Maternity Blazers
 Women || Maternity || Maternity Blouses
 Women || Maternity || Maternity Button-Ups
@@ -3412,21 +3412,21 @@ Women || Underwear || Panties
 Women || Underwear || Thermal underwear
 Women || Women's accessories || All Women's accessories
 Women || Women's accessories || All Women's accessories
-Women || Women's accessories || Bandanas
-Women || Women's accessories || Belts
-Women || Women's accessories || Cardholders
-Women || Women's accessories || Fascinators
-Women || Women's accessories || Fashion Gloves
-Women || Women's accessories || Hair accessories
-Women || Women's accessories || Hats
-Women || Women's accessories || Headbands
-Women || Women's accessories || Hijabs
-Women || Women's accessories || Other
-Women || Women's accessories || Scarves
-Women || Women's accessories || Sunglasses
-Women || Women's accessories || Umbrellas
-Women || Women's accessories || Wallets
-Women || Women's accessories || Watches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Women || Women's accessories || Wraps
 Women || Women's handbags || All Women's handbags
 Women || Women's handbags || All Women's handbags
