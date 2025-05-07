@@ -1,0 +1,104 @@
+- 
+    skus: 
+      - '00410002000040'
+    brand: Pyrex
+    includes: 
+      '1 cup': 1
+      '1/2 cup': 1
+      '1/3 cup': 1
+      '1/4 cup': 1
+    colors: 
+      - 
+        color: WHITE
+    weight:
+      magnitude: 
+        v: 106
+      unit: g
+    length: 
+      magnitude: 
+        v: 5
+        n: 1
+        d: 2
+      unit: in
+    width: 
+      magnitude: 
+        v: 3
+      unit: in
+    height: 
+      magnitude: 
+        v: 3
+      unit: in
+- 
+    skus:
+        - '00410002000050'
+    brand: Threshold
+    colors:
+        - 
+            color:
+                - WHITE
+                - MAROON
+            pattern: CHECKERED
+    madeOf:
+        - 
+            name: null
+            section:
+                - 
+                    fabric: POLYESTER
+                    percent: 1
+    dimensions:
+        length:
+            magnitude:
+                v: 50
+            unit: in
+        width:
+            magnitude:
+                v: 58
+            unit: in
+    weight:
+        magnitude:
+            v: 834
+        unit: g
+    itemType: throw
+- 
+    skus:
+        - '00410002000067'
+    brand: AND1
+    rn: 117927
+    size: '011'
+    madeOf:
+        - 
+            name: null
+            section:
+                - 
+                    fabric: COTTON
+                    percent: 0.6
+                - 
+                    fabric: POLYESTER
+                    percent: 0.4
+    waistMeasurement:
+        magnitude:
+            v: 32
+        unit: in
+    inseamMeasurment:
+        magnitude:
+            v: 30
+        unit: in
+    weight:
+        magnitude:
+            v: 546
+        unit: g
+    pockets:
+        front: 2
+        back: 1
+        cargo: 2
+    careInstructions:
+        washTemperature:
+            - 40DEGREES
+        tumbleDry:
+            - LOWHEAT
+        iron:
+            - DONOT
+        bleach:
+            - DONOT
+        dryClean:
+            - DONOT

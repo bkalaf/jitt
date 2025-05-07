@@ -14,7 +14,7 @@ type MercariBrand {
     name: String!
     timestamp: Date!
     parent: MercariBrand
-    ID: Int!
+    id: Int!
     selector: String!
 }
 
@@ -542,7 +542,7 @@ input PersonData {
 }
 input MercariBrandData {
     name: String!
-    ID: Int!
+    id: Int!
     parent: ID
 }
 input BrandData {
@@ -681,6 +681,7 @@ enum ColorPatterns {
     POLKA_DOT
     FLORAL
     TIE_DYE
+    CHECKERED
 }
 type Color {
     color: Colors!
@@ -750,7 +751,7 @@ union MadeOfLineItem = MadeOfBaseLineItem | MadeOfFabricLineItem | MadeOfMetalLi
 
 type MadeOfSection {
     name: String
-    value: MadeOfLineItem!
+    section: [MadeOfLineItem!]
 }
 
 type Product {
@@ -784,11 +785,13 @@ type Product {
 }
 
 interface Details {
-    taxonomy: Taxonomy;
+    taxonomy: Taxonomy
 }
 
-type ApparelDetails {
-    
+
+input BrandingData {
+    brandName: String!
+    description: String
 }
 
 type Query {
@@ -820,6 +823,8 @@ type Query {
     barcode(id: ID!): Barcode
     allBarcodes: JSONObject
     idForBarcode(barcode: String!): ID
+    getBrandingByName(data: BrandingData): Branding
+    getManySku(quantity: Int!): String!
 }
 
 type Mutation {
